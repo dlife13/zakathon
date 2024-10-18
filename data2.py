@@ -28,7 +28,7 @@ class CodeforcesAPI:
     def userInfo(self) -> list:
         # print(self.URL)
         # print(self.params)
-        hashString = f"{self.rand}/{"user.info"}?apiKey={self.key}&handles={self.handle}&time={self.currentTime}#{self.secret}"
+        hashString = f"{self.rand}/{{'user.info'}}?apiKey={self.key}&handles={self.handle}&time={self.currentTime}#{self.secret}"
         apiSig = hashlib.sha512(hashString.encode()).hexdigest()
 
         response = requests.get(
