@@ -1,8 +1,6 @@
 import csv
 import json
 
-from sympy import false
-
 # open the csv files bgcl.csv and qstp.csv
 # in bpgc.csv, get the "BITS ID", "CodeForces Handle", "Name" columns
 
