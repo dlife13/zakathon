@@ -1,4 +1,4 @@
-import UserTable from "./components/UserTable.jsx";
+import UserTable from './components/UserTable.jsx'
 
 export default function TablePage({ users }) {
   return (
@@ -8,5 +8,5 @@ export default function TablePage({ users }) {
         <UserTable users={users} />
       </div>
     </>
-  );
+  )
 }
