@@ -380,7 +380,12 @@ print(len(database))
 for i in database:
     branch1 = branches.get(i["bitsId"][4:6].capitalize(), "Unknown")
     i["branch"] = [branch1]
-    if i["bitsId"][6:8] != "PS" and i["bitsId"][6] != "D":
+    if (
+        i["bitsId"][6:8] != "PS"
+        and i["bitsId"][6] != "D"
+        and i["bitsId"][6:8] != "p"
+        and i["bitsId"][4:6] != "H1"
+    ):
         branch2 = branches.get(i["bitsId"][6:8].capitalize(), "Unknown")
         i["branch"].append(branch2)
 
