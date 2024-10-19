@@ -159,78 +159,81 @@ with open("data2.json", "r") as f:
     idName = json.load(f)
 
 
-database = []
-with open("bgcl.csv", "r") as f:
-    reader = csv.DictReader(f)
-    data = list(reader)
-    dataa = []
-    for i in data:
-        if i["CodeForces Handle"][0] == "@":
-            i["CodeForces Handle"] = i["CodeForces Handle"][1:]
-        if "@" in i["BITS ID"]:
-            i["BITS ID"] = i["BITS ID"].split("@")[0][1:]
-            for j in idName:
-                if j[0:4] == i["BITS ID"][0:4] and j[8:12] == i["BITS ID"][4:]:
-                    i["BITS ID"] = j
+# database = []
+# with open("bgcl.csv", "r") as f:
+#     reader = csv.DictReader(f)
+#     data = list(reader)
+#     dataa = []
+#     for i in data:
+#         if i["CodeForces Handle"][0] == "@":
+#             i["CodeForces Handle"] = i["CodeForces Handle"][1:]
+#         if "@" in i["BITS ID"]:
+#             i["BITS ID"] = i["BITS ID"].split("@")[0][1:]
+#             for j in idName:
+#                 if j[0:4] == i["BITS ID"][0:4] and j[8:12] == i["BITS ID"][4:]:
+#                     i["BITS ID"] = j
 
-        database.append(
-            {
-                "bitsId": i["BITS ID"],
-                "handle": i["CodeForces Handle"],
-                "name": i["Name"],
-            }
-        )
+#         database.append(
+#             {
+#                 "bitsId": i["BITS ID"],
+#                 "handle": i["CodeForces Handle"],
+#                 "name": i["Name"],
+#             }
+#         )
 
-with open("data2.json", "r") as f:
-    idName = json.load(f)
+# with open("data2.json", "r") as f:
+#     idName = json.load(f)
 
-with open("qstp.csv", "r") as f:
-    reader = csv.DictReader(f)
-    data2 = list(reader)
+# with open("qstp.csv", "r") as f:
+#     reader = csv.DictReader(f)
+#     data2 = list(reader)
 
-for i in data2:
-    if (
-        i[
-            "University/School (Use short forms all CAPS like IITD for IIT Delhi and BPGC for BITS Goa)"
-        ]
-        != "BPGC"
-    ):
-        continue
+# for i in data2:
+#     if (
+#         i[
+#             "University/School (Use short forms all CAPS like IITD for IIT Delhi and BPGC for BITS Goa)"
+#         ]
+#         != "BPGC"
+#     ):
+#         continue
 
-    email = i["Email Address"].split("@")[0]
-    if email[0] != "f":
-        continue
-    email = email[1:]
+#     email = i["Email Address"].split("@")[0]
+#     if email[0] != "f":
+#         continue
+#     email = email[1:]
 
-    found = False
-    id = ""
-    # check if the id is in the database
-    for j in database:
-        if j["bitsId"][0:4] == email[0:4] and j["bitsId"][8:12] == email[4:]:
-            found = True
-            # id = j["bitsId"]
-            break
-    for j in idName:
-        if j[0:4] == email[0:4] and j[8:12] == email[4:]:
-            id = j
-    # id = f"{email[0:4]}xxxx{email[4:]}"
-    # print(j)
-    print(id)
-    # print(email)
-    if not found:
-        # try:
-        if id == "":
-            continue
-        database.append(
-            {
-                "bitsId": id,
-                "handle": i["Codeforces Handle"],
-                "name": i["Name"],
-            }
-        )
-    # except:
-    #     pass
+#     found = False
+#     id = ""
+#     # check if the id is in the database
+#     for j in database:
+#         if j["bitsId"][0:4] == email[0:4] and j["bitsId"][8:12] == email[4:]:
+#             found = True
+#             # id = j["bitsId"]
+#             break
+#     for j in idName:
+#         if j[0:4] == email[0:4] and j[8:12] == email[4:]:
+#             id = j
+#     # id = f"{email[0:4]}xxxx{email[4:]}"
+#     # print(j)
+#     print(id)
+#     # print(email)
+#     if not found:
+#         # try:
+#         if id == "":
+#             continue
+#         database.append(
+#             {
+#                 "bitsId": id,
+#                 "handle": i["Codeforces Handle"],
+#                 "name": i["Name"],
+#             }
+#         )
+#     # except:
+#     #     pass
 
+
+with open("database.json", "r") as f:
+    database = json.load(f)
 
 with open("table.txt", "r") as f:
     data3 = f.readlines()
