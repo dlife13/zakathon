@@ -1,4 +1,4 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify, request
 from flask_cors import CORS
 import re
 import csv
@@ -356,8 +356,29 @@ database = database2
 #     }
 # ]
 
+branches = {
+    "A7": "CSE",
+    "AD": "MnC",
+    "AA": "ECE",
+    "A3": "EEE",
+    "A8": "ENI",
+    "A4": "MECH",
+    "A1": "CHEMICAL",
+    "B3": "ECO",
+    "B5": "PHY",
+    "B4": "MATH",
+    "B2": "CHEM",
+    "B1": "BIO",
+    "H1": "HD",
+    "PH": "PHD",
+}
 print(len(database))
-
+for i in database:
+    branch1 = branches.get(i["bitsId"][4:6].capitalize(), "Unknown")
+    i["branch"] = [branch1]
+    if i["bitsId"][6:8] != "PS" and i["bitsId"][6] != "D":
+        branch2 = branches.get(i["bitsId"][6:8].capitalize(), "Unknown")
+        i["branch"].append(branch2)
 
 with open("database.json", "w") as f:
     json.dump(database, f, indent=2)
@@ -378,6 +399,49 @@ def users():
         # ]
         database
     )
+
+
+# @app.route("/api/user/<handle>", methods=["POST"])
+# def user(handle):
+#     for i in database:
+#         if i["handle"] == handle:
+#             return jsonify(i)
+#     return jsonify({"error": "User not found"})
+
+
+@app.route("/api/user", methods=["POST"])
+def add_user():
+    newUser = request.json
+    # {"handle": "darelife", "name": "Prakhar Bhandari", "bitsId": "2023A7PS0458G"}
+    # check if the user exists in the database
+    for i in database:
+        if i["handle"] == newUser["handle"]:
+            return jsonify({"error": "User already exists"})
+    b = getData("user.info", "darelife", newUser["handle"])
+    if len(b) == 0:
+        return jsonify({"error": "User not found"})
+    if (
+        "rating" in b[0]
+        and "maxRating" in b[0]
+        and "titlePhoto" in b[0]
+        and "rank" in b[0]
+        and "maxRank" in b[0]
+    ):
+        newUser["currentRating"] = b[0]["rating"]
+        newUser["peakRating"] = b[0]["maxRating"]
+        newUser["pfp"] = b[0]["titlePhoto"]
+        newUser["rank"] = b[0]["rank"]
+        newUser["peakRank"] = b[0]["maxRank"]
+
+    branch1 = branches.get(newUser["bitsId"][4:6].capitalize(), "Unknown")
+    newUser["branch"] = [branch1]
+    if newUser["bitsId"][6:8] != "PS" and newUser["bitsId"][6] != "D":
+        branch2 = branches.get(newUser["bitsId"][6:8].capitalize(), "Unknown")
+        newUser["branch"].append(branch2)
+    database.append(newUser)
+    with open("database.json", "w") as f:
+        json.dump(database, f, indent=2)
+    return jsonify(database)
 
 
 if __name__ == "__main__":
