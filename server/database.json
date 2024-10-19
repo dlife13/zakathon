@@ -3529,19 +3529,6 @@
     ]
   },
   {
-    "bitsId": "2021A7PS2458G",
-    "handle": "arushbansal_",
-    "name": "Arush Bansal",
-    "currentRating": 1130,
-    "peakRating": 1130,
-    "pfp": "https://userpic.codeforces.org/no-title.jpg",
-    "rank": "newbie",
-    "peakRank": "newbie",
-    "branch": [
-      "CSE"
-    ]
-  },
-  {
     "bitsId": "2022A7PS1239G",
     "handle": "martialgod",
     "name": "Pray Raskapoorwala",
@@ -3822,19 +3809,6 @@
     "branch": [
       "ECO",
       "CSE"
-    ]
-  },
-  {
-    "bitsId": "2021AAPS1860G",
-    "handle": "chokinaku",
-    "name": "ADITYA BANSAL",
-    "currentRating": 1759,
-    "peakRating": 1759,
-    "pfp": "https://userpic.codeforces.org/no-title.jpg",
-    "rank": "expert",
-    "peakRank": "expert",
-    "branch": [
-      "ECE"
     ]
   }
 ]

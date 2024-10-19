@@ -292,8 +292,16 @@ for i in database:
         print(i["handle"])
     if "2024A1PS0254G" == i["bitsId"]:
         database.pop(index)
+    if "bansal" in i["name"].lower():
+        database.pop(index)
     index += 1
 
+dddd = []
+for i in database:
+    if i["name"] != "Aryan Gupta":
+        dddd.append(i)
+
+database = dddd
 for i in range(len(database)):
     for j in range(i + 1, len(database)):
         if j < len(database):
