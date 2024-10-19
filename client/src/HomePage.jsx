@@ -4,8 +4,8 @@ import { useNavigate } from 'react-router-dom'
 import {
   CartesianGrid,
   Legend,
-  Line,
-  LineChart,
+  Bar,
+  BarChart,
   ResponsiveContainer,
   XAxis,
   YAxis,
@@ -35,14 +35,14 @@ import {
 import { Input } from './components/ui/input'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from './components/ui/tabs'
 
-const chartData = [
-  { name: 'Jan', rating: 1200 },
-  { name: 'Feb', rating: 1300 },
-  { name: 'Mar', rating: 1250 },
-  { name: 'Apr', rating: 1400 },
-  { name: 'May', rating: 1350 },
-  { name: 'Jun', rating: 1500 },
-]
+// const chartData = [
+//   { name: 'Jan', rating: 1200 },
+//   { name: 'Feb', rating: 1300 },
+//   { name: 'Mar', rating: 1250 },
+//   { name: 'Apr', rating: 1400 },
+//   { name: 'May', rating: 1350 },
+//   { name: 'Jun', rating: 1500 },
+// ]
 
 export default function HomePage({ users }) {
   const [newName, setNewName] = useState('')
@@ -70,14 +70,19 @@ export default function HomePage({ users }) {
   const bestRatedPlayer = users.reduce((prev, current) => {
     return prev.currentRating > current.currentRating ? prev : current
   })
-  console.log(users)
+
+  const chartData = sortedUsers.slice(0, 7).map(user => ({
+    name: user.name.split(' ')[0],
+    rating: user.currentRating,
+    color: getColor(user.currentRating),
+  }))
 
   return (
     <div className='flex flex-col min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800'>
       <div className='container flex-grow p-4 mx-auto'>
         <nav className='flex items-center justify-between p-4 mb-8 bg-white rounded-lg shadow-md dark:bg-gray-800'>
           <img src={codeforcesSvg} alt='Codeforces' className='w-8 h-8' />
-          <h1 className='text-3xl font-bold text-transparent bg-black bg-clip-text'>
+          <h1 className='text-xl md:text-3xl font-bold text-transparent bg-black bg-clip-text'>
             Codeforces Dashboard
           </h1>
           <div className='flex gap-4'>
@@ -171,7 +176,7 @@ export default function HomePage({ users }) {
               value='chart'
               className='data-[state=active]:bg-white dark:data-[state=active]:bg-gray-800'
             >
-              Rating Progress
+              Top Ratings
             </TabsTrigger>
             <TabsTrigger
               value='topPerformers'
@@ -185,10 +190,10 @@ export default function HomePage({ users }) {
               <CardHeader>
                 <CardTitle className='flex items-center'>
                   <TrendingUp className='w-4 h-4 mr-2' />
-                  Rating Progress
+                  Top Ratings
                 </CardTitle>
                 <CardDescription>
-                  Your Codeforces rating over time
+                  Codeforces ratings of Top Performers
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -202,19 +207,22 @@ export default function HomePage({ users }) {
                   className='h-[300px]'
                 >
                   <ResponsiveContainer width='100%' height='100%'>
-                    <LineChart data={chartData}>
+                    <BarChart accessibilityLayer data={chartData}>
                       <CartesianGrid strokeDasharray='3 3' />
                       <XAxis dataKey='name' />
                       <YAxis />
-                      <ChartTooltip content={<ChartTooltipContent />} />
-                      <Legend />
-                      <Line
-                        type='monotone'
-                        dataKey='rating'
-                        stroke='hsl(var(--chart-1))'
-                        strokeWidth={2}
+                      <ChartTooltip
+                        cursor={false}
+                        content={<ChartTooltipContent hideLabel />}
                       />
-                    </LineChart>
+                      <Legend />
+                      <Bar
+                        dataKey='rating'
+                        fill='#1e90ff'
+                        barSize={40}
+                        radius={[10, 10, 0, 0]}
+                      />
+                    </BarChart>
                   </ResponsiveContainer>
                 </ChartContainer>
               </CardContent>
