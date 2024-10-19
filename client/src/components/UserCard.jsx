@@ -6,7 +6,7 @@ export default function UserCard({ ...user }) {
     if (rating < 1200) return { name: 'Newbie', color: 'text-gray-500' }
     if (rating < 1400) return { name: 'Pupil', color: 'text-green-500' }
     if (rating < 1600) return { name: 'Specialist', color: 'text-cyan-500' }
-    if (rating < 1900) return { name: 'Expert', color: 'text-blue-500' }
+    if (rating < 1900) return { name: 'Expert', color: 'text-blue-700' }
     if (rating < 2100)
       return { name: 'Candidate Master', color: 'text-purple-500' }
     if (rating < 2300) return { name: 'Master', color: 'text-orange-500' }
