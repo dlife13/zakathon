@@ -3,31 +3,31 @@ import { Card, CardContent, CardFooter, CardHeader, CardTitle } from './ui/card'
 
 export default function UserCard({ ...user }) {
   return (
-    <Card key={user.id}>
+    <Card key={user.bitsId}>
       <CardHeader>
         <img
-          src={user.avatar}
+          src={user.pfp}
           alt={user.name}
-          className='w-16 h-16 rounded-full mx-auto'
+          className='w-16 h-16 mx-auto rounded-full'
         />
-        <CardTitle className='text-center mt-2'>{user.name}</CardTitle>
-        <p className='text-center text-gray-500'>{user.codeforcesId}</p>
+        <CardTitle className='mt-2 text-center'>{user.name}</CardTitle>
+        <p className='text-center text-gray-500'>{user.handle}</p>
       </CardHeader>
       <CardContent className='text-center'>
-        <p>Student ID: {user.studentId}</p>
+        <p>Student ID: {user.bitsId}</p>
         <div className='flex justify-between mt-2'>
-          <p>Current Rating: {user.rating}</p>
+          <p>Current Rating: {user.currentRating}</p>
           <p>Peak Rating: {user.peakRating}</p>
         </div>
       </CardContent>
       <CardFooter>
         <a
-          href={`https://codeforces.com/profile/${user.codeforcesId}`}
+          href={`https://codeforces.com/profile/${user.handle}`}
           target='_blank'
           rel='noopener noreferrer'
           className='flex items-center text-blue-500 hover:underline'
         >
-          View Profile <ExternalLink className='ml-1 h-4 w-4' />
+          View Profile <ExternalLink className='w-4 h-4 ml-1' />
         </a>
       </CardFooter>
     </Card>
