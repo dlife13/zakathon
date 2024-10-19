@@ -294,6 +294,8 @@ for i in database:
         database.pop(index)
     if "bansal" in i["name"].lower():
         database.pop(index)
+    if "aryan gupta" in i["name"].lower():
+        database.pop(index)
     index += 1
 
 for i in range(len(database)):
