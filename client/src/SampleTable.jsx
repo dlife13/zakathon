@@ -18,23 +18,23 @@ export default function SampleTable({ users }) {
   const [searchTerm, setSearchTerm] = useState('')
   const [ratingRange, setRatingRange] = useState([0, 3500])
   const [selectedYear, setSelectedYear] = useState('')
-  const [selectedBranch, setSelectedBranch] = useState('')
   const [sortBy, setSortBy] = useState('rating')
   const [sortOrder, setSortOrder] = useState('desc')
+  const [selectedRank, setSelectedRank] = useState('all')
 
   const handleSearch = event => {
     setSearchTerm(event.target.value)
-    filterUsers(event.target.value, ratingRange, selectedYear, selectedBranch)
+    filterUsers(event.target.value, ratingRange, selectedYear, selectedRank)
   }
 
   const handleYearChange = value => {
     setSelectedYear(value)
-    filterUsers(searchTerm, ratingRange, value, selectedBranch)
+    filterUsers(searchTerm, ratingRange, value, selectedRank)
   }
 
-  const handleBranchChange = value => {
-    setSelectedBranch(value)
-    filterUsers(searchTerm, ratingRange, selectedYear, value)
+  const handleRankChange = value => {
+    setSelectedRank(value)
+    filterUsers(searchTerm, ratingRange, selectedYear, selectedRank, value)
   }
 
   const handleSort = field => {
@@ -59,17 +59,12 @@ export default function SampleTable({ users }) {
       searchTerm,
       ratingRange,
       selectedYear,
-      selectedBranch,
+      selectedRank,
       filteredUsers,
     )
-  }, [searchTerm, ratingRange, selectedYear, selectedBranch, filteredUsers])
+  }, [searchTerm, ratingRange, selectedYear, selectedRank, filteredUsers])
 
-  const filterUsers = (
-    searchTerm,
-    ratingRange,
-    selectedYear,
-    selectedBranch,
-  ) => {
+  const filterUsers = (searchTerm, ratingRange, selectedYear, selectedRank) => {
     let filtered = users
 
     if (searchTerm) {
@@ -82,17 +77,18 @@ export default function SampleTable({ users }) {
       filtered = filtered.filter(user => user.year === selectedYear)
     }
 
-    if (selectedBranch && selectedBranch !== 'all') {
-      filtered = filtered.filter(user => user.branch === selectedBranch)
-    }
-
     filtered = filtered.filter(
       user =>
-        user.currentRating >= ratingRange[0] &&
-        user.currentRating <= ratingRange[1],
+        user.currentRating >= minRating && user.currentRating <= maxRating,
     )
 
-    sortUsers(filtered, sortBy, sortOrder) // Sort users after filtering
+    if (selectedRank && selectedRank !== 'all') {
+      filtered = filtered.filter(
+        user => getRank(user.currentRating).name === selectedRank,
+      )
+    }
+
+    sortUsers(filtered, sortBy, sortOrder)
   }
 
   const [minRating, setMinRating] = useState(0)
@@ -122,6 +118,7 @@ export default function SampleTable({ users }) {
     } else {
       setMinRating(Math.max(0, Math.min(value, 4000)))
     }
+    filterUsers(searchTerm, ratingRange, selectedYear, selectedRank)
   }
 
   const handleMaxChange = e => {
@@ -131,6 +128,7 @@ export default function SampleTable({ users }) {
     } else {
       setMaxRating(Math.max(0, Math.min(value, 4000)))
     }
+    filterUsers(searchTerm, ratingRange, selectedYear, selectedRank)
   }
 
   useEffect(() => {
@@ -195,6 +193,23 @@ export default function SampleTable({ users }) {
           </div>
         </div>
         <div>
+          <Label htmlFor='rank'>Rank</Label>
+          <Select value={selectedRank} onValueChange={handleRankChange}>
+            <SelectTrigger id='rank'>
+              <SelectValue placeholder='Select Rank' />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value='all'>All Ranks</SelectItem>
+              <SelectItem value='Newbie'>Newbie</SelectItem>
+              <SelectItem value='Pupil'>Pupil</SelectItem>
+              <SelectItem value='Specialist'>Specialist</SelectItem>
+              <SelectItem value='Expert'>Expert</SelectItem>
+              <SelectItem value='Candidate Master'>Candidate Master</SelectItem>
+              <SelectItem value='Master'>Master</SelectItem>
+            </SelectContent>
+          </Select>
+        </div>
+        <div>
           <Label htmlFor='year'>Campus Year</Label>
           <Select value={selectedYear} onValueChange={handleYearChange}>
             <SelectTrigger id='year'>
@@ -209,24 +224,6 @@ export default function SampleTable({ users }) {
             </SelectContent>
           </Select>
         </div>
-        <div>
-          <Label htmlFor='branch'>Campus Branch</Label>
-          <Select value={selectedBranch} onValueChange={handleBranchChange}>
-            <SelectTrigger id='branch'>
-              <SelectValue placeholder='Select Branch' />
-            </SelectTrigger>
-            <SelectContent>
-              <SelectItem value='all'>All Branches</SelectItem>
-              <SelectItem value='Computer Science'>Computer Science</SelectItem>
-              <SelectItem value='Electrical Engineering'>
-                Electrical Engineering
-              </SelectItem>
-              <SelectItem value='Mechanical Engineering'>
-                Mechanical Engineering
-              </SelectItem>
-            </SelectContent>
-          </Select>
-        </div>
       </div>
       <div className='flex gap-2 mb-4'>
         <Button variant='outline' onClick={() => handleSort('currentRating')}>
@@ -236,11 +233,15 @@ export default function SampleTable({ users }) {
           Sort by Peak Rating <ArrowUpDown className='w-4 h-4 ml-2' />
         </Button>
       </div>
-      <div className='grid gap-4 md:grid-cols-2 lg:grid-cols-3'>
-        {filteredUsers.map(user => (
-          <UserCard key={user.bitsId} {...user} />
-        ))}
-      </div>
+      {filteredUsers.length === 0 ? (
+        <p className='text-center text-gray-500'>No users found</p>
+      ) : (
+        <div className='grid gap-4 md:grid-cols-2 lg:grid-cols-3'>
+          {filteredUsers.map(user => (
+            <UserCard key={user.bitsId} {...user} />
+          ))}
+        </div>
+      )}
     </div>
   )
 }
