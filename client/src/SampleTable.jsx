@@ -37,37 +37,6 @@ export default function SampleTable({ users }) {
     filterUsers(searchTerm, ratingRange, selectedYear, value)
   }
 
-  // const filterUsers = (search, ratings, year, branch) => {
-  //   let result = users.filter(user => {
-  //     const matchesName = user.name.toLowerCase().includes(search.toLowerCase())
-  //     const matchesRating =
-  //       user.currentRating >= ratings[0] && user.currentRating <= ratings[1]
-  //     const matchesYear = year === 'all' || user.bitsId.substring(0, 4) === year
-  //     const matchesBranch = branch === 'all' || user.branch === branch
-  //     return matchesName && matchesRating && matchesYear && matchesBranch
-  //   })
-
-  //   result.sort((a, b) => {
-  //     if (sortOrder === 'asc') {
-  //       return a[sortBy] - b[sortBy]
-  //     } else {
-  //       return b[sortBy] - a[sortBy]
-  //     }
-  //   })
-
-  //   setFilteredUsers(result)
-  // }
-
-  // const handleSort = field => {
-  //   if (field === sortBy) {
-  //     setSortOrder(sortOrder === 'asc' ? 'desc' : 'asc')
-  //   } else {
-  //     setSortBy(field)
-  //     setSortOrder('desc')
-  //   }
-  //   filterUsers(searchTerm, ratingRange, selectedYear, selectedBranch)
-  // }
-
   const handleSort = field => {
     const order = sortBy === field && sortOrder === 'desc' ? 'asc' : 'desc'
     setSortBy(field)
@@ -134,9 +103,9 @@ export default function SampleTable({ users }) {
     if (rating < 1200) return { name: 'Newbie', color: 'text-gray-500' }
     if (rating < 1400) return { name: 'Pupil', color: 'text-green-500' }
     if (rating < 1600) return { name: 'Specialist', color: 'text-cyan-500' }
-    if (rating < 1900) return { name: 'Expert', color: 'text-blue-500' }
+    if (rating < 1900) return { name: 'Expert', color: 'text-blue-700' }
     if (rating < 2100)
-      return { name: 'Candidate Master', color: 'text-purple-500' }
+      return { name: 'Candidate Master', color: 'text-purple-700' }
     if (rating < 2300) return { name: 'Master', color: 'text-orange-500' }
     if (rating < 2400)
       return { name: 'International Master', color: 'text-orange-500' }
