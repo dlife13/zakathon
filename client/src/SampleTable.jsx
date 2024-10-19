@@ -1,13 +1,6 @@
-import { ArrowUpDown, ExternalLink, Search } from 'lucide-react'
+import { ArrowUpDown, Search } from 'lucide-react'
 import { useState } from 'react'
 import { Button } from './components/ui/button'
-import {
-  Card,
-  CardContent,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from './components/ui/card'
 import { Input } from './components/ui/input'
 import { Label } from './components/ui/label'
 import {
@@ -18,6 +11,7 @@ import {
   SelectValue,
 } from './components/ui/select'
 import { Slider } from './components/ui/slider'
+import UserCard from './components/UserCard'
 
 const users = [
   {
@@ -180,34 +174,7 @@ export default function Component() {
       </div>
       <div className='grid gap-4 md:grid-cols-2 lg:grid-cols-3'>
         {filteredUsers.map(user => (
-          <Card key={user.id}>
-            <CardHeader>
-              <img
-                src={user.avatar}
-                alt={user.name}
-                className='w-16 h-16 rounded-full mx-auto'
-              />
-              <CardTitle className='text-center mt-2'>{user.name}</CardTitle>
-              <p className='text-center text-gray-500'>{user.codeforcesId}</p>
-            </CardHeader>
-            <CardContent className='text-center'>
-              <p>Student ID: {user.studentId}</p>
-              <div className='flex justify-between mt-2'>
-                <p>Current Rating: {user.rating}</p>
-                <p>Peak Rating: {user.peakRating}</p>
-              </div>
-            </CardContent>
-            <CardFooter>
-              <a
-                href={`https://codeforces.com/profile/${user.codeforcesId}`}
-                target='_blank'
-                rel='noopener noreferrer'
-                className='flex items-center text-blue-500 hover:underline'
-              >
-                View Profile <ExternalLink className='ml-1 h-4 w-4' />
-              </a>
-            </CardFooter>
-          </Card>
+          <UserCard key={user.id} {...user} />
         ))}
       </div>
     </div>
