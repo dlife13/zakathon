@@ -363,6 +363,7 @@ branches = {
     "A7": "CSE",
     "AD": "MnC",
     "AA": "ECE",
+    "Aa": "ECE",
     "A3": "EEE",
     "A8": "ENI",
     "A4": "MECH",
