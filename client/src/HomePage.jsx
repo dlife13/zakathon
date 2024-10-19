@@ -77,6 +77,7 @@ export default function HomePage({ users }) {
 
   const handleSearch = () => {}
 
+  const sortedUsers = users.sort((a, b) => b.currentRating - a.currentRating)
   const bestRatedPlayer = users.reduce((prev, current) => {
     return prev.currentRating > current.currentRating ? prev : current
   })
@@ -265,7 +266,7 @@ export default function HomePage({ users }) {
               </CardHeader>
               <CardContent>
                 <ul className='space-y-4'>
-                  {users.map(user => (
+                  {sortedUsers.slice(0,7).map(user => (
                     <li
                       key={user.bitsId}
                       className='flex items-center justify-between p-2 transition-colors rounded-md hover:bg-gray-50 dark:hover:bg-gray-800'
