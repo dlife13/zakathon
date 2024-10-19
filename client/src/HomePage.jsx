@@ -1,5 +1,6 @@
 import { Search, TrendingUp, Trophy, Users } from 'lucide-react'
 import { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import {
   CartesianGrid,
   Legend,
@@ -90,6 +91,7 @@ const topPerformers = [
 export default function Component() {
   const [newName, setNewName] = useState('')
   const [searchQuery, setSearchQuery] = useState('')
+  const navigate = useNavigate()
 
   const handleSubmit = () => {}
 
@@ -132,6 +134,7 @@ export default function Component() {
             <Button
               variant='outline'
               className='hover:bg-blue-50 dark:hover:bg-gray-700 transition-colors'
+              onClick={() => navigate('/all')}
             >
               View All
             </Button>
