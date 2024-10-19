@@ -1,14 +1,16 @@
-import { Search, TrendingUp, Trophy, Users } from 'lucide-react'
+import { TrendingUp, Trophy, Users } from 'lucide-react'
 import { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import {
+  Bar,
+  BarChart,
   CartesianGrid,
   Legend,
-  Line,
-  LineChart,
   ResponsiveContainer,
   XAxis,
   YAxis,
 } from 'recharts'
+import codeforcesSvg from './assets/codeforces.svg'
 import { Avatar, AvatarFallback, AvatarImage } from './components/ui/avatar'
 import { Button } from './components/ui/button'
 import {
@@ -33,86 +35,70 @@ import {
 import { Input } from './components/ui/input'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from './components/ui/tabs'
 
-const chartData = [
-  { name: 'Jan', rating: 1200 },
-  { name: 'Feb', rating: 1300 },
-  { name: 'Mar', rating: 1250 },
-  { name: 'Apr', rating: 1400 },
-  { name: 'May', rating: 1350 },
-  { name: 'Jun', rating: 1500 },
-]
-
-const topPerformers = [
-  {
-    name: 'Alice Johnson',
-    rating: 2400,
-    id: 'alice_j',
-    avatar: '/placeholder.svg?height=32&width=32',
-  },
-  {
-    name: 'Bob Smith',
-    rating: 2350,
-    id: 'bob_s',
-    avatar: '/placeholder.svg?height=32&width=32',
-  },
-  {
-    name: 'Charlie Brown',
-    rating: 2300,
-    id: 'charlie_b',
-    avatar: '/placeholder.svg?height=32&width=32',
-  },
-  {
-    name: 'David Lee',
-    rating: 2250,
-    id: 'david_l',
-    avatar: '/placeholder.svg?height=32&width=32',
-  },
-  {
-    name: 'Eve Taylor',
-    rating: 2200,
-    id: 'eve_t',
-    avatar: '/placeholder.svg?height=32&width=32',
-  },
-  {
-    name: 'Frank Wilson',
-    rating: 2150,
-    id: 'frank_w',
-    avatar: '/placeholder.svg?height=32&width=32',
-  },
-  {
-    name: 'Grace Davis',
-    rating: 2100,
-    id: 'grace_d',
-    avatar: '/placeholder.svg?height=32&width=32',
-  },
-]
-
-export default function Component() {
+export default function HomePage({ users }) {
   const [newName, setNewName] = useState('')
   const [searchQuery, setSearchQuery] = useState('')
+  const navigate = useNavigate()
 
   const handleSubmit = () => {}
 
   const handleSearch = () => {}
 
-  const bestRatedPlayer = topPerformers[0]
+  const getColor = rating => {
+    if (rating < 1200) return 'text-gray-500'
+    if (rating < 1400) return 'text-green-500'
+    if (rating < 1600) return 'text-cyan-500'
+    if (rating < 1900) return 'text-blue-700'
+    if (rating < 2100) return 'text-purple-700'
+    if (rating < 2300) return 'text-orange-500'
+    if (rating < 2400) return 'text-orange-500'
+    if (rating < 2600) return 'text-red-500'
+    if (rating < 3000) return 'text-red-500'
+    return 'text-red-600'
+  }
 
+  const getColorCodes = rating => {
+    if (rating < 1200) return '#d1d5db'
+    if (rating < 1400) return '#10b981'
+    if (rating < 1600) return '#22d3ee'
+    if (rating < 1900) return '#3b82f6'
+    if (rating < 2100) return '#8b5cf6'
+    if (rating < 2300) return '#f59e0b'
+    if (rating < 2400) return '#f59e0b'
+    if (rating < 2600) return '#ef4444'
+    if (rating < 3000) return '#ef4444'
+    return '#dc2626'
+  }
+
+  const sortedUsers = users.sort((a, b) => b.currentRating - a.currentRating)
+  const bestRatedPlayer = users.reduce((prev, current) => {
+    return prev.currentRating > current.currentRating ? prev : current
+  })
+
+  const chartData = sortedUsers.slice(0, 7).map(user => ({
+    name: user.name.split(' ')[0],
+    rating: user.currentRating,
+    color: getColorCodes(user.currentRating),
+  }))
+
+  console.log(chartData)
   return (
     <div className='flex flex-col min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800'>
-      <div className='container mx-auto p-4 flex-grow'>
-        <nav className='flex justify-between items-center mb-8 bg-white dark:bg-gray-800 p-4 rounded-lg shadow-md'>
-          <h1 className='text-3xl font-bold bg-black bg-clip-text text-transparent'>
+      <div className='container flex-grow p-4 mx-auto'>
+        <nav className='flex items-center justify-between p-4 mb-8 bg-white rounded-lg shadow-md dark:bg-gray-800'>
+          <img src={codeforcesSvg} alt='Codeforces' className='w-8 h-8' />
+          <h1 className='text-xl font-bold text-transparent bg-black md:text-3xl bg-clip-text'>
             Codeforces Dashboard
           </h1>
           <div className='flex gap-4'>
             <Dialog>
               <DialogTrigger asChild>
-                <Button
+                {/* <Button
                   variant='outline'
-                  className='hover:bg-blue-50 dark:hover:bg-gray-700 transition-colors'
+                  className='transition-colors hover:bg-blue-50 dark:hover:bg-gray-700'
                 >
                   Add New Coder
-                </Button>
+                </Button> */}
               </DialogTrigger>
               <DialogContent>
                 <DialogHeader>
@@ -131,38 +117,39 @@ export default function Component() {
             </Dialog>
             <Button
               variant='outline'
-              className='hover:bg-blue-50 dark:hover:bg-gray-700 transition-colors'
+              className='transition-colors hover:bg-blue-50 dark:hover:bg-gray-700'
+              onClick={() => navigate('/all')}
             >
               View All
             </Button>
           </div>
         </nav>
 
-        <div className='grid grid-cols-1 md:grid-cols-3 gap-6 mb-8'>
-          <Card className='hover:shadow-lg transition-shadow'>
-            <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
+        <div className='grid grid-cols-1 gap-6 mb-8 md:grid-cols-2'>
+          <Card className='transition-shadow hover:shadow-lg'>
+            <CardHeader className='flex flex-row items-center justify-between pb-2 space-y-0'>
               <CardTitle className='text-sm font-medium'>Total Users</CardTitle>
-              <Users className='h-4 w-4 text-muted-foreground' />
+              <Users className='w-4 h-4 text-muted-foreground' />
             </CardHeader>
             <CardContent>
-              <div className='text-2xl font-bold'>{topPerformers.length}</div>
+              <div className='text-2xl font-bold'>{users.length}</div>
               <p className='text-xs text-muted-foreground'>
                 Active participants
               </p>
             </CardContent>
           </Card>
-          <Card className='hover:shadow-lg transition-shadow'>
-            <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
+          <Card className='transition-shadow hover:shadow-lg'>
+            <CardHeader className='flex flex-row items-center justify-between pb-2 space-y-0'>
               <CardTitle className='text-sm font-medium'>
                 Best Rated Player
               </CardTitle>
-              <Trophy className='h-4 w-4 text-muted-foreground' />
+              <Trophy className='w-4 h-4 text-muted-foreground' />
             </CardHeader>
             <CardContent>
               <div className='flex items-center space-x-4'>
                 <Avatar>
                   <AvatarImage
-                    src={bestRatedPlayer.avatar}
+                    src={bestRatedPlayer.pfp}
                     alt={bestRatedPlayer.name}
                   />
                   <AvatarFallback>
@@ -177,49 +164,24 @@ export default function Component() {
                     {bestRatedPlayer.name}
                   </p>
                   <p className='text-sm text-muted-foreground'>
-                    {bestRatedPlayer.id}
+                    {bestRatedPlayer.handle}
                   </p>
                   <p className='text-sm font-medium'>
-                    Rating: {bestRatedPlayer.rating}
+                    Rating: {bestRatedPlayer.currentRating}
                   </p>
                 </div>
               </div>
             </CardContent>
           </Card>
-          <Card className='hover:shadow-lg transition-shadow'>
-            <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
-              <CardTitle className='text-sm font-medium'>Search</CardTitle>
-              <Search className='h-4 w-4 text-muted-foreground' />
-            </CardHeader>
-            <CardContent>
-              <form onSubmit={handleSearch} className='flex gap-2'>
-                <Input
-                  type='text'
-                  placeholder='Search users...'
-                  value={searchQuery}
-                  onChange={e => setSearchQuery(e.target.value)}
-                  className='flex-grow'
-                />
-                <Button
-                  type='submit'
-                  size='icon'
-                  className='hover:bg-blue-600 transition-colors'
-                >
-                  <Search className='h-4 w-4' />
-                  <span className='sr-only'>Search</span>
-                </Button>
-              </form>
-            </CardContent>
-          </Card>
         </div>
 
         <Tabs defaultValue='chart' className='space-y-4'>
-          <TabsList className='grid w-full grid-cols-2 bg-gray-200 dark:bg-gray-700'>
+          <TabsList className='grid w-full grid-cols-3 bg-gray-200 dark:bg-gray-700'>
             <TabsTrigger
               value='chart'
               className='data-[state=active]:bg-white dark:data-[state=active]:bg-gray-800'
             >
-              Rating Progress
+              Top Ratings
             </TabsTrigger>
             <TabsTrigger
               value='topPerformers'
@@ -227,16 +189,22 @@ export default function Component() {
             >
               Top Performers
             </TabsTrigger>
+            <TabsTrigger
+              value='top7Compare'
+              className='data-[state=active]:bg-white dark:data-[state=active]:bg-gray-800'
+            >
+              Top 7 Comparison
+            </TabsTrigger>
           </TabsList>
           <TabsContent value='chart'>
             <Card>
               <CardHeader>
                 <CardTitle className='flex items-center'>
-                  <TrendingUp className='mr-2 h-4 w-4' />
-                  Rating Progress
+                  <TrendingUp className='w-4 h-4 mr-2' />
+                  Top Ratings
                 </CardTitle>
                 <CardDescription>
-                  Your Codeforces rating over time
+                  Codeforces ratings of Top Performers
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -247,22 +215,25 @@ export default function Component() {
                       color: 'hsl(var(--chart-1))',
                     },
                   }}
-                  className='h-[300px]'
+                  className={getColor(chartData.rating)}
                 >
                   <ResponsiveContainer width='100%' height='100%'>
-                    <LineChart data={chartData}>
+                    <BarChart accessibilityLayer data={chartData}>
                       <CartesianGrid strokeDasharray='3 3' />
                       <XAxis dataKey='name' />
                       <YAxis />
-                      <ChartTooltip content={<ChartTooltipContent />} />
-                      <Legend />
-                      <Line
-                        type='monotone'
-                        dataKey='rating'
-                        stroke='hsl(var(--chart-1))'
-                        strokeWidth={2}
+                      <ChartTooltip
+                        cursor={false}
+                        content={<ChartTooltipContent hideLabel />}
                       />
-                    </LineChart>
+                      <Legend />
+                      <Bar
+                        dataKey='rating'
+                        fill='hsl(var(--chart-1))'
+                        barSize={40}
+                        radius={[10, 10, 0, 0]}
+                      />
+                    </BarChart>
                   </ResponsiveContainer>
                 </ChartContainer>
               </CardContent>
@@ -272,40 +243,37 @@ export default function Component() {
             <Card>
               <CardHeader>
                 <CardTitle className='flex items-center'>
-                  <Trophy className='mr-2 h-4 w-4' />
+                  <Trophy className='w-4 h-4 mr-2' />
                   Top Performers
                 </CardTitle>
                 <CardDescription>Top 7 rated coders</CardDescription>
               </CardHeader>
               <CardContent>
                 <ul className='space-y-4'>
-                  {topPerformers.map((performer, index) => (
+                  {sortedUsers.slice(0, 7).map(user => (
                     <li
-                      key={index}
-                      className='flex items-center justify-between p-2 hover:bg-gray-50 dark:hover:bg-gray-800 rounded-md transition-colors'
+                      key={user.bitsId}
+                      className='flex items-center justify-between p-2 transition-colors rounded-md hover:bg-gray-50 dark:hover:bg-gray-800'
                     >
                       <div className='flex items-center space-x-4'>
                         <Avatar>
-                          <AvatarImage
-                            src={performer.avatar}
-                            alt={performer.name}
-                          />
+                          <AvatarImage src={user.pfp} alt={user.name} />
                           <AvatarFallback>
-                            {performer.name
+                            {user.name
                               .split(' ')
                               .map(n => n[0])
                               .join('')}
                           </AvatarFallback>
                         </Avatar>
                         <div>
-                          <p className='font-semibold'>{performer.name}</p>
-                          <p className='text-sm text-muted-foreground'>
-                            {performer.id}
+                          <p className='font-semibold'>{user.name}</p>
+                          <p className='text-sm text-gray-500 text-muted-foreground'>
+                            {user.handle}
                           </p>
                         </div>
                       </div>
-                      <span className='font-semibold text-blue-600 dark:text-blue-400'>
-                        {performer.rating}
+                      <span className={getColor(user.currentRating)}>
+                        {user.currentRating}
                       </span>
                     </li>
                   ))}
@@ -313,10 +281,26 @@ export default function Component() {
               </CardContent>
             </Card>
           </TabsContent>
+          <TabsContent value='top7Compare'>
+            <Card>
+              <CardHeader>
+                <CardTitle className='flex items-center'>
+                  <Trophy className='w-4 h-4 mr-2' />
+                  Top 7 Comparision
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <video width='100%' controls>
+                  <source src='top7.mp4' type='video/mp4' />
+                  Your browser does not support the video tag.
+                </video>
+              </CardContent>
+            </Card>
+          </TabsContent>
         </Tabs>
       </div>
-      <footer className='bg-white dark:bg-gray-800 py-4 mt-8 shadow-md'>
-        <div className='container mx-auto text-center text-sm text-muted-foreground'>
+      <footer className='py-4 mt-8 bg-white shadow-md dark:bg-gray-800'>
+        <div className='container mx-auto text-sm text-center text-muted-foreground'>
           © {new Date().getFullYear()} Codeforces Dashboard. All rights
           reserved.
         </div>

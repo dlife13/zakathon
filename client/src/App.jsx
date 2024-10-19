@@ -6,20 +6,26 @@ import SampleTable from './SampleTable'
 
 function App() {
   const [users, setUsers] = useState([])
+  const [showHomePage, setShowHomePage] = useState(false)
 
   const fetchAPI = async () => {
-    const response = await axios.get('http://localhost:8080/api/users')
+    const response = await axios.get('https://bgcf.onrender.com/api/users')
     setUsers(response.data)
   }
 
   useEffect(() => {
     fetchAPI()
+    const timer = setTimeout(() => {
+      setShowHomePage(true)
+    }, 1000)
+
+    return () => clearTimeout(timer)
   }, [])
 
   return (
     <Routes>
-      <Route path='/all' element={<SampleTable />} />
-      <Route path='/' element={<HomePage />} />
+      {showHomePage && <Route path='/' element={<HomePage users={users} />} />}
+      {<Route path='/all' element={<SampleTable users={users} />} />}
     </Routes>
   )
 }
