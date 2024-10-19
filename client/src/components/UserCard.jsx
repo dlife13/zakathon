@@ -5,11 +5,7 @@ export default function UserCard({ ...user }) {
   return (
     <Card key={user.bitsId}>
       <CardHeader>
-        <img
-          src={user.pfp}
-          alt={user.name}
-          className='w-16 h-16 mx-auto rounded-full'
-        />
+        <img src={user.pfp} alt={user.name} className='w-16 h-16 mx-auto' />
         <CardTitle className='mt-2 text-center'>{user.name}</CardTitle>
         <p className='text-center text-gray-500'>{user.handle}</p>
       </CardHeader>

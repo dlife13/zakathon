@@ -207,7 +207,7 @@ export default function SampleTable({ users }) {
         </Button>
       </div>
       <div className='grid gap-4 md:grid-cols-2 lg:grid-cols-3'>
-        {filteredUsers.map(user => (
+        {users.map(user => (
           <UserCard key={user.bitsId} {...user} />
         ))}
       </div>
