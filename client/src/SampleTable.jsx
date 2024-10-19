@@ -1,5 +1,6 @@
 import { ArrowUpDown, Search } from 'lucide-react'
 import { useEffect, useState } from 'react'
+import codeforcesSvg from './assets/codeforces.svg'
 import { Button } from './components/ui/button'
 import { Input } from './components/ui/input'
 import { Label } from './components/ui/label'
@@ -36,35 +37,93 @@ export default function SampleTable({ users }) {
     filterUsers(searchTerm, ratingRange, selectedYear, value)
   }
 
-  const filterUsers = (search, ratings, year, branch) => {
-    let result = users.filter(user => {
-      const matchesName = user.name.toLowerCase().includes(search.toLowerCase())
-      const matchesRating =
-        user.currentRating >= ratings[0] && user.currentRating <= ratings[1]
-      const matchesYear = year === 'all' || user.bitsId.substring(0, 4) === year
-      const matchesBranch = branch === 'all' || user.branch === branch
-      return matchesName && matchesRating && matchesYear && matchesBranch
-    })
+  // const filterUsers = (search, ratings, year, branch) => {
+  //   let result = users.filter(user => {
+  //     const matchesName = user.name.toLowerCase().includes(search.toLowerCase())
+  //     const matchesRating =
+  //       user.currentRating >= ratings[0] && user.currentRating <= ratings[1]
+  //     const matchesYear = year === 'all' || user.bitsId.substring(0, 4) === year
+  //     const matchesBranch = branch === 'all' || user.branch === branch
+  //     return matchesName && matchesRating && matchesYear && matchesBranch
+  //   })
 
-    result.sort((a, b) => {
-      if (sortOrder === 'asc') {
-        return a[sortBy] - b[sortBy]
-      } else {
-        return b[sortBy] - a[sortBy]
-      }
-    })
+  //   result.sort((a, b) => {
+  //     if (sortOrder === 'asc') {
+  //       return a[sortBy] - b[sortBy]
+  //     } else {
+  //       return b[sortBy] - a[sortBy]
+  //     }
+  //   })
 
-    setFilteredUsers(result)
-  }
+  //   setFilteredUsers(result)
+  // }
+
+  // const handleSort = field => {
+  //   if (field === sortBy) {
+  //     setSortOrder(sortOrder === 'asc' ? 'desc' : 'asc')
+  //   } else {
+  //     setSortBy(field)
+  //     setSortOrder('desc')
+  //   }
+  //   filterUsers(searchTerm, ratingRange, selectedYear, selectedBranch)
+  // }
 
   const handleSort = field => {
-    if (field === sortBy) {
-      setSortOrder(sortOrder === 'asc' ? 'desc' : 'asc')
-    } else {
-      setSortBy(field)
-      setSortOrder('desc')
+    const order = sortBy === field && sortOrder === 'desc' ? 'asc' : 'desc'
+    setSortBy(field)
+    setSortOrder(order)
+    sortUsers(filteredUsers, field, order)
+  }
+
+  const sortUsers = (users, field, order) => {
+    const sortedUsers = [...users].sort((a, b) => {
+      if (order === 'asc') {
+        return a[field] - b[field]
+      }
+      return b[field] - a[field]
+    })
+    setFilteredUsers(sortedUsers)
+  }
+
+  useEffect(() => {
+    filterUsers(
+      searchTerm,
+      ratingRange,
+      selectedYear,
+      selectedBranch,
+      filteredUsers,
+    )
+  }, [searchTerm, ratingRange, selectedYear, selectedBranch, filteredUsers])
+
+  const filterUsers = (
+    searchTerm,
+    ratingRange,
+    selectedYear,
+    selectedBranch,
+  ) => {
+    let filtered = users
+
+    if (searchTerm) {
+      filtered = filtered.filter(user =>
+        user.name.toLowerCase().includes(searchTerm.toLowerCase()),
+      )
     }
-    filterUsers(searchTerm, ratingRange, selectedYear, selectedBranch)
+
+    if (selectedYear && selectedYear !== 'all') {
+      filtered = filtered.filter(user => user.year === selectedYear)
+    }
+
+    if (selectedBranch && selectedBranch !== 'all') {
+      filtered = filtered.filter(user => user.branch === selectedBranch)
+    }
+
+    filtered = filtered.filter(
+      user =>
+        user.currentRating >= ratingRange[0] &&
+        user.currentRating <= ratingRange[1],
+    )
+
+    sortUsers(filtered, sortBy, sortOrder) // Sort users after filtering
   }
 
   const [minRating, setMinRating] = useState(0)
@@ -118,7 +177,14 @@ export default function SampleTable({ users }) {
 
   return (
     <div className='container p-4 mx-auto'>
-      <h1 className='mb-4 text-2xl font-bold'>Codeforces Users</h1>
+      <div className='text-center'>
+        <img
+          src={codeforcesSvg}
+          alt='Codeforces'
+          className='w-32 h-32 mx-auto mb-4'
+        />
+        <h1 className='mb-4 text-2xl font-bold'>Codeforces Users</h1>
+      </div>
       <div className='grid gap-4 mb-4 md:grid-cols-2 lg:grid-cols-4'>
         <div>
           <Label htmlFor='search'>Search by Name</Label>
@@ -202,7 +268,7 @@ export default function SampleTable({ users }) {
         </Button>
       </div>
       <div className='grid gap-4 md:grid-cols-2 lg:grid-cols-3'>
-        {users.map(user => (
+        {filteredUsers.map(user => (
           <UserCard key={user.bitsId} {...user} />
         ))}
       </div>
