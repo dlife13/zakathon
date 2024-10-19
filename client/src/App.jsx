@@ -3,6 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import axios from "axios";
 import TablePage from "./TablePage";
 import HomePage from "./HomePage";
+import SampleTable from "./SampleTable";
 
 function App() {
   const [users, setUsers] = useState([]);
@@ -18,7 +19,7 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/table" element={<TablePage users={users} />} />
+      <Route path="/all" element={<SampleTable />} />
       <Route path="/" element={<HomePage />} />
     </Routes>
   );

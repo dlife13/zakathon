@@ -13,6 +13,7 @@
     --sidebar-accent-foreground: 240 5.9% 10%;
     --sidebar-border: 220 13% 91%;
     --sidebar-ring: 217.2 91.2% 59.8%;
+    --chart-1: 240 5.9% 10%
   }
   .dark {
     --sidebar-background: 240 5.9% 10%;
@@ -26,9 +27,9 @@
   }
 }
 
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-}
+} */
