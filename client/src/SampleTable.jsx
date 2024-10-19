@@ -12,98 +12,7 @@ import {
 } from './components/ui/select'
 import UserCard from './components/UserCard'
 
-const users = [
-  {
-    id: 1,
-    name: 'John Doe',
-    codeforcesId: 'john_doe',
-    studentId: '2021001',
-    rating: 1800,
-    peakRating: 2000,
-    avatar: 'https://i.pravatar.cc/100?img=1',
-    campusYear: 3,
-    campusBranch: 'Computer Science',
-  },
-  {
-    id: 2,
-    name: 'Jane Smith',
-    codeforcesId: 'jane_smith',
-    studentId: '2021002',
-    rating: 2200,
-    peakRating: 2300,
-    avatar: 'https://i.pravatar.cc/100?img=2',
-    campusYear: 2,
-    campusBranch: 'Electrical Engineering',
-  },
-  {
-    id: 3,
-    name: 'Jane Smith',
-    codeforcesId: 'jane_smith',
-    studentId: '2021002',
-    rating: 2200,
-    peakRating: 2300,
-    avatar: 'https://i.pravatar.cc/100?img=2',
-    campusYear: 2,
-    campusBranch: 'Electrical Engineering',
-  },
-  {
-    id: 4,
-    name: 'Jane Smith',
-    codeforcesId: 'jane_smith',
-    studentId: '2021002',
-    rating: 2200,
-    peakRating: 2300,
-    avatar: 'https://i.pravatar.cc/100?img=2',
-    campusYear: 2,
-    campusBranch: 'Electrical Engineering',
-  },
-  {
-    id: 5,
-    name: 'Jane Smith',
-    codeforcesId: 'jane_smith',
-    studentId: '2021002',
-    rating: 2200,
-    peakRating: 2300,
-    avatar: 'https://i.pravatar.cc/100?img=2',
-    campusYear: 2,
-    campusBranch: 'Electrical Engineering',
-  },
-  {
-    id: 6,
-    name: 'Jane Smith',
-    codeforcesId: 'jane_smith',
-    studentId: '2021002',
-    rating: 2200,
-    peakRating: 2300,
-    avatar: 'https://i.pravatar.cc/100?img=2',
-    campusYear: 2,
-    campusBranch: 'Electrical Engineering',
-  },
-  {
-    id: 7,
-    name: 'Jane Smith',
-    codeforcesId: 'jane_smith',
-    studentId: '2021002',
-    rating: 2200,
-    peakRating: 2300,
-    avatar: 'https://i.pravatar.cc/100?img=2',
-    campusYear: 2,
-    campusBranch: 'Electrical Engineering',
-  },
-  {
-    id: 2,
-    name: 'Jane Smith',
-    codeforcesId: 'jane_smith',
-    studentId: '2021002',
-    rating: 2200,
-    peakRating: 2300,
-    avatar: 'https://i.pravatar.cc/100?img=2',
-    campusYear: 2,
-    campusBranch: 'Electrical Engineering',
-  },
-]
-
-export default function Component() {
+export default function SampleTable({ users }) {
   const [filteredUsers, setFilteredUsers] = useState(users)
   const [searchTerm, setSearchTerm] = useState('')
   const [ratingRange, setRatingRange] = useState([0, 3500])
@@ -136,9 +45,9 @@ export default function Component() {
     let result = users.filter(user => {
       const matchesName = user.name.toLowerCase().includes(search.toLowerCase())
       const matchesRating =
-        user.rating >= ratings[0] && user.rating <= ratings[1]
-      const matchesYear = year === 'all' || user.campusYear.toString() === year
-      const matchesBranch = branch === 'all' || user.campusBranch === branch
+        user.currentRating >= ratings[0] && user.currentRating <= ratings[1]
+      const matchesYear = year === 'all' || user.bitsId.substring(0, 4) === year
+      const matchesBranch = branch === 'all' || user.branch === branch
       return matchesName && matchesRating && matchesYear && matchesBranch
     })
 
@@ -213,8 +122,8 @@ export default function Component() {
   const maxRank = getRank(maxRating)
 
   return (
-    <div className='container mx-auto p-4'>
-      <h1 className='text-2xl font-bold mb-4'>Codeforces Users</h1>
+    <div className='container p-4 mx-auto'>
+      <h1 className='mb-4 text-2xl font-bold'>Codeforces Users</h1>
       <div className='grid gap-4 mb-4 md:grid-cols-2 lg:grid-cols-4'>
         <div>
           <Label htmlFor='search'>Search by Name</Label>
@@ -290,16 +199,16 @@ export default function Component() {
         </div>
       </div>
       <div className='flex gap-2 mb-4'>
-        <Button variant='outline' onClick={() => handleSort('rating')}>
-          Sort by Rating <ArrowUpDown className='ml-2 h-4 w-4' />
+        <Button variant='outline' onClick={() => handleSort('currentRating')}>
+          Sort by Rating <ArrowUpDown className='w-4 h-4 ml-2' />
         </Button>
         <Button variant='outline' onClick={() => handleSort('peakRating')}>
-          Sort by Peak Rating <ArrowUpDown className='ml-2 h-4 w-4' />
+          Sort by Peak Rating <ArrowUpDown className='w-4 h-4 ml-2' />
         </Button>
       </div>
       <div className='grid gap-4 md:grid-cols-2 lg:grid-cols-3'>
         {filteredUsers.map(user => (
-          <UserCard key={user.id} {...user} />
+          <UserCard key={user.bitsId} {...user} />
         ))}
       </div>
     </div>
