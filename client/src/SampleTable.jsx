@@ -152,7 +152,7 @@ export default function SampleTable({ users }) {
         />
         <h1 className='mb-4 text-2xl font-bold'>Codeforces Users</h1>
       </div>
-      <div className='grid gap-4 mb-4 md:grid-cols-2 lg:grid-cols-4'>
+      <div className='grid gap-4 mb-4 md:grid-cols-2 lg:grid-cols-3'>
         <div>
           <Label htmlFor='search'>Search by Name</Label>
           <div className='relative'>
@@ -209,23 +209,8 @@ export default function SampleTable({ users }) {
             </SelectContent>
           </Select>
         </div>
-        <div>
-          <Label htmlFor='year'>Campus Year</Label>
-          <Select value={selectedYear} onValueChange={handleYearChange}>
-            <SelectTrigger id='year'>
-              <SelectValue placeholder='Select Year' />
-            </SelectTrigger>
-            <SelectContent>
-              <SelectItem value='all'>All Years</SelectItem>
-              <SelectItem value='1'>1st Year</SelectItem>
-              <SelectItem value='2'>2nd Year</SelectItem>
-              <SelectItem value='3'>3rd Year</SelectItem>
-              <SelectItem value='4'>4th Year</SelectItem>
-            </SelectContent>
-          </Select>
-        </div>
       </div>
-      <div className='flex gap-2 mb-4'>
+      <div className='flex flex-col gap-2 mb-4 sm:flex-row sm:gap-4'>
         <Button variant='outline' onClick={() => handleSort('currentRating')}>
           Sort by Rating <ArrowUpDown className='w-4 h-4 ml-2' />
         </Button>
@@ -233,10 +218,11 @@ export default function SampleTable({ users }) {
           Sort by Peak Rating <ArrowUpDown className='w-4 h-4 ml-2' />
         </Button>
       </div>
+
       {filteredUsers.length === 0 ? (
         <p className='text-center text-gray-500'>No users found</p>
       ) : (
-        <div className='grid gap-4 md:grid-cols-2 lg:grid-cols-3'>
+        <div className='grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3'>
           {filteredUsers.map(user => (
             <UserCard key={user.bitsId} {...user} />
           ))}
