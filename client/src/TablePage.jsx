@@ -1,5 +1,3 @@
-import "./App.css";
-
 import UserTable from "./components/UserTable.jsx";
 
 export default function TablePage({ users }) {
