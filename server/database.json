@@ -1,0 +1,3856 @@
+[
+  {
+    "bitsId": "2022A7PS1127G",
+    "handle": "unbased",
+    "name": "Anwesh Das",
+    "currentRating": 1609,
+    "peakRating": 1636,
+    "pfp": "https://userpic.codeforces.org/3072648/title/b28840495b178d3c.jpg",
+    "rank": "expert",
+    "peakRank": "expert",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2021A7PS3055G",
+    "handle": "niranjanrajeev25",
+    "name": "Niranjan Rajeev",
+    "currentRating": 1652,
+    "peakRating": 1686,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "expert",
+    "peakRank": "expert",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022A7PS1236G",
+    "handle": "madhul27",
+    "name": "Madhul Aggarwal ",
+    "currentRating": 1315,
+    "peakRating": 1315,
+    "pfp": "https://userpic.codeforces.org/3467888/title/a128cd2c9996e48a.jpg",
+    "rank": "pupil",
+    "peakRank": "pupil",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0483G",
+    "handle": "navneet2311",
+    "name": "NAVNEET ",
+    "currentRating": 1216,
+    "peakRating": 1364,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "pupil",
+    "peakRank": "pupil",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022A4PS0930G",
+    "handle": "arjit_12",
+    "name": "Arjit Kumar Singh",
+    "currentRating": 1262,
+    "peakRating": 1321,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "pupil",
+    "peakRank": "pupil",
+    "branch": [
+      "MECH"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0411G",
+    "handle": "SilverBag",
+    "name": "Vishesh Agrawal",
+    "currentRating": 1057,
+    "peakRating": 1057,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022A7PS1273G",
+    "handle": "vanshhero5",
+    "name": "Vansh",
+    "currentRating": 1343,
+    "peakRating": 1343,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "pupil",
+    "peakRank": "pupil",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022A7PS0724G",
+    "handle": "sharpotdar ",
+    "name": "Sharvil Potdar ",
+    "currentRating": 750,
+    "peakRating": 750,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A3PS0534G",
+    "handle": "Priyanshu945",
+    "name": "Priyanshu Gupta ",
+    "currentRating": 697,
+    "peakRating": 697,
+    "pfp": "https://userpic.codeforces.org/3735994/title/402a66564ea57999.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "EEE"
+    ]
+  },
+  {
+    "bitsId": "2022AAPS0799G",
+    "handle": "Joker_Shreyas",
+    "name": "Shreyas Sinha ",
+    "currentRating": 1188,
+    "peakRating": 1188,
+    "pfp": "https://userpic.codeforces.org/3181639/title/84d88058f8b1c85a.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "Unknown"
+    ]
+  },
+  {
+    "bitsId": "2023B3PS0843G",
+    "handle": "Jiya.mars",
+    "name": "Jiya Bothra ",
+    "currentRating": 988,
+    "peakRating": 1008,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "ECO"
+    ]
+  },
+  {
+    "bitsId": "2023A8PS0814G",
+    "handle": "crystal-blaze13",
+    "name": "Palak Kshetrapal",
+    "currentRating": 1026,
+    "peakRating": 1101,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "ENI"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0356G",
+    "handle": "garam_icecream",
+    "name": "Jayant Chandwani",
+    "currentRating": 1212,
+    "peakRating": 1322,
+    "pfp": "https://userpic.codeforces.org/3565656/title/609686fb23f01c1f.jpg",
+    "rank": "pupil",
+    "peakRank": "pupil",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022A4PS1160G",
+    "handle": "neh_cando",
+    "name": "Nehal dharwal",
+    "currentRating": 561,
+    "peakRating": 561,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "MECH"
+    ]
+  },
+  {
+    "bitsId": "2023AAPS0630G",
+    "handle": "LightHouse1",
+    "name": "Anush Vishnoi ",
+    "currentRating": 1377,
+    "peakRating": 1388,
+    "pfp": "https://userpic.codeforces.org/3475071/title/af0c0f6044561c54.jpg",
+    "rank": "pupil",
+    "peakRank": "pupil",
+    "branch": [
+      "Unknown"
+    ]
+  },
+  {
+    "bitsId": "2023a1ps0132",
+    "handle": "Sapien_specimen",
+    "name": "Aashi Sengar",
+    "currentRating": 363,
+    "peakRating": 363,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CHEMICAL",
+      "Unknown"
+    ]
+  },
+  {
+    "bitsId": "2022A7PS1525G",
+    "handle": "Guntaas",
+    "name": "Guntaas Singh Aneja ",
+    "currentRating": 881,
+    "peakRating": 882,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022A7PS0497G",
+    "handle": "aditya_bagla",
+    "name": "Aditya Bagla ",
+    "currentRating": 1240,
+    "peakRating": 1339,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "pupil",
+    "peakRank": "pupil",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022B3A70847G",
+    "handle": "tanaysudarshan",
+    "name": "Tanay Sudarshan",
+    "currentRating": 713,
+    "peakRating": 909,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "ECO",
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022A7PS1259G",
+    "handle": "alien_huntrr",
+    "name": "Arkaprava Roy ",
+    "currentRating": 1448,
+    "peakRating": 1448,
+    "pfp": "https://userpic.codeforces.org/2987076/title/f126c884e80a0b01.jpg",
+    "rank": "specialist",
+    "peakRank": "specialist",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022A7PS1182G",
+    "handle": "jainam7",
+    "name": "Jainam Shah ",
+    "currentRating": 1271,
+    "peakRating": 1311,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "pupil",
+    "peakRank": "pupil",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0383G",
+    "handle": "Aenk",
+    "name": "Aenk Singhal",
+    "currentRating": 1038,
+    "peakRating": 1214,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "pupil",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022A7PS1200G",
+    "handle": "kartik.khanchi07",
+    "name": "Kartik Khanchi",
+    "currentRating": 1048,
+    "peakRating": 1048,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS1153G",
+    "handle": "riaaax",
+    "name": "Ria Arora ",
+    "currentRating": 1223,
+    "peakRating": 1280,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "pupil",
+    "peakRank": "pupil",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022A7PS0631G",
+    "handle": "JainamM",
+    "name": "Jainam Mehta ",
+    "currentRating": 904,
+    "peakRating": 1150,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A8PS1066G",
+    "handle": "Ayush526",
+    "name": "Ayush Agarwal",
+    "currentRating": 350,
+    "peakRating": 350,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "ENI"
+    ]
+  },
+  {
+    "bitsId": "2022AAPS0783G",
+    "handle": "smits24",
+    "name": "Smit Sanghavi",
+    "currentRating": 1197,
+    "peakRating": 1240,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "pupil",
+    "branch": [
+      "Unknown"
+    ]
+  },
+  {
+    "bitsId": "2022A8PS1529G",
+    "handle": "luscious",
+    "name": "Pulkit Saurastri",
+    "currentRating": 906,
+    "peakRating": 906,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "ENI"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0428G",
+    "handle": "f20230428",
+    "name": "Dhruva Williams",
+    "currentRating": 858,
+    "peakRating": 1000,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022A7PS0032G",
+    "handle": "somatcha",
+    "name": "Somanshu Rath ",
+    "currentRating": 1417,
+    "peakRating": 1417,
+    "pfp": "https://userpic.codeforces.org/3992060/title/75d325f0d184fe3f.jpg",
+    "rank": "specialist",
+    "peakRank": "specialist",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A3PS1043G",
+    "handle": "rajtaware_fr",
+    "name": "Raj Taware ",
+    "currentRating": 820,
+    "peakRating": 820,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "EEE"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0478G",
+    "handle": "_ShahVraj",
+    "name": "Vraj Urvishkumar Shah ",
+    "currentRating": 970,
+    "peakRating": 1006,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023B2PS1166G",
+    "handle": "loki_30",
+    "name": "Shlok Upadhyay ",
+    "currentRating": 746,
+    "peakRating": 903,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CHEM"
+    ]
+  },
+  {
+    "bitsId": "2022A7PS0335G",
+    "handle": "Mitra100",
+    "name": "Mitra Apurva Shah",
+    "currentRating": 1152,
+    "peakRating": 1201,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "pupil",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0368G",
+    "handle": "swayx113",
+    "name": "Swayam Lakhotia",
+    "currentRating": 1247,
+    "peakRating": 1247,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "pupil",
+    "peakRank": "pupil",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022A7PS1185G",
+    "handle": "anhsirkcode",
+    "name": "Krishna Narwade",
+    "currentRating": 912,
+    "peakRating": 1006,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023AAPS0601G",
+    "handle": "frozentactition",
+    "name": "Arav Shah",
+    "currentRating": 753,
+    "peakRating": 809,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "Unknown"
+    ]
+  },
+  {
+    "bitsId": "2022A3PS0086G",
+    "handle": "AdisXoXo",
+    "name": "Adithya Sau",
+    "currentRating": 874,
+    "peakRating": 942,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "EEE"
+    ]
+  },
+  {
+    "bitsId": "2023A1PS1227G",
+    "handle": "TanyaK06",
+    "name": "Tanya Khathuria ",
+    "currentRating": 970,
+    "peakRating": 1032,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CHEMICAL"
+    ]
+  },
+  {
+    "bitsId": "2023B4PS0860G",
+    "handle": "harshb ",
+    "name": "Harsh Bhatia",
+    "currentRating": 1511,
+    "peakRating": 1569,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "specialist",
+    "peakRank": "specialist",
+    "branch": [
+      "MATH"
+    ]
+  },
+  {
+    "bitsId": "2022B3A30201G",
+    "handle": "dizzyNIko69",
+    "name": "Aumkar",
+    "currentRating": 552,
+    "peakRating": 858,
+    "pfp": "https://userpic.codeforces.org/2730949/title/82d0d16dd5fed31d.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "ECO",
+      "EEE"
+    ]
+  },
+  {
+    "bitsId": "2023B4PS0880G",
+    "handle": "abhinavxsaraf",
+    "name": "Abhinav Saraf",
+    "currentRating": 993,
+    "peakRating": 1042,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "MATH"
+    ]
+  },
+  {
+    "bitsId": "2022A7PS0350G",
+    "handle": "mohakjai_",
+    "name": "Mohak Jain",
+    "currentRating": 1000,
+    "peakRating": 1000,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022A3PS1252G",
+    "handle": "shauryatri1",
+    "name": "Shaurya Tripathi",
+    "currentRating": 864,
+    "peakRating": 934,
+    "pfp": "https://userpic.codeforces.org/3297292/title/dafd7f8627c9bc6f.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "EEE"
+    ]
+  },
+  {
+    "bitsId": "2022B4A80471G",
+    "handle": "DeathStroke______",
+    "name": "Sutej K",
+    "currentRating": 654,
+    "peakRating": 808,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "MATH",
+      "ENI"
+    ]
+  },
+  {
+    "bitsId": "2022A8PS0612G",
+    "handle": "rana_ajay",
+    "name": "Ajay Singh",
+    "currentRating": 867,
+    "peakRating": 867,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "ENI"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0463G",
+    "handle": "apmene2935",
+    "name": "Aditya Mene",
+    "currentRating": 1021,
+    "peakRating": 1076,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0461G",
+    "handle": "Ordinate",
+    "name": "Aditya Namdeo",
+    "currentRating": 952,
+    "peakRating": 980,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0480G",
+    "handle": "vedant30",
+    "name": "Vedant Agarwal ",
+    "currentRating": 1007,
+    "peakRating": 1054,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0569G",
+    "handle": "f20230569",
+    "name": "Anjali Kamath",
+    "currentRating": 745,
+    "peakRating": 994,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022A8PS0790G",
+    "handle": "armaaan",
+    "name": "Arman Kumar Aditya",
+    "currentRating": 1175,
+    "peakRating": 1235,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "pupil",
+    "branch": [
+      "ENI"
+    ]
+  },
+  {
+    "bitsId": "2022B3A70343G",
+    "handle": "aryaaa14",
+    "name": "Aishwarya Naidu",
+    "currentRating": 1519,
+    "peakRating": 1519,
+    "pfp": "https://userpic.codeforces.org/1447169/title/d78d76dd8928e2a0.jpg",
+    "rank": "specialist",
+    "peakRank": "specialist",
+    "branch": [
+      "ECO",
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023B3PS0851G",
+    "handle": "Nick410",
+    "name": "Dhruv Shah",
+    "currentRating": 1178,
+    "peakRating": 1194,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "ECO"
+    ]
+  },
+  {
+    "bitsId": "2021A4PS2546G",
+    "handle": "pnk27",
+    "name": "Pinaki Kulkarni",
+    "currentRating": 801,
+    "peakRating": 988,
+    "pfp": "https://userpic.codeforces.org/3312619/title/dbc86ab6da9e3908.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "MECH"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0358G",
+    "handle": "Hvshah-2005",
+    "name": "Harshavardhan Shah",
+    "currentRating": 873,
+    "peakRating": 1053,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2021A7PS2568G",
+    "handle": "pankhuri_27",
+    "name": "Pankhuri Garg",
+    "currentRating": 869,
+    "peakRating": 934,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0371G",
+    "handle": "THuNDeR_01",
+    "name": "Harshvardhan MITTAL ",
+    "currentRating": 967,
+    "peakRating": 967,
+    "pfp": "https://userpic.codeforces.org/3904133/title/25464b0364506309.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022A8PS0490G",
+    "handle": "WhisperAres",
+    "name": "Khush Jain",
+    "currentRating": 853,
+    "peakRating": 917,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "ENI"
+    ]
+  },
+  {
+    "bitsId": "2022B4A71542G",
+    "handle": "Oesome",
+    "name": "Saamir Afraaz ",
+    "currentRating": 1225,
+    "peakRating": 1225,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "pupil",
+    "peakRank": "pupil",
+    "branch": [
+      "MATH",
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0406G",
+    "handle": "grindingManiacally",
+    "name": "Meet Parmar",
+    "currentRating": 1225,
+    "peakRating": 1306,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "pupil",
+    "peakRank": "pupil",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0415G",
+    "handle": "Ragav_2006",
+    "name": "Ragav Krishna Ramesh",
+    "currentRating": 1135,
+    "peakRating": 1175,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023B2PS0771G",
+    "handle": "CodingNinja2609",
+    "name": "Atharva Okhade",
+    "currentRating": 1096,
+    "peakRating": 1120,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CHEM"
+    ]
+  },
+  {
+    "bitsId": "2022B4A70636G",
+    "handle": "abhik13 ",
+    "name": "Abhishek Kumar ",
+    "currentRating": 1133,
+    "peakRating": 1280,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "pupil",
+    "branch": [
+      "MATH",
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022B3A70406G",
+    "handle": "ahole",
+    "name": "Anshul Shah",
+    "currentRating": 924,
+    "peakRating": 949,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "ECO",
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0392G",
+    "handle": "Manittecool",
+    "name": "Manit Tanwar",
+    "currentRating": 1095,
+    "peakRating": 1115,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022A7PS0116G",
+    "handle": "NG2411",
+    "name": "Nayan Gogari",
+    "currentRating": 879,
+    "peakRating": 986,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A4PS0266G",
+    "handle": "Kalashjain9",
+    "name": "Kalash jain ",
+    "currentRating": 802,
+    "peakRating": 833,
+    "pfp": "https://userpic.codeforces.org/3680638/title/fd35c7d544d0bf32.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "MECH"
+    ]
+  },
+  {
+    "bitsId": "2022A7PS0622G",
+    "handle": "ADITYA0603",
+    "name": "Aditya Chaudhary ",
+    "currentRating": 1160,
+    "peakRating": 1341,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "pupil",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0397G",
+    "handle": "kartik_garg",
+    "name": "Kartik Garg ",
+    "currentRating": 1121,
+    "peakRating": 1198,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0484G",
+    "handle": "f20230484",
+    "name": "Rahul Sharma",
+    "currentRating": 774,
+    "peakRating": 1087,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS1146G",
+    "handle": "ashishB1506",
+    "name": "M P Ashish Bhat ",
+    "currentRating": 1227,
+    "peakRating": 1300,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "pupil",
+    "peakRank": "pupil",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022A7PS0645G",
+    "handle": "ashhraaffff",
+    "name": "Mohammed Ashraf",
+    "currentRating": 938,
+    "peakRating": 938,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS1014G",
+    "handle": "f20231014",
+    "name": "Ishaan Semwal",
+    "currentRating": 865,
+    "peakRating": 1053,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A4PS1102G",
+    "handle": "PhotonTJ",
+    "name": "Tanmay Joshi ",
+    "currentRating": 932,
+    "peakRating": 1037,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "MECH"
+    ]
+  },
+  {
+    "bitsId": "2022B4AA0043G",
+    "handle": "druuv",
+    "name": "Dhruv Mishra",
+    "currentRating": 964,
+    "peakRating": 964,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "MATH",
+      "Unknown"
+    ]
+  },
+  {
+    "bitsId": "2023A8PS0496G",
+    "handle": "maaz.i7",
+    "name": "Mohammad Maaz N Khan",
+    "currentRating": 1057,
+    "peakRating": 1119,
+    "pfp": "https://userpic.codeforces.org/3602456/title/10c201a38fd8ae03.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "ENI"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0451G",
+    "handle": "Harshit936.negi",
+    "name": "Harshit ",
+    "currentRating": 1041,
+    "peakRating": 1097,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0030G",
+    "handle": "vjblues",
+    "name": "Vijayant Joshi",
+    "currentRating": 710,
+    "peakRating": 829,
+    "pfp": "https://userpic.codeforces.org/3796544/title/5d9ef9a69916715c.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022A7PS0495G",
+    "handle": "Silverfox459",
+    "name": "Akhil Sai",
+    "currentRating": 1103,
+    "peakRating": 1163,
+    "pfp": "https://userpic.codeforces.org/3046348/title/296686ccb63d9aa2.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023B3PS0839G",
+    "handle": "AarushGupta27",
+    "name": "Aarush Gupta",
+    "currentRating": 640,
+    "peakRating": 640,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "ECO"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0387G",
+    "handle": "abbas123",
+    "name": "Abbas Dudhiyawala ",
+    "currentRating": 1227,
+    "peakRating": 1261,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "pupil",
+    "peakRank": "pupil",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0470G",
+    "handle": "liteleliya",
+    "name": "Aadi Pandey",
+    "currentRating": 701,
+    "peakRating": 853,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "AyushMalik",
+    "handle": "M_Ayush_04",
+    "name": "2021A7PS2906G",
+    "currentRating": 1003,
+    "peakRating": 1068,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "Unknown",
+      "Unknown"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0447G",
+    "handle": "cppkagawd",
+    "name": "Kriith Sethi",
+    "currentRating": 1141,
+    "peakRating": 1224,
+    "pfp": "https://userpic.codeforces.org/3593266/title/d61011c5f6f5e8.jpg",
+    "rank": "newbie",
+    "peakRank": "pupil",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023B3PS0853G",
+    "handle": "ImFatal",
+    "name": "Samarth Bhatnagar",
+    "currentRating": 417,
+    "peakRating": 417,
+    "pfp": "https://userpic.codeforces.org/3927501/title/d3a2386b4da399b7.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "ECO"
+    ]
+  },
+  {
+    "bitsId": "2023B4PS0891G",
+    "handle": "ryuk1104",
+    "name": "Rohit Prasad",
+    "currentRating": 876,
+    "peakRating": 1026,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "MATH"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0442G",
+    "handle": "Aashman",
+    "name": "Aashman Patwardhan",
+    "currentRating": 1384,
+    "peakRating": 1405,
+    "pfp": "https://userpic.codeforces.org/3322114/title/f19253d7c552d5ec.jpg",
+    "rank": "pupil",
+    "peakRank": "specialist",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0444G",
+    "handle": "kshav",
+    "name": "Keshav Kavra ",
+    "currentRating": 1167,
+    "peakRating": 1203,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "pupil",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022A8PS0383G",
+    "handle": "ninacoder",
+    "name": "Yash kejriwal ",
+    "currentRating": 1011,
+    "peakRating": 1058,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "ENI"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0418G",
+    "handle": "MonkeSuperiority",
+    "name": "Nilesh Bhatia",
+    "currentRating": 1230,
+    "peakRating": 1230,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "pupil",
+    "peakRank": "pupil",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0324G",
+    "handle": "ishanyawhocares ",
+    "name": "Ishanya Sharma ",
+    "currentRating": 1118,
+    "peakRating": 1123,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0468G",
+    "handle": "khushi_mishra",
+    "name": "Khushi Mishra ",
+    "currentRating": 1122,
+    "peakRating": 1184,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022A7PS0569G",
+    "handle": "Exyon75",
+    "name": "Siddharth Chaitra Vivek",
+    "currentRating": 1504,
+    "peakRating": 1504,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "specialist",
+    "peakRank": "specialist",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022B3A70373G",
+    "handle": "sameerdattav",
+    "name": "Sameer",
+    "currentRating": 1039,
+    "peakRating": 1039,
+    "pfp": "https://userpic.codeforces.org/3176645/title/15504f5de7c16cfe.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "ECO",
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2020A7PS0138G",
+    "handle": "siic",
+    "name": "Shahil",
+    "currentRating": 1516,
+    "peakRating": 1591,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "specialist",
+    "peakRank": "specialist",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022A7PS0757G",
+    "handle": "SunMoon97",
+    "name": "Sanskar Mundhra",
+    "currentRating": 1116,
+    "peakRating": 1233,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "pupil",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022A7PS0157G",
+    "handle": "rraj.official5",
+    "name": "Rohit Raj",
+    "currentRating": 1448,
+    "peakRating": 1448,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "specialist",
+    "peakRank": "specialist",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023B3PS0788G",
+    "handle": "Supersidd",
+    "name": "Siddharth Damle ",
+    "currentRating": 1443,
+    "peakRating": 1542,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "specialist",
+    "peakRank": "specialist",
+    "branch": [
+      "ECO"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0413G",
+    "handle": "Viyom10",
+    "name": "Viyom Gupta ",
+    "currentRating": 1193,
+    "peakRating": 1226,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "pupil",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0458G",
+    "handle": "Darelife",
+    "name": "Prakhar Bhandari",
+    "currentRating": 1327,
+    "peakRating": 1444,
+    "pfp": "https://userpic.codeforces.org/3449336/title/51012edb4c3d9f72.jpg",
+    "rank": "pupil",
+    "peakRank": "specialist",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0431G",
+    "handle": "_pikapika-_-",
+    "name": "Prakhar Ranjan",
+    "currentRating": 1113,
+    "peakRating": 1121,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022A7PS0244G",
+    "handle": "mangla",
+    "name": "Arnav Mangla",
+    "currentRating": 1373,
+    "peakRating": 1488,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "pupil",
+    "peakRank": "specialist",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0439G",
+    "handle": "Sankabapur",
+    "name": "Parth jhalani",
+    "currentRating": 1042,
+    "peakRating": 1123,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023B3PS1213G",
+    "handle": "niralii24",
+    "name": "Nirali Jain",
+    "currentRating": 1125,
+    "peakRating": 1125,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "ECO"
+    ]
+  },
+  {
+    "bitsId": "2023B2PS0699G",
+    "handle": "09Saumyasri",
+    "name": "SAUMYA SRIVASTAVA ",
+    "currentRating": 375,
+    "peakRating": 375,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CHEM"
+    ]
+  },
+  {
+    "bitsId": "2022A7PS1104G",
+    "handle": "Yashagarwal3004",
+    "name": "Yash Agarwal ",
+    "currentRating": 1244,
+    "peakRating": 1263,
+    "pfp": "https://userpic.codeforces.org/3469841/title/12e3163e283bd96b.jpg",
+    "rank": "pupil",
+    "peakRank": "pupil",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0466G",
+    "handle": "barnav",
+    "name": "Arnav Adivi",
+    "currentRating": 1238,
+    "peakRating": 1277,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "pupil",
+    "peakRank": "pupil",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022B4A31257G",
+    "handle": "prabdv",
+    "name": "Prabhsimar Singh",
+    "currentRating": 384,
+    "peakRating": 384,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "MATH",
+      "EEE"
+    ]
+  },
+  {
+    "bitsId": "2021B4AA3025G",
+    "handle": "kalash33",
+    "name": "Kalash Poddar",
+    "currentRating": 1131,
+    "peakRating": 1131,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "MATH",
+      "Unknown"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0333G",
+    "handle": "nan888",
+    "name": "Manan Nandha",
+    "currentRating": 1095,
+    "peakRating": 1140,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0393G",
+    "handle": "1219mjn",
+    "name": "Rig mahajan ",
+    "currentRating": 923,
+    "peakRating": 936,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023AAPS0640G",
+    "handle": "vineet_c",
+    "name": "Vineet Chaturvedi ",
+    "currentRating": 677,
+    "peakRating": 870,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "Unknown"
+    ]
+  },
+  {
+    "bitsId": "2023A3PS1040G",
+    "handle": "ashrithr2004",
+    "name": "Ashrith.R",
+    "currentRating": 951,
+    "peakRating": 1030,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "EEE"
+    ]
+  },
+  {
+    "bitsId": "2022A7PS0409G",
+    "handle": "Ash0509",
+    "name": "Aashay Naik ",
+    "currentRating": 822,
+    "peakRating": 881,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022A3PS0573G",
+    "handle": "roycebro",
+    "name": "Sapnil Sasmal",
+    "currentRating": 950,
+    "peakRating": 1033,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "EEE"
+    ]
+  },
+  {
+    "bitsId": "2023A8PS1173G",
+    "handle": "sashakt1290",
+    "name": "Sashakt Keshri ",
+    "currentRating": 1119,
+    "peakRating": 1273,
+    "pfp": "https://userpic.codeforces.org/3368602/title/ae2ed6b54dab22cf.jpg",
+    "rank": "newbie",
+    "peakRank": "pupil",
+    "branch": [
+      "ENI"
+    ]
+  },
+  {
+    "bitsId": "2023B4PS0905G",
+    "handle": "f20230905",
+    "name": "Raymond Thomas Roshy ",
+    "currentRating": 1088,
+    "peakRating": 1107,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "MATH"
+    ]
+  },
+  {
+    "bitsId": "2022A7PS0372G",
+    "handle": "celestial_explorer",
+    "name": "Kshitij Vispute ",
+    "currentRating": 915,
+    "peakRating": 946,
+    "pfp": "https://userpic.codeforces.org/3279722/title/11395d2d64218d25.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0568G",
+    "handle": "Kathan2005",
+    "name": "Kathan Prajapati ",
+    "currentRating": 754,
+    "peakRating": 1005,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A4PS0317G",
+    "handle": "adityako2005",
+    "name": "Aditya Kothari ",
+    "currentRating": 764,
+    "peakRating": 764,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "MECH"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0344G",
+    "handle": "oscarspk",
+    "name": "Skandha Kuntagod",
+    "currentRating": 1195,
+    "peakRating": 1217,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "pupil",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0339G",
+    "handle": "ThandaPrani",
+    "name": "Ishaan Gupta",
+    "currentRating": 1330,
+    "peakRating": 1334,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "pupil",
+    "peakRank": "pupil",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0459G",
+    "handle": "advay.matapurkar",
+    "name": "Advay Matapurkar ",
+    "currentRating": 1093,
+    "peakRating": 1093,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS1019G",
+    "handle": "dhruthi30",
+    "name": "Dhruthi",
+    "currentRating": 1244,
+    "peakRating": 1244,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "pupil",
+    "peakRank": "pupil",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023AAPS0631G",
+    "handle": "Mahiman",
+    "name": "Mahiman Bhardwaj",
+    "currentRating": 938,
+    "peakRating": 938,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "Unknown"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0434G",
+    "handle": "pratham0202",
+    "name": "Pratham Lahoti",
+    "currentRating": 882,
+    "peakRating": 994,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0352G",
+    "handle": "MrBottleTree",
+    "name": "Vishrut Ramraj ",
+    "currentRating": 1231,
+    "peakRating": 1235,
+    "pfp": "https://userpic.codeforces.org/3568710/title/dfd2dbb2c441868b.jpg",
+    "rank": "pupil",
+    "peakRank": "pupil",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2021B4A72168G",
+    "handle": "pratthebrat",
+    "name": "Pratham Bhonge",
+    "currentRating": 1307,
+    "peakRating": 1311,
+    "pfp": "https://userpic.codeforces.org/3271280/title/51c19fe776e700d2.jpg",
+    "rank": "pupil",
+    "peakRank": "pupil",
+    "branch": [
+      "MATH",
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022A7PS1181G",
+    "handle": "Django1810",
+    "name": "Shubham S Chaurasiya",
+    "currentRating": 974,
+    "peakRating": 1074,
+    "pfp": "https://userpic.codeforces.org/3693104/title/631060bcdc1bf622.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A1PS1261G",
+    "handle": "anoushkadixit19",
+    "name": "Anoushka Dixit",
+    "currentRating": 757,
+    "peakRating": 899,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CHEMICAL"
+    ]
+  },
+  {
+    "bitsId": "2023B3PS1120G",
+    "handle": "f2023B3PS1120",
+    "name": "Omkar Shrikanth ",
+    "currentRating": 815,
+    "peakRating": 815,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "ECO"
+    ]
+  },
+  {
+    "bitsId": "2021A3PS1127G",
+    "handle": "khooshi",
+    "name": "Khushi Samantaray ",
+    "currentRating": 350,
+    "peakRating": 350,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "EEE"
+    ]
+  },
+  {
+    "bitsId": "2022A7PS0788G",
+    "handle": "ayushpareek452",
+    "name": "Ayush Pareek",
+    "currentRating": 1143,
+    "peakRating": 1335,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "pupil",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2021A7PS2075G",
+    "handle": "vilakshangupta2002",
+    "name": "Vilakshan Gupta",
+    "currentRating": 1045,
+    "peakRating": 1137,
+    "pfp": "https://userpic.codeforces.org/2626821/title/9faacf9d8b06a142.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0462G",
+    "handle": "RagRocks",
+    "name": "Raghav Maheshwari",
+    "currentRating": 777,
+    "peakRating": 830,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0456G",
+    "handle": "Centelle",
+    "name": "Arin Roday",
+    "currentRating": 1286,
+    "peakRating": 1409,
+    "pfp": "https://userpic.codeforces.org/1451426/title/e53284ba739fc2e.jpg",
+    "rank": "pupil",
+    "peakRank": "specialist",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022A7PS1113G",
+    "handle": "Amoghshyper",
+    "name": "Amogh Malagi",
+    "currentRating": 1246,
+    "peakRating": 1246,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "pupil",
+    "peakRank": "pupil",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A3PS0525G",
+    "handle": "Milton04",
+    "name": "Aditya Kapoor",
+    "currentRating": 653,
+    "peakRating": 653,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "EEE"
+    ]
+  },
+  {
+    "bitsId": "2023A4PS1174G",
+    "handle": "Tomy_Aman",
+    "name": "Aman Tomy",
+    "currentRating": 999,
+    "peakRating": 999,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "MECH"
+    ]
+  },
+  {
+    "bitsId": "2023B4PS0882G",
+    "handle": "Dhruv.11",
+    "name": "Dhruv Uniyal ",
+    "currentRating": 760,
+    "peakRating": 760,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "MATH"
+    ]
+  },
+  {
+    "bitsId": "2022B5A71414G",
+    "handle": "ms48",
+    "name": "Manbhav Sugla",
+    "currentRating": 356,
+    "peakRating": 356,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "PHY",
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022A7PS0657G",
+    "handle": "AnirudhSharma007",
+    "name": "Anirudh Sharma",
+    "currentRating": 1437,
+    "peakRating": 1460,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "specialist",
+    "peakRank": "specialist",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A8PS1223G",
+    "handle": "Krishmath",
+    "name": "Krish Mathur",
+    "currentRating": 840,
+    "peakRating": 843,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "ENI"
+    ]
+  },
+  {
+    "bitsId": "2023B4PS0904G",
+    "handle": "nana_G",
+    "name": "Nandana Ann George",
+    "currentRating": 851,
+    "peakRating": 989,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "MATH"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0355G",
+    "handle": "Knight_Fury11",
+    "name": "Dhruv Gupta",
+    "currentRating": 351,
+    "peakRating": 351,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023B1PS0670G",
+    "handle": "reiter",
+    "name": "Palash Gupta",
+    "currentRating": 1082,
+    "peakRating": 1114,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "BIO"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0423G",
+    "handle": "div1345gupta",
+    "name": "Divyam Gupta",
+    "currentRating": 1334,
+    "peakRating": 1334,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "pupil",
+    "peakRank": "pupil",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS1026G",
+    "handle": "Scyther_04",
+    "name": "Kanishk Rai ",
+    "currentRating": 1092,
+    "peakRating": 1092,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0389G",
+    "handle": "acsde",
+    "name": "Kartikeya Sinha ",
+    "currentRating": 1191,
+    "peakRating": 1260,
+    "pfp": "https://userpic.codeforces.org/3323199/title/6302eef2732a1a6b.jpg",
+    "rank": "newbie",
+    "peakRank": "pupil",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023B3PS0854G",
+    "handle": "dark_om3ga",
+    "name": "Sushant Ranjan",
+    "currentRating": 1066,
+    "peakRating": 1066,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "ECO"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0448G",
+    "handle": "Penguins.cool",
+    "name": "Ananya Veeraraghavan ",
+    "currentRating": 912,
+    "peakRating": 1021,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2021A7PS2717G",
+    "handle": "srujal194",
+    "name": "Srujal Mehta",
+    "currentRating": 1454,
+    "peakRating": 1454,
+    "pfp": "https://userpic.codeforces.org/2519957/title/8e1eef10b500081.jpg",
+    "rank": "specialist",
+    "peakRank": "specialist",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022A7PS0025G",
+    "handle": "tarun_c007",
+    "name": "Tarun Chauhan",
+    "currentRating": 1228,
+    "peakRating": 1252,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "pupil",
+    "peakRank": "pupil",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0361G",
+    "handle": "Priyanshu_eeeee",
+    "name": "Priyanshu Talwar",
+    "currentRating": 1089,
+    "peakRating": 1139,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2021A7PS2066G",
+    "handle": "NoobComder47",
+    "name": "Imaad Momin",
+    "currentRating": 400,
+    "peakRating": 400,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022B3A70296G",
+    "handle": "Innit_Bruv",
+    "name": "Haaziq Mohamed",
+    "currentRating": 1116,
+    "peakRating": 1127,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "ECO",
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023AAPS0602G",
+    "handle": "f20230602",
+    "name": "Ujjwal Jain",
+    "currentRating": 1305,
+    "peakRating": 1305,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "pupil",
+    "peakRank": "pupil",
+    "branch": [
+      "Unknown"
+    ]
+  },
+  {
+    "bitsId": "2023A4PS0309G",
+    "handle": "With_Care_Pls",
+    "name": "Rishit Tripathy",
+    "currentRating": 899,
+    "peakRating": 899,
+    "pfp": "https://userpic.codeforces.org/3740130/title/e612e8ab00be4207.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "MECH"
+    ]
+  },
+  {
+    "bitsId": "2021B5A72517G",
+    "handle": "meghana_seshasai",
+    "name": "Meghana",
+    "currentRating": 877,
+    "peakRating": 1013,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "PHY",
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2021AAPS2932G",
+    "handle": "Abhi_27_04_2003",
+    "name": "Abhishek Kamat",
+    "currentRating": 1026,
+    "peakRating": 1087,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "Unknown"
+    ]
+  },
+  {
+    "bitsId": "2022A7PS0090G",
+    "handle": "avgeek_2104",
+    "name": "Aditya Gupta",
+    "currentRating": 373,
+    "peakRating": 373,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022A7PS0475G",
+    "handle": "SamarthNagpal",
+    "name": "Samarth Nagpal",
+    "currentRating": 1111,
+    "peakRating": 1111,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022A8PS0791G",
+    "handle": "Utkarsh_Dwivedi",
+    "name": "Utkarsh dwivedi",
+    "currentRating": 1065,
+    "peakRating": 1065,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "ENI"
+    ]
+  },
+  {
+    "bitsId": "2021A4PS2826G",
+    "handle": "Saish31",
+    "name": "Saish Sail",
+    "currentRating": 711,
+    "peakRating": 1016,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "MECH"
+    ]
+  },
+  {
+    "bitsId": "2022A7PS1175G",
+    "handle": "LASTCRY",
+    "name": "Animish Payal ",
+    "currentRating": 1410,
+    "peakRating": 1410,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "specialist",
+    "peakRank": "specialist",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022AAPS1122G",
+    "handle": "f20221122",
+    "name": "Arpit Pancholi",
+    "currentRating": 564,
+    "peakRating": 564,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "Unknown"
+    ]
+  },
+  {
+    "bitsId": "2023B3PS0816G",
+    "handle": "The_Shreyas_S",
+    "name": "Shreyas Sankaran",
+    "currentRating": 350,
+    "peakRating": 350,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "ECO"
+    ]
+  },
+  {
+    "bitsId": "2021A7PS2655G",
+    "handle": "D_coder_original",
+    "name": "Devansh Sadhanandhan",
+    "currentRating": 1080,
+    "peakRating": 1090,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A3PS0793G",
+    "handle": "MongooseCatmouse",
+    "name": "Kartikeya Saxena",
+    "currentRating": 827,
+    "peakRating": 969,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "EEE"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0379G",
+    "handle": "Ishan-Mehta",
+    "name": "Ishan Mehta ",
+    "currentRating": 1115,
+    "peakRating": 1183,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A8PS1248G",
+    "handle": "illusion05",
+    "name": "Sudeep Kalvakuntla ",
+    "currentRating": 944,
+    "peakRating": 944,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "ENI"
+    ]
+  },
+  {
+    "bitsId": "2020AAPS1429G",
+    "handle": "yashsoman_2708",
+    "name": "Yash",
+    "currentRating": 350,
+    "peakRating": 350,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "Unknown"
+    ]
+  },
+  {
+    "bitsId": "2022A7PS0638G",
+    "handle": "ItzManan",
+    "name": "Manan Jain",
+    "currentRating": 988,
+    "peakRating": 1163,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0382G",
+    "handle": "ashmit05",
+    "name": "Ashmit Agarwal ",
+    "currentRating": 907,
+    "peakRating": 924,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022AAPS0088G",
+    "handle": "TudiWatts",
+    "name": "Stuti Vats",
+    "currentRating": 1006,
+    "peakRating": 1045,
+    "pfp": "https://userpic.codeforces.org/3063481/title/b79df91cd96b58b0.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "Unknown"
+    ]
+  },
+  {
+    "bitsId": "2021A8PS2917G",
+    "handle": "CMOS",
+    "name": "Dhruv Singh Chauhan",
+    "currentRating": 1051,
+    "peakRating": 1088,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "ENI"
+    ]
+  },
+  {
+    "bitsId": "2023A3PS0220G",
+    "handle": "ChokingTrapper",
+    "name": "Shaunak Aghor",
+    "currentRating": 382,
+    "peakRating": 382,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "EEE"
+    ]
+  },
+  {
+    "bitsId": "2023A4PS0285G",
+    "handle": "zypherrCodex",
+    "name": "Yashraj soni",
+    "currentRating": 872,
+    "peakRating": 872,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "MECH"
+    ]
+  },
+  {
+    "bitsId": "2022A8PS0281G",
+    "handle": "aditiig",
+    "name": "Aditi Gupta",
+    "currentRating": 829,
+    "peakRating": 829,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "ENI"
+    ]
+  },
+  {
+    "bitsId": "2021B3A72462G",
+    "handle": "theotherguyasus",
+    "name": "Ayush",
+    "currentRating": 939,
+    "peakRating": 1012,
+    "pfp": "https://userpic.codeforces.org/2673047/title/9a20049481fe8e79.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "ECO",
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022A7PS0142G",
+    "handle": "khandelwal.vikhyat20",
+    "name": "Vikhyat Khandelwal",
+    "currentRating": 799,
+    "peakRating": 799,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2021B1AA2995G",
+    "handle": "urvi_1402",
+    "name": "Urvi Mittal ",
+    "currentRating": 788,
+    "peakRating": 788,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "BIO",
+      "Unknown"
+    ]
+  },
+  {
+    "bitsId": "2022A7PS0181G",
+    "handle": "coder_swapnil17",
+    "name": "Swapnil Soni",
+    "currentRating": 1202,
+    "peakRating": 1202,
+    "pfp": "https://userpic.codeforces.org/2931611/title/da978a6f3e5faad0.jpg",
+    "rank": "pupil",
+    "peakRank": "pupil",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022A7PS1237G",
+    "handle": "satvik04",
+    "name": "Satvik Jain",
+    "currentRating": 1487,
+    "peakRating": 1487,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "specialist",
+    "peakRank": "specialist",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023AAPS1128G",
+    "handle": "singhania_8723_",
+    "name": "Bhavya Singhania",
+    "currentRating": 345,
+    "peakRating": 345,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "Unknown"
+    ]
+  },
+  {
+    "bitsId": "2022B4A70073G",
+    "handle": "mrcool7",
+    "name": "Vedant Kamath",
+    "currentRating": 1477,
+    "peakRating": 1477,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "specialist",
+    "peakRank": "specialist",
+    "branch": [
+      "MATH",
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022AAPS0493G",
+    "handle": "adyya_15",
+    "name": "Adya Bharadwaj",
+    "currentRating": 816,
+    "peakRating": 948,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "Unknown"
+    ]
+  },
+  {
+    "bitsId": "2022A7PS0076G",
+    "handle": "mathmath33",
+    "name": "Yash Pratap Singh",
+    "currentRating": 1588,
+    "peakRating": 1627,
+    "pfp": "https://userpic.codeforces.org/2786126/title/af3a550c93455fd1.jpg",
+    "rank": "specialist",
+    "peakRank": "expert",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023B5PS0994G",
+    "handle": "axt_10",
+    "name": "Akshat Madhogaria",
+    "currentRating": 367,
+    "peakRating": 367,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "PHY"
+    ]
+  },
+  {
+    "bitsId": "2023AAPS1172G",
+    "handle": "GMTNZE",
+    "name": "Aryan Goyal",
+    "currentRating": 1013,
+    "peakRating": 1053,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "Unknown"
+    ]
+  },
+  {
+    "bitsId": "2022B4A70588G",
+    "handle": "Chaotic_carni",
+    "name": "Parth Jayanandan",
+    "currentRating": 1327,
+    "peakRating": 1534,
+    "pfp": "https://userpic.codeforces.org/3157585/title/3d18eb3a318d71b7.jpg",
+    "rank": "pupil",
+    "peakRank": "specialist",
+    "branch": [
+      "MATH",
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0377G",
+    "handle": "Hawkstar",
+    "name": "Ananya Khaitan",
+    "currentRating": 1316,
+    "peakRating": 1395,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "pupil",
+    "peakRank": "pupil",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A3PS0510G",
+    "handle": "cipher_13",
+    "name": "Nathan Austin Sequeira",
+    "currentRating": 795,
+    "peakRating": 922,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "EEE"
+    ]
+  },
+  {
+    "bitsId": "2022A7PS0447G",
+    "handle": "_Subo",
+    "name": "Subroto Majumder",
+    "currentRating": 1005,
+    "peakRating": 1067,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0391G",
+    "handle": "rahulCF",
+    "name": "Rahul Lakkimsetty",
+    "currentRating": 594,
+    "peakRating": 594,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022B3A71382G",
+    "handle": "amishksinghal",
+    "name": "Amish K Singhal",
+    "currentRating": 1177,
+    "peakRating": 1187,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "ECO",
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A4PS1130G",
+    "handle": "CodingRunsInsideMe",
+    "name": "Aryaman Kaushik",
+    "currentRating": 1141,
+    "peakRating": 1141,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "MECH"
+    ]
+  },
+  {
+    "bitsId": "2022A7PS0730G",
+    "handle": "cxdecj04",
+    "name": "Chaitanya Joshi",
+    "currentRating": 930,
+    "peakRating": 1052,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A3PS",
+    "handle": "heartshrimal",
+    "name": "Hriday Shrimal",
+    "currentRating": 933,
+    "peakRating": 955,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "EEE"
+    ]
+  },
+  {
+    "bitsId": "2021B3A71903G",
+    "handle": "vrmehta1712",
+    "name": "Vivek",
+    "currentRating": 896,
+    "peakRating": 896,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "ECO",
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022B3A70366G",
+    "handle": "PercyyyJ",
+    "name": "Percy KJ",
+    "currentRating": 1469,
+    "peakRating": 1469,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "specialist",
+    "peakRank": "specialist",
+    "branch": [
+      "ECO",
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2021B4A72945G",
+    "handle": "rs130532",
+    "name": "Rajdeep Singh",
+    "currentRating": 912,
+    "peakRating": 972,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "MATH",
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A3PS0203G",
+    "handle": "f20230203",
+    "name": "Saketh",
+    "currentRating": 800,
+    "peakRating": 967,
+    "pfp": "https://userpic.codeforces.org/3796491/title/2e3d27c4be8910dd.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "EEE"
+    ]
+  },
+  {
+    "bitsId": "2023b5ps1006g",
+    "handle": "harikrishnan1000",
+    "name": "Harikrishnan V",
+    "currentRating": 355,
+    "peakRating": 355,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "PHY",
+      "Unknown"
+    ]
+  },
+  {
+    "bitsId": "2021A7PS2728G",
+    "handle": "DessertCool ",
+    "name": "Tanishq Gholap ",
+    "currentRating": 981,
+    "peakRating": 981,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2019A7PS0029G",
+    "handle": "shashank2108",
+    "name": "Shashank Gupta ",
+    "currentRating": 1163,
+    "peakRating": 1207,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "pupil",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2021A7PS2647G",
+    "handle": "ananth0012345",
+    "name": "Ananth",
+    "currentRating": 572,
+    "peakRating": 572,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022A7PS0599G",
+    "handle": "Aiyra_84",
+    "name": "Aryia ",
+    "currentRating": 1162,
+    "peakRating": 1312,
+    "pfp": "https://userpic.codeforces.org/3046231/title/db9703615d62d0b9.jpg",
+    "rank": "newbie",
+    "peakRank": "pupil",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022A7PS0559G",
+    "handle": "Naman_Bh",
+    "name": "Naman Bhatia ",
+    "currentRating": 680,
+    "peakRating": 935,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2019B5A70640G",
+    "handle": "astitva19",
+    "name": "Astitva",
+    "currentRating": 1419,
+    "peakRating": 1463,
+    "pfp": "https://userpic.codeforces.org/1745151/title/3ee160dcc01b889f.jpg",
+    "rank": "specialist",
+    "peakRank": "specialist",
+    "branch": [
+      "PHY",
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0473G",
+    "handle": "AdityaNagarsekar",
+    "name": "Aditya Nagarsekar",
+    "currentRating": 733,
+    "peakRating": 733,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023B5PS0987G",
+    "handle": "Atharva_7117",
+    "name": "Atharva Pandit",
+    "currentRating": 362,
+    "peakRating": 362,
+    "pfp": "https://userpic.codeforces.org/3770594/title/6de46db6e979dff9.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "PHY"
+    ]
+  },
+  {
+    "bitsId": "2023A3PS1031G",
+    "handle": "not_a_coder_irl",
+    "name": "Divyansh Mathur ",
+    "currentRating": 880,
+    "peakRating": 880,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "EEE"
+    ]
+  },
+  {
+    "bitsId": "2022A7PS0154G",
+    "handle": "akshat_gosain",
+    "name": "Akshat Gosain",
+    "currentRating": 1007,
+    "peakRating": 1007,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2021A7PS2065G",
+    "handle": "Praby1729",
+    "name": "Pdawg",
+    "currentRating": 1214,
+    "peakRating": 1222,
+    "pfp": "https://userpic.codeforces.org/2821559/title/3f3a9eb0440d92a4.jpg",
+    "rank": "pupil",
+    "peakRank": "pupil",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022B4A71015G",
+    "handle": "f20221015",
+    "name": "Ananya Vashistha",
+    "currentRating": 856,
+    "peakRating": 856,
+    "pfp": "https://userpic.codeforces.org/3788834/title/766f399399382a59.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "MATH",
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2021A7PS1440G",
+    "handle": "inforter",
+    "name": "Krishna Sethiya ",
+    "currentRating": 1697,
+    "peakRating": 1697,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "expert",
+    "peakRank": "expert",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0454G",
+    "handle": "whosatvikagwl",
+    "name": "Satvik Agrawal",
+    "currentRating": 802,
+    "peakRating": 802,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022B3A30026G",
+    "handle": "Zanxar",
+    "name": "Saumitra Pandey ",
+    "currentRating": 958,
+    "peakRating": 971,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "ECO",
+      "EEE"
+    ]
+  },
+  {
+    "bitsId": "2023B4PS0866G",
+    "handle": "leoramodi18",
+    "name": "Leora Modi",
+    "currentRating": 350,
+    "peakRating": 350,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "MATH"
+    ]
+  },
+  {
+    "bitsId": "2022A7PS0106G",
+    "handle": "frost_14",
+    "name": "Chinmay Ramdas Rao ",
+    "currentRating": 1431,
+    "peakRating": 1535,
+    "pfp": "https://userpic.codeforces.org/2978474/title/58d8deebdc8349e4.jpg",
+    "rank": "specialist",
+    "peakRank": "specialist",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022A7PS1145G",
+    "handle": "prakharg11",
+    "name": "Prakhar Kumar Gupta",
+    "currentRating": 1549,
+    "peakRating": 1637,
+    "pfp": "https://userpic.codeforces.org/2754889/title/fe9f9e198d2cba92.jpg",
+    "rank": "specialist",
+    "peakRank": "expert",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0476G",
+    "handle": "aalhadsawane",
+    "name": "Aalhad Sawane",
+    "currentRating": 807,
+    "peakRating": 807,
+    "pfp": "https://userpic.codeforces.org/1534996/title/2147247beb4728cf.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023B2A40705G",
+    "handle": "OverclockedPanda",
+    "name": "Ajay Patil",
+    "currentRating": 814,
+    "peakRating": 814,
+    "pfp": "https://userpic.codeforces.org/4004280/title/701e4fa1ac7104d0.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CHEM",
+      "MECH"
+    ]
+  },
+  {
+    "bitsId": "2022B4A81431G",
+    "handle": "deveshpalo047",
+    "name": "Devesh Palo ",
+    "currentRating": 864,
+    "peakRating": 864,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "MATH",
+      "ENI"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0488G",
+    "handle": "vaish13",
+    "name": "Vaishnavi Potekar",
+    "currentRating": 643,
+    "peakRating": 643,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2021B2A83019G",
+    "handle": "saumi_10",
+    "name": "Saumitra",
+    "currentRating": 606,
+    "peakRating": 606,
+    "pfp": "https://userpic.codeforces.org/3361918/title/9b42852a6e2e1159.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CHEM",
+      "ENI"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0340G",
+    "handle": "pranavmr",
+    "name": "Pranav M R",
+    "currentRating": 413,
+    "peakRating": 413,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS1016G",
+    "handle": "nihirasgc",
+    "name": "Nihira Chapalgaonkar ",
+    "currentRating": 789,
+    "peakRating": 906,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022A7PS0795G",
+    "handle": "KARTEY",
+    "name": "Kartavya Dubey",
+    "currentRating": 906,
+    "peakRating": 996,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022B4A71206G",
+    "handle": "sparsh2496",
+    "name": "Sparsh Uppal",
+    "currentRating": 942,
+    "peakRating": 942,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "MATH",
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022B4A71428G",
+    "handle": "_S_K_Siddhant",
+    "name": "Siddhant Khunteta ",
+    "currentRating": 730,
+    "peakRating": 884,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "MATH",
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022A7PS0121G",
+    "handle": "parvjain1809",
+    "name": "Parv Jain",
+    "currentRating": 1122,
+    "peakRating": 1122,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023B3A70845G",
+    "handle": "aarya04",
+    "name": "Aarya Deotale",
+    "currentRating": 1071,
+    "peakRating": 1071,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "ECO",
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022B4A70534G",
+    "handle": "MAXXSTUART",
+    "name": "Naman Shah",
+    "currentRating": 1031,
+    "peakRating": 1067,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "MATH",
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022A8PS1112G",
+    "handle": "vasu.03",
+    "name": "Vasu Arora",
+    "currentRating": 913,
+    "peakRating": 946,
+    "pfp": "https://userpic.codeforces.org/4074858/title/a4a6af1e12e93485.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "ENI"
+    ]
+  },
+  {
+    "bitsId": "2023A8PS0514G",
+    "handle": "King_DarkFire",
+    "name": "Tanmay Manglik",
+    "currentRating": 844,
+    "peakRating": 844,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "ENI"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS1020G",
+    "handle": "f20231020",
+    "name": "Rishita Jain",
+    "currentRating": 908,
+    "peakRating": 985,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022A1PS1480G",
+    "handle": "jaisonkumar",
+    "name": "Jaison Kumar",
+    "currentRating": 732,
+    "peakRating": 799,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CHEMICAL"
+    ]
+  },
+  {
+    "bitsId": "2023B4A70884G",
+    "handle": "Vatsal1998",
+    "name": "Vatsal Somvanshi",
+    "currentRating": 356,
+    "peakRating": 356,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "MATH",
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0409G",
+    "handle": "AdityABIRLA2005",
+    "name": "Aditya Birla",
+    "currentRating": 1210,
+    "peakRating": 1210,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "pupil",
+    "peakRank": "pupil",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023B3A71189G",
+    "handle": "AbhavGarg",
+    "name": "Abhav Garg ",
+    "currentRating": 930,
+    "peakRating": 1055,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "ECO",
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0390G",
+    "handle": "SHASHhh",
+    "name": "Shashwat patni",
+    "currentRating": 849,
+    "peakRating": 955,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023B3A70791G",
+    "handle": "anonymous_2605",
+    "name": "Priyanshi Modi",
+    "currentRating": 949,
+    "peakRating": 949,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "ECO",
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023B5A30954G",
+    "handle": "Kayjay0503",
+    "name": "Kandla jha",
+    "currentRating": 836,
+    "peakRating": 836,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "PHY",
+      "EEE"
+    ]
+  },
+  {
+    "bitsId": "2023B1A81239G",
+    "handle": "aarushmohanty2004",
+    "name": "Aarush Mohanty",
+    "currentRating": 781,
+    "peakRating": 781,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "BIO",
+      "ENI"
+    ]
+  },
+  {
+    "bitsId": "2023B1AA0687G",
+    "handle": "Jit.mandal",
+    "name": "Indrajit Mandal ",
+    "currentRating": 352,
+    "peakRating": 352,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "BIO",
+      "Unknown"
+    ]
+  },
+  {
+    "bitsId": "2023B5A70968G",
+    "handle": "PriyanshBPGC",
+    "name": "Priyansh rawat",
+    "currentRating": 356,
+    "peakRating": 356,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "PHY",
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS1024G",
+    "handle": "Excalibur2357",
+    "name": "Eshan Saikia",
+    "currentRating": 790,
+    "peakRating": 790,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0017G",
+    "handle": "ananyapurwar",
+    "name": "Ananya Purwar",
+    "currentRating": 804,
+    "peakRating": 804,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2021A7PS2668G",
+    "handle": "Naman_Agarwal_03",
+    "name": "Naman Agarwal",
+    "currentRating": 1926,
+    "peakRating": 1963,
+    "pfp": "https://userpic.codeforces.org/2263993/title/bd6cee3c5dd9e627.jpg",
+    "rank": "candidate master",
+    "peakRank": "candidate master",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022A3PS0433G",
+    "handle": "Eshan_Karia",
+    "name": "Eshan Karia",
+    "currentRating": 1740,
+    "peakRating": 1740,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "expert",
+    "peakRank": "expert",
+    "branch": [
+      "EEE"
+    ]
+  },
+  {
+    "bitsId": "2022A7PS1121G",
+    "handle": "shrey71",
+    "name": "Shrey Gupta",
+    "currentRating": 1563,
+    "peakRating": 1771,
+    "pfp": "https://userpic.codeforces.org/3273646/title/2d2b93e7ffb5f15c.jpg",
+    "rank": "specialist",
+    "peakRank": "expert",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2024H1030114G",
+    "handle": "adi0104",
+    "name": "Aditya Agarwal",
+    "currentRating": 1504,
+    "peakRating": 1548,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "specialist",
+    "peakRank": "specialist",
+    "branch": [
+      "HD",
+      "Unknown"
+    ]
+  },
+  {
+    "bitsId": "2024A7PS0607G",
+    "handle": "rraj.official5",
+    "name": "Rohit Raj",
+    "currentRating": 1448,
+    "peakRating": 1448,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "specialist",
+    "peakRank": "specialist",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023B3A70788G",
+    "handle": "Supersidd",
+    "name": "Siddharth Damle",
+    "currentRating": 1443,
+    "peakRating": 1542,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "specialist",
+    "peakRank": "specialist",
+    "branch": [
+      "ECO",
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2021A7PS2093G",
+    "handle": "chaar_butternaan",
+    "name": "Divyaroop Sahoo",
+    "currentRating": 1420,
+    "peakRating": 1532,
+    "pfp": "https://userpic.codeforces.org/3123228/title/91af3cd30bb5198a.jpg",
+    "rank": "specialist",
+    "peakRank": "specialist",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022A7PS0262G",
+    "handle": "chaphekaryash7",
+    "name": "Yash Chaphekar",
+    "currentRating": 1349,
+    "peakRating": 1356,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "pupil",
+    "peakRank": "pupil",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022A7PS0606G",
+    "handle": "ASH9374",
+    "name": "Ashit Jain",
+    "currentRating": 1300,
+    "peakRating": 1390,
+    "pfp": "https://userpic.codeforces.org/3062781/title/115ea875b906dd6b.jpg",
+    "rank": "pupil",
+    "peakRank": "pupil",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2024B2PS0980G",
+    "handle": "subhammldlgh",
+    "name": "Subham Kumar",
+    "currentRating": 1289,
+    "peakRating": 1612,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "pupil",
+    "peakRank": "expert",
+    "branch": [
+      "CHEM"
+    ]
+  },
+  {
+    "bitsId": "2021A3PS2877G",
+    "handle": "arin_nigam",
+    "name": "Arin Nigam",
+    "currentRating": 1280,
+    "peakRating": 1332,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "pupil",
+    "peakRank": "pupil",
+    "branch": [
+      "EEE"
+    ]
+  },
+  {
+    "bitsId": "2021B5A72638G",
+    "handle": "manav_jmr",
+    "name": "Manav Jamuar",
+    "currentRating": 1234,
+    "peakRating": 1294,
+    "pfp": "https://userpic.codeforces.org/4007719/title/774b566fa921af8d.jpg",
+    "rank": "pupil",
+    "peakRank": "pupil",
+    "branch": [
+      "PHY",
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A3PS0212G",
+    "handle": "wheerps.singh",
+    "name": "Veer Pratap Singh",
+    "currentRating": 1233,
+    "peakRating": 1233,
+    "pfp": "https://userpic.codeforces.org/3956357/title/fbffd0a7a2332584.jpg",
+    "rank": "pupil",
+    "peakRank": "pupil",
+    "branch": [
+      "EEE"
+    ]
+  },
+  {
+    "bitsId": "2022A7PS0364G",
+    "handle": "yess364",
+    "name": "Akshat Goswami",
+    "currentRating": 1210,
+    "peakRating": 1210,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "pupil",
+    "peakRank": "pupil",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023B3A70851G",
+    "handle": "Nick410",
+    "name": "Dhruv Shah",
+    "currentRating": 1178,
+    "peakRating": 1194,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "ECO",
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023A7PS0449G",
+    "handle": "ItsRajRahul",
+    "name": "Raj Rahul",
+    "currentRating": 1175,
+    "peakRating": 1261,
+    "pfp": "https://userpic.codeforces.org/3593169/title/24e1c27312a7afdc.jpg",
+    "rank": "newbie",
+    "peakRank": "pupil",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023H1240015G",
+    "handle": "abhik13",
+    "name": "Abhishek Kumar",
+    "currentRating": 1133,
+    "peakRating": 1280,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "pupil",
+    "branch": [
+      "HD",
+      "Unknown"
+    ]
+  },
+  {
+    "bitsId": "2021A3PS2975G",
+    "handle": "devarsh.dk",
+    "name": "Devarsh Kumbhare",
+    "currentRating": 1132,
+    "peakRating": 1266,
+    "pfp": "https://userpic.codeforces.org/2672499/title/78de5b824af6188e.jpg",
+    "rank": "newbie",
+    "peakRank": "pupil",
+    "branch": [
+      "EEE"
+    ]
+  },
+  {
+    "bitsId": "2021A7PS2458G",
+    "handle": "arushbansal_",
+    "name": "Arush Bansal",
+    "currentRating": 1130,
+    "peakRating": 1130,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022A7PS1239G",
+    "handle": "martialgod",
+    "name": "Pray Raskapoorwala",
+    "currentRating": 1114,
+    "peakRating": 1114,
+    "pfp": "https://userpic.codeforces.org/2873154/title/c88ebe0f2431d591.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022A7PS1111G",
+    "handle": "Arul60",
+    "name": "Arul Bhardwaj",
+    "currentRating": 1113,
+    "peakRating": 1113,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2021AAPS0629G",
+    "handle": "hrishav77",
+    "name": "Hrishav Deka",
+    "currentRating": 1103,
+    "peakRating": 1193,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "Unknown"
+    ]
+  },
+  {
+    "bitsId": "2023B2A30771G",
+    "handle": "CodingNinja2609",
+    "name": "Atharva Okhade",
+    "currentRating": 1096,
+    "peakRating": 1120,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CHEM",
+      "EEE"
+    ]
+  },
+  {
+    "bitsId": "2022B1A70897G",
+    "handle": "misteralwayz22",
+    "name": "Ashmit Arya",
+    "currentRating": 1003,
+    "peakRating": 1003,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "BIO",
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2024A8PS0718G",
+    "handle": "ItzManan",
+    "name": "Manan Jain",
+    "currentRating": 988,
+    "peakRating": 1163,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "ENI"
+    ]
+  },
+  {
+    "bitsId": "2021A7PS2566G",
+    "handle": "lakshyavijay",
+    "name": "Lakshya Vijay",
+    "currentRating": 968,
+    "peakRating": 968,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2024B5PS1164G",
+    "handle": "infa",
+    "name": "Aarush Roy",
+    "currentRating": 965,
+    "peakRating": 1084,
+    "pfp": "https://userpic.codeforces.org/4084314/title/b562da7afb333782.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "PHY"
+    ]
+  },
+  {
+    "bitsId": "2022A8PS1246G",
+    "handle": "bruzokanav123",
+    "name": "Kanav Upadhyay",
+    "currentRating": 963,
+    "peakRating": 1018,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "ENI"
+    ]
+  },
+  {
+    "bitsId": "2022A7PS0436G",
+    "handle": "darthlazius13",
+    "name": "Kushagra Malviya",
+    "currentRating": 960,
+    "peakRating": 960,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022A4PS1023G",
+    "handle": "akash_tah",
+    "name": "Akash Tah",
+    "currentRating": 931,
+    "peakRating": 931,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "MECH"
+    ]
+  },
+  {
+    "bitsId": "2023B4A70891G",
+    "handle": "ryuk1104",
+    "name": "Rohit Prasad",
+    "currentRating": 876,
+    "peakRating": 1026,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "MATH",
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022A8PS1109G",
+    "handle": "agrawal_anshika",
+    "name": "Anshika Agrawal",
+    "currentRating": 868,
+    "peakRating": 966,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "ENI"
+    ]
+  },
+  {
+    "bitsId": "2022A3PS1170G",
+    "handle": "TheGlutton",
+    "name": "Ritu kumar sharma",
+    "currentRating": 852,
+    "peakRating": 914,
+    "pfp": "https://userpic.codeforces.org/3167851/title/5f385380096ebf79.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "EEE"
+    ]
+  },
+  {
+    "bitsId": "2022B4A70922G",
+    "handle": "savya_2105",
+    "name": "Savya Mishra",
+    "currentRating": 851,
+    "peakRating": 851,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "MATH",
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022B4A70992G",
+    "handle": "prakharp",
+    "name": "Prakhar Pradhan",
+    "currentRating": 812,
+    "peakRating": 812,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "MATH",
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2023B2A71166G",
+    "handle": "loki_30",
+    "name": "Shlok Upadhyay",
+    "currentRating": 746,
+    "peakRating": 903,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CHEM",
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022B1A71033G",
+    "handle": "freezingexplorer",
+    "name": "Mayukh Saha",
+    "currentRating": 741,
+    "peakRating": 928,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "BIO",
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2022B3A70031G",
+    "handle": "aniket.sonawane1734",
+    "name": "Aniket Sonawane",
+    "currentRating": 670,
+    "peakRating": 670,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "ECO",
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2020B4AA1856G",
+    "handle": "stitipatra",
+    "name": "Stitiprangya Patra",
+    "currentRating": 518,
+    "peakRating": 807,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "MATH",
+      "Unknown"
+    ]
+  },
+  {
+    "bitsId": "2021B3A72863G",
+    "handle": "anshul.goel",
+    "name": "Anshul Goel",
+    "currentRating": 355,
+    "peakRating": 355,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "ECO",
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2021AAPS1860G",
+    "handle": "chokinaku",
+    "name": "ADITYA BANSAL",
+    "currentRating": 1759,
+    "peakRating": 1759,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "expert",
+    "peakRank": "expert",
+    "branch": [
+      "Unknown"
+    ]
+  },
+  {
+    "bitsId": "2024A1PS0254G",
+    "handle": "aryan.gupta",
+    "name": "Aryan Gupta",
+    "currentRating": 1695,
+    "peakRating": 1803,
+    "pfp": "https://userpic.codeforces.org/1302155/title/d037ce2d2f7c3352.jpg",
+    "rank": "expert",
+    "peakRank": "expert",
+    "branch": [
+      "CHEMICAL"
+    ]
+  }
+]
