@@ -176,7 +176,7 @@ export default function HomePage({ users }) {
         </div>
 
         <Tabs defaultValue='chart' className='space-y-4'>
-          <TabsList className='grid w-full grid-cols-2 bg-gray-200 dark:bg-gray-700'>
+          <TabsList className='grid w-full grid-cols-3 bg-gray-200 dark:bg-gray-700'>
             <TabsTrigger
               value='chart'
               className='data-[state=active]:bg-white dark:data-[state=active]:bg-gray-800'
@@ -188,6 +188,12 @@ export default function HomePage({ users }) {
               className='data-[state=active]:bg-white dark:data-[state=active]:bg-gray-800'
             >
               Top Performers
+            </TabsTrigger>
+            <TabsTrigger
+              value='top7Compare'
+              className='data-[state=active]:bg-white dark:data-[state=active]:bg-gray-800'
+            >
+              Top 7 Comparision
             </TabsTrigger>
           </TabsList>
           <TabsContent value='chart'>
@@ -272,6 +278,22 @@ export default function HomePage({ users }) {
                     </li>
                   ))}
                 </ul>
+              </CardContent>
+            </Card>
+          </TabsContent>
+          <TabsContent value='top7Compare'>
+            <Card>
+              <CardHeader>
+                <CardTitle className='flex items-center'>
+                  <Trophy className='w-4 h-4 mr-2' />
+                  Top 7 Comparision
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <video width='100%' controls>
+                  <source src='top7.mp4' type='video/mp4' />
+                  Your browser does not support the video tag.
+                </video>
               </CardContent>
             </Card>
           </TabsContent>
