@@ -193,7 +193,7 @@ export default function HomePage({ users }) {
               value='top7Compare'
               className='data-[state=active]:bg-white dark:data-[state=active]:bg-gray-800'
             >
-              Top 7 Comparision
+              Top 7 Comparison
             </TabsTrigger>
           </TabsList>
           <TabsContent value='chart'>
