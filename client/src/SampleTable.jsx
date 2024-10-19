@@ -26,11 +26,6 @@ export default function SampleTable({ users }) {
     filterUsers(event.target.value, ratingRange, selectedYear, selectedBranch)
   }
 
-  // const handleRatingChange = value => {
-  //   setRatingRange(value)
-  //   filterUsers(searchTerm, value, selectedYear, selectedBranch)
-  // }
-
   const handleYearChange = value => {
     setSelectedYear(value)
     filterUsers(searchTerm, ratingRange, value, selectedBranch)
