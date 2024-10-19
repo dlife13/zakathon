@@ -286,7 +286,7 @@ export default function HomePage({ users }) {
               <CardHeader>
                 <CardTitle className='flex items-center'>
                   <Trophy className='w-4 h-4 mr-2' />
-                  Top 7 Comparision
+                  Top 7 Comparison
                 </CardTitle>
               </CardHeader>
               <CardContent>
