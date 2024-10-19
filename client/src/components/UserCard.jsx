@@ -11,8 +11,8 @@ export default function UserCard({ ...user }) {
       </CardHeader>
       <CardContent className='text-center'>
         <p>Student ID: {user.bitsId}</p>
-        <div className='flex justify-between mt-2'>
-          <p>Current Rating: {user.currentRating}</p>
+        <div className='flex justify-center mt-2 space-x-6'>
+          <p>Rating: {user.currentRating}</p>
           <p>Peak Rating: {user.peakRating}</p>
         </div>
       </CardContent>
