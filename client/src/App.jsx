@@ -9,7 +9,7 @@ function App() {
   const [showHomePage, setShowHomePage] = useState(false)
 
   const fetchAPI = async () => {
-    const response = await axios.get('http://localhost:8080/api/users')
+    const response = await axios.get('https://bgcf.onrender.com/api/users')
     setUsers(response.data)
   }
 
