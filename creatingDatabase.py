@@ -97,6 +97,9 @@ def getData(methodName, handle, handles):
 
         # Response
         data = json.loads(response.text)
+        # print(data["comment"])
+        # for j in data:
+        #     print(data[j])
         data = data["result"]
 
         # with open("./output/json/algoX.json", "w") as f:
@@ -268,9 +271,18 @@ for i in b:
             )
 
 
+index = 0
 for i in database:
     # remove all the spaces
     i["bitsId"] = i["bitsId"].replace(" ", "")
+    if i["handle"] == ".":
+        # pop it
+        database.pop(index)
+    if "codeforces.com" in i["handle"]:
+        i["handle"] = i["handle"][31:]
+        print(i["handle"])
+
+    index += 1
 
 for i in range(len(database)):
     for j in range(i + 1, len(database)):
@@ -278,8 +290,68 @@ for i in range(len(database)):
             if database[i]["bitsId"] == database[j]["bitsId"]:
                 # remove the duplicate
                 database.pop(j)
-print(database[0:2])
-print(len(database))
+# print(database[0:2])
+# print(len(database))
+# print(data2)
 with open("database.json", "w") as f:
     json.dump(database, f, indent=2)
-# print(data2)
+
+time.sleep(10)
+with open("database.json", "r") as f:
+    database = json.load(f)
+
+handles = []
+for j in database:
+    handles.append(j["handle"])
+
+# print(handles)
+handles = ";".join(handles)
+b = getData("user.info", "darelife", handles)
+# print(len(b))
+# print(len(database))
+# print(b[0:4])
+delta = 0
+for j in range(len(database)):
+    i = j - delta
+    if (
+        "rating" in b[j]
+        and "maxRating" in b[j]
+        and "titlePhoto" in b[j]
+        and "rank" in b[j]
+        and "maxRank" in b[j]
+    ):
+        database[i]["currentRating"] = b[j]["rating"]
+        database[i]["peakRating"] = b[j]["maxRating"]
+        database[i]["pfp"] = b[j]["titlePhoto"]
+        database[i]["rank"] = b[j]["rank"]
+        database[i]["peakRank"] = b[j]["maxRank"]
+    # else:
+    #     database.pop(j)
+    #     delta += 1
+database2 = []
+for i in database:
+    if (
+        "currentRating" in i
+        and "peakRating" in i
+        and "pfp" in i
+        and "rank" in i
+        and "peakRank" in i
+    ):
+        database2.append(i)
+
+database = database2
+
+# excess = [
+#     {
+#         "bitsId":"2022A7PS1145G",
+#         "handle":"prakharg11",
+#         "name":"Prakhar Kumar Gupta",
+
+#     }
+# ]
+
+print(len(database))
+
+
+with open("database.json", "w") as f:
+    json.dump(database, f, indent=2)
