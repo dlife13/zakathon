@@ -1,5 +1,3 @@
-from flask import Flask, jsonify, request
-from flask_cors import CORS
 import re
 import csv
 import json
@@ -8,10 +6,6 @@ import os
 import hashlib
 import time
 from dotenv import load_dotenv
-
-app = Flask(__name__)
-cors = CORS(app, origins="*")
-
 
 # open the csv files bgcl.csv and qstp.csv
 # in bpgc.csv, get the "BITS ID", "CodeForces Handle", "Name" columns
@@ -159,81 +153,78 @@ with open("data2.json", "r") as f:
     idName = json.load(f)
 
 
-# database = []
-# with open("bgcl.csv", "r") as f:
-#     reader = csv.DictReader(f)
-#     data = list(reader)
-#     dataa = []
-#     for i in data:
-#         if i["CodeForces Handle"][0] == "@":
-#             i["CodeForces Handle"] = i["CodeForces Handle"][1:]
-#         if "@" in i["BITS ID"]:
-#             i["BITS ID"] = i["BITS ID"].split("@")[0][1:]
-#             for j in idName:
-#                 if j[0:4] == i["BITS ID"][0:4] and j[8:12] == i["BITS ID"][4:]:
-#                     i["BITS ID"] = j
+database = []
+with open("bgcl.csv", "r") as f:
+    reader = csv.DictReader(f)
+    data = list(reader)
+    dataa = []
+    for i in data:
+        if i["CodeForces Handle"][0] == "@":
+            i["CodeForces Handle"] = i["CodeForces Handle"][1:]
+        if "@" in i["BITS ID"]:
+            i["BITS ID"] = i["BITS ID"].split("@")[0][1:]
+            for j in idName:
+                if j[0:4] == i["BITS ID"][0:4] and j[8:12] == i["BITS ID"][4:]:
+                    i["BITS ID"] = j
 
-#         database.append(
-#             {
-#                 "bitsId": i["BITS ID"],
-#                 "handle": i["CodeForces Handle"],
-#                 "name": i["Name"],
-#             }
-#         )
+        database.append(
+            {
+                "bitsId": i["BITS ID"],
+                "handle": i["CodeForces Handle"],
+                "name": i["Name"],
+            }
+        )
 
-# with open("data2.json", "r") as f:
-#     idName = json.load(f)
+with open("data2.json", "r") as f:
+    idName = json.load(f)
 
-# with open("qstp.csv", "r") as f:
-#     reader = csv.DictReader(f)
-#     data2 = list(reader)
+with open("qstp.csv", "r") as f:
+    reader = csv.DictReader(f)
+    data2 = list(reader)
 
-# for i in data2:
-#     if (
-#         i[
-#             "University/School (Use short forms all CAPS like IITD for IIT Delhi and BPGC for BITS Goa)"
-#         ]
-#         != "BPGC"
-#     ):
-#         continue
+for i in data2:
+    if (
+        i[
+            "University/School (Use short forms all CAPS like IITD for IIT Delhi and BPGC for BITS Goa)"
+        ]
+        != "BPGC"
+    ):
+        continue
 
-#     email = i["Email Address"].split("@")[0]
-#     if email[0] != "f":
-#         continue
-#     email = email[1:]
+    email = i["Email Address"].split("@")[0]
+    if email[0] != "f":
+        continue
+    email = email[1:]
 
-#     found = False
-#     id = ""
-#     # check if the id is in the database
-#     for j in database:
-#         if j["bitsId"][0:4] == email[0:4] and j["bitsId"][8:12] == email[4:]:
-#             found = True
-#             # id = j["bitsId"]
-#             break
-#     for j in idName:
-#         if j[0:4] == email[0:4] and j[8:12] == email[4:]:
-#             id = j
-#     # id = f"{email[0:4]}xxxx{email[4:]}"
-#     # print(j)
-#     print(id)
-#     # print(email)
-#     if not found:
-#         # try:
-#         if id == "":
-#             continue
-#         database.append(
-#             {
-#                 "bitsId": id,
-#                 "handle": i["Codeforces Handle"],
-#                 "name": i["Name"],
-#             }
-#         )
-#     # except:
-#     #     pass
+    found = False
+    id = ""
+    # check if the id is in the database
+    for j in database:
+        if j["bitsId"][0:4] == email[0:4] and j["bitsId"][8:12] == email[4:]:
+            found = True
+            # id = j["bitsId"]
+            break
+    for j in idName:
+        if j[0:4] == email[0:4] and j[8:12] == email[4:]:
+            id = j
+    # id = f"{email[0:4]}xxxx{email[4:]}"
+    # print(j)
+    print(id)
+    # print(email)
+    if not found:
+        # try:
+        if id == "":
+            continue
+        database.append(
+            {
+                "bitsId": id,
+                "handle": i["Codeforces Handle"],
+                "name": i["Name"],
+            }
+        )
+    # except:
+    #     pass
 
-
-with open("database.json", "r") as f:
-    database = json.load(f)
 
 with open("table.txt", "r") as f:
     data3 = f.readlines()
@@ -359,99 +350,8 @@ database = database2
 #     }
 # ]
 
-branches = {
-    "A7": "CSE",
-    "AD": "MnC",
-    "AA": "ECE",
-    "Aa": "ECE",
-    "A3": "EEE",
-    "A8": "ENI",
-    "A4": "MECH",
-    "A1": "CHEMICAL",
-    "B3": "ECO",
-    "B5": "PHY",
-    "B4": "MATH",
-    "B2": "CHEM",
-    "B1": "BIO",
-    "H1": "HD",
-    "PH": "PHD",
-}
 print(len(database))
-for i in database:
-    branch1 = branches.get(i["bitsId"][4:6].capitalize(), "Unknown")
-    i["branch"] = [branch1]
-    if (
-        i["bitsId"][6:8] != "PS"
-        and i["bitsId"][6] != "D"
-        and i["bitsId"][6:8] != "p"
-        and i["bitsId"][4:6] != "H1"
-    ):
-        branch2 = branches.get(i["bitsId"][6:8].capitalize(), "Unknown")
-        i["branch"].append(branch2)
+
 
 with open("database.json", "w") as f:
     json.dump(database, f, indent=2)
-
-
-@app.route("/api/users", methods=["GET"])
-def users():
-    return jsonify(
-        # [
-        #     {
-        #         "handle": "darelife",
-        #         "name": "Prakhar Bhandari",
-        #         "bitsId": "2023A7PS0458G",
-        #         "branch": "CSE",
-        #         "peakRating": "1444",
-        #         "currentRating": "1325",
-        #     }
-        # ]
-        database
-    )
-
-
-# @app.route("/api/user/<handle>", methods=["POST"])
-# def user(handle):
-#     for i in database:
-#         if i["handle"] == handle:
-#             return jsonify(i)
-#     return jsonify({"error": "User not found"})
-
-
-@app.route("/api/user", methods=["POST"])
-def add_user():
-    newUser = request.json
-    # {"handle": "darelife", "name": "Prakhar Bhandari", "bitsId": "2023A7PS0458G"}
-    # check if the user exists in the database
-    for i in database:
-        if i["handle"] == newUser["handle"]:
-            return jsonify({"error": "User already exists"})
-    b = getData("user.info", "darelife", newUser["handle"])
-    if len(b) == 0:
-        return jsonify({"error": "User not found"})
-    if (
-        "rating" in b[0]
-        and "maxRating" in b[0]
-        and "titlePhoto" in b[0]
-        and "rank" in b[0]
-        and "maxRank" in b[0]
-    ):
-        newUser["currentRating"] = b[0]["rating"]
-        newUser["peakRating"] = b[0]["maxRating"]
-        newUser["pfp"] = b[0]["titlePhoto"]
-        newUser["rank"] = b[0]["rank"]
-        newUser["peakRank"] = b[0]["maxRank"]
-
-    branch1 = branches.get(newUser["bitsId"][4:6].capitalize(), "Unknown")
-    newUser["branch"] = [branch1]
-    if newUser["bitsId"][6:8] != "PS" and newUser["bitsId"][6] != "D":
-        branch2 = branches.get(newUser["bitsId"][6:8].capitalize(), "Unknown")
-        newUser["branch"].append(branch2)
-    database.append(newUser)
-    with open("database.json", "w") as f:
-        json.dump(database, f, indent=2)
-    return jsonify(database)
-
-
-if __name__ == "__main__":
-    app.run(debug=True, port=8080)

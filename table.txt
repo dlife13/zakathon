@@ -1,0 +1,3488 @@
+<table class="">
+  <tbody>
+    <tr>
+      <th style="width: 2em" class="top left">&nbsp;</th>
+      <th style="text-align: left" class="top">Who</th>
+      <th style="width: 2em" class="top">
+        <span title="Number of participations">#</span>
+      </th>
+      <th style="width: 2em" class="top right">=</th>
+    </tr>
+    <tr>
+      <td class="dark left">1&nbsp;(4450)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/Naman_Agarwal_03"
+          title="Candidate Master Naman_Agarwal_03"
+          class="rated-user user-violet"
+          >Naman_Agarwal_03</a
+        >
+      </td>
+      <td class="dark">76</td>
+      <td class="dark right">1926</td>
+    </tr>
+    <tr>
+      <td class="left">2&nbsp;(5236)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/gb.png"
+          alt="United Kingdom"
+          title="United Kingdom"
+        /><a
+          href="/profile/bhatnagar.mradul"
+          title="Expert bhatnagar.mradul"
+          class="rated-user user-blue"
+          >bhatnagar.mradul</a
+        >
+      </td>
+      <td>299</td>
+      <td class="right">1880</td>
+    </tr>
+    <tr>
+      <td class="dark left">3&nbsp;(7455)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/onkar_somani"
+          title="Expert onkar_somani"
+          class="rated-user user-blue"
+          >onkar_somani</a
+        >
+      </td>
+      <td class="dark">65</td>
+      <td class="dark right">1757</td>
+    </tr>
+    <tr>
+      <td class="left">4&nbsp;(7915)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/Eshan_Karia"
+          title="Expert Eshan_Karia"
+          class="rated-user user-blue"
+          >Eshan_Karia</a
+        >
+      </td>
+      <td>33</td>
+      <td class="right">1740</td>
+    </tr>
+    <tr>
+      <td class="dark left">5&nbsp;(8613)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <a
+          href="/profile/to_be_or_not_to_be"
+          title="Expert to_be_or_not_to_be"
+          class="rated-user user-blue"
+          >to_be_or_not_to_be</a
+        >
+      </td>
+      <td class="dark">92</td>
+      <td class="dark right">1715</td>
+    </tr>
+    <tr>
+      <td class="left">6&nbsp;(9205)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/INFORTER"
+          title="Expert INFORTER"
+          class="rated-user user-blue"
+          >INFORTER</a
+        >
+      </td>
+      <td>45</td>
+      <td class="right">1697</td>
+    </tr>
+    <tr>
+      <td class="dark left">7&nbsp;(9310)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/ankushgarg_04"
+          title="Expert ankushgarg_04"
+          class="rated-user user-blue"
+          >ankushgarg_04</a
+        >
+      </td>
+      <td class="dark">130</td>
+      <td class="dark right">1694</td>
+    </tr>
+    <tr>
+      <td class="left">8&nbsp;(10957)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/niranjanrajeev25"
+          title="Expert niranjanrajeev25"
+          class="rated-user user-blue"
+          >niranjanrajeev25</a
+        >
+      </td>
+      <td>92</td>
+      <td class="right">1652</td>
+    </tr>
+    <tr>
+      <td class="dark left">9&nbsp;(11167)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/Darshan_Bhangale"
+          title="Expert Darshan_Bhangale"
+          class="rated-user user-blue"
+          >Darshan_Bhangale</a
+        >
+      </td>
+      <td class="dark">158</td>
+      <td class="dark right">1647</td>
+    </tr>
+    <tr>
+      <td class="left">10&nbsp;(11496)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <a
+          href="/profile/hridya_arora"
+          title="Expert hridya_arora"
+          class="rated-user user-blue"
+          >hridya_arora</a
+        >
+      </td>
+      <td>87</td>
+      <td class="right">1640</td>
+    </tr>
+    <tr>
+      <td class="dark left">11&nbsp;(13001)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/Nishant__Bhandari"
+          title="Expert Nishant__Bhandari"
+          class="rated-user user-blue"
+          >Nishant__Bhandari</a
+        >
+      </td>
+      <td class="dark">48</td>
+      <td class="dark right">1612</td>
+    </tr>
+    <tr>
+      <td class="left">12&nbsp;(13174)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/unbased"
+          title="Expert unbased"
+          class="rated-user user-blue"
+          >unbased</a
+        >
+      </td>
+      <td>40</td>
+      <td class="right">1609</td>
+    </tr>
+    <tr>
+      <td class="dark left">13&nbsp;(13234)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <a
+          href="/profile/Yugaaditya_Achhara"
+          title="Expert Yugaaditya_Achhara"
+          class="rated-user user-blue"
+          >Yugaaditya_Achhara</a
+        >
+      </td>
+      <td class="dark">42</td>
+      <td class="dark right">1608</td>
+    </tr>
+    <tr>
+      <td class="left">14&nbsp;(13553)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/iN_siDious"
+          title="Expert iN_siDious"
+          class="rated-user user-blue"
+          >iN_siDious</a
+        >
+      </td>
+      <td>126</td>
+      <td class="right">1603</td>
+    </tr>
+    <tr>
+      <td class="dark left">15&nbsp;(14244)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/mathmath33"
+          title="Specialist mathmath33"
+          class="rated-user user-cyan"
+          >mathmath33</a
+        >
+      </td>
+      <td class="dark">56</td>
+      <td class="dark right">1588</td>
+    </tr>
+    <tr>
+      <td class="left">16&nbsp;(14473)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/hrushi1093"
+          title="Specialist hrushi1093"
+          class="rated-user user-cyan"
+          >hrushi1093</a
+        >
+      </td>
+      <td>56</td>
+      <td class="right">1582</td>
+    </tr>
+    <tr>
+      <td class="dark left">17&nbsp;(15164)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/shrey71"
+          title="Specialist shrey71"
+          class="rated-user user-cyan"
+          >shrey71</a
+        >
+      </td>
+      <td class="dark">64</td>
+      <td class="dark right">1563</td>
+    </tr>
+    <tr>
+      <td class="left">18&nbsp;(15748)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/prakharg11"
+          title="Specialist prakharg11"
+          class="rated-user user-cyan"
+          >prakharg11</a
+        >
+      </td>
+      <td>66</td>
+      <td class="right">1549</td>
+    </tr>
+    <tr>
+      <td class="dark left">19&nbsp;(16682)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/velvet...thunder"
+          title="Specialist velvet...thunder"
+          class="rated-user user-cyan"
+          >velvet...thunder</a
+        >
+      </td>
+      <td class="dark">49</td>
+      <td class="dark right">1529</td>
+    </tr>
+    <tr>
+      <td class="left">20&nbsp;(17607)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/harshb"
+          title="Specialist harshb"
+          class="rated-user user-cyan"
+          >harshb</a
+        >
+      </td>
+      <td>34</td>
+      <td class="right">1511</td>
+    </tr>
+    <tr>
+      <td class="dark left">21&nbsp;(17981)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/adi0104"
+          title="Specialist adi0104"
+          class="rated-user user-cyan"
+          >adi0104</a
+        >
+      </td>
+      <td class="dark">46</td>
+      <td class="dark right">1504</td>
+    </tr>
+    <tr>
+      <td class="left">21&nbsp;(17981)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/Exyon75"
+          title="Specialist Exyon75"
+          class="rated-user user-cyan"
+          >Exyon75</a
+        >
+      </td>
+      <td>31</td>
+      <td class="right">1504</td>
+    </tr>
+    <tr>
+      <td class="dark left">23&nbsp;(19585)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <a
+          href="/profile/Mrcool7"
+          title="Specialist Mrcool7"
+          class="rated-user user-cyan"
+          >Mrcool7</a
+        >
+      </td>
+      <td class="dark">13</td>
+      <td class="dark right">1477</td>
+    </tr>
+    <tr>
+      <td class="left">24&nbsp;(21107)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/srujal194"
+          title="Specialist srujal194"
+          class="rated-user user-cyan"
+          >srujal194</a
+        >
+      </td>
+      <td>42</td>
+      <td class="right">1454</td>
+    </tr>
+    <tr>
+      <td class="dark left">25&nbsp;(21190)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/arjo2004"
+          title="Specialist arjo2004"
+          class="rated-user user-cyan"
+          >arjo2004</a
+        >
+      </td>
+      <td class="dark">24</td>
+      <td class="dark right">1453</td>
+    </tr>
+    <tr>
+      <td class="left">26&nbsp;(21560)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/rraj.official5"
+          title="Specialist rraj.official5"
+          class="rated-user user-cyan"
+          >rraj.official5</a
+        >
+      </td>
+      <td>31</td>
+      <td class="right">1448</td>
+    </tr>
+    <tr>
+      <td class="dark left">27&nbsp;(21975)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/Supersidd"
+          title="Specialist Supersidd"
+          class="rated-user user-cyan"
+          >Supersidd</a
+        >
+      </td>
+      <td class="dark">34</td>
+      <td class="dark right">1443</td>
+    </tr>
+    <tr>
+      <td class="left">28&nbsp;(22430)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/Devansh_0319"
+          title="Specialist Devansh_0319"
+          class="rated-user user-cyan"
+          >Devansh_0319</a
+        >
+      </td>
+      <td>13</td>
+      <td class="right">1437</td>
+    </tr>
+    <tr>
+      <td class="dark left">29&nbsp;(22832)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/phantomxxx"
+          title="Specialist phantomxxx"
+          class="rated-user user-cyan"
+          >phantomxxx</a
+        >
+      </td>
+      <td class="dark">52</td>
+      <td class="dark right">1432</td>
+    </tr>
+    <tr>
+      <td class="left">30&nbsp;(22924)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/frost_14"
+          title="Specialist frost_14"
+          class="rated-user user-cyan"
+          >frost_14</a
+        >
+      </td>
+      <td>63</td>
+      <td class="right">1431</td>
+    </tr>
+    <tr>
+      <td class="dark left">31&nbsp;(23876)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/chaar_butternaan"
+          title="Specialist chaar_butternaan"
+          class="rated-user user-cyan"
+          >chaar_butternaan</a
+        >
+      </td>
+      <td class="dark">13</td>
+      <td class="dark right">1420</td>
+    </tr>
+    <tr>
+      <td class="left">32&nbsp;(24087)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <a
+          href="/profile/IshaanKapoor"
+          title="Specialist IshaanKapoor"
+          class="rated-user user-cyan"
+          >IshaanKapoor</a
+        >
+      </td>
+      <td>20</td>
+      <td class="right">1418</td>
+    </tr>
+    <tr>
+      <td class="dark left">33&nbsp;(24177)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/somatcha"
+          title="Specialist somatcha"
+          class="rated-user user-cyan"
+          >somatcha</a
+        >
+      </td>
+      <td class="dark">20</td>
+      <td class="dark right">1417</td>
+    </tr>
+    <tr>
+      <td class="left">34&nbsp;(24809)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/LASTCRY"
+          title="Specialist LASTCRY"
+          class="rated-user user-cyan"
+          >LASTCRY</a
+        >
+      </td>
+      <td>34</td>
+      <td class="right">1410</td>
+    </tr>
+    <tr>
+      <td class="dark left">35&nbsp;(25646)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/Dio707"
+          title="Specialist Dio707"
+          class="rated-user user-cyan"
+          >Dio707</a
+        >
+      </td>
+      <td class="dark">76</td>
+      <td class="dark right">1401</td>
+    </tr>
+    <tr>
+      <td class="left">36&nbsp;(26860)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/Aashman"
+          title="Pupil Aashman"
+          class="rated-user user-green"
+          style="null; color: #00c700 !important; "
+          >Aashman</a
+        >
+      </td>
+      <td>39</td>
+      <td class="right">1384</td>
+    </tr>
+    <tr>
+      <td class="dark left">37&nbsp;(26931)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <a
+          href="/profile/RaghavKM"
+          title="Pupil RaghavKM"
+          class="rated-user user-green"
+          style="null; color: #00c700 !important; "
+          >RaghavKM</a
+        >
+      </td>
+      <td class="dark">64</td>
+      <td class="dark right">1383</td>
+    </tr>
+    <tr>
+      <td class="left">38&nbsp;(27733)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/Aryan.n"
+          title="Pupil Aryan.n"
+          class="rated-user user-green"
+          style="null; color: #00c700 !important; "
+          >Aryan.n</a
+        >
+      </td>
+      <td>25</td>
+      <td class="right">1372</td>
+    </tr>
+    <tr>
+      <td class="dark left">39&nbsp;(29494)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/chaphekaryash7"
+          title="Pupil chaphekaryash7"
+          class="rated-user user-green"
+          style="null; color: #00c700 !important; "
+          >chaphekaryash7</a
+        >
+      </td>
+      <td class="dark">10</td>
+      <td class="dark right">1349</td>
+    </tr>
+    <tr>
+      <td class="left">40&nbsp;(29995)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/vanshhero5"
+          title="Pupil vanshhero5"
+          class="rated-user user-green"
+          style="null; color: #00c700 !important; "
+          >vanshhero5</a
+        >
+      </td>
+      <td>33</td>
+      <td class="right">1343</td>
+    </tr>
+    <tr>
+      <td class="dark left">41&nbsp;(31042)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/ThandaPrani"
+          title="Pupil ThandaPrani"
+          class="rated-user user-green"
+          style="null; color: #00c700 !important; "
+          >ThandaPrani</a
+        >
+      </td>
+      <td class="dark">15</td>
+      <td class="dark right">1330</td>
+    </tr>
+    <tr>
+      <td class="left">42&nbsp;(31310)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <a
+          href="/profile/Chaotic_carni"
+          title="Pupil Chaotic_carni"
+          class="rated-user user-green"
+          style="null; color: #00c700 !important; "
+          >Chaotic_carni</a
+        >
+      </td>
+      <td>58</td>
+      <td class="right">1327</td>
+    </tr>
+    <tr class="highlighted-row">
+      <td class="dark left">42&nbsp;(31310)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/Darelife"
+          title="Pupil Darelife"
+          class="rated-user user-green"
+          style="null; color: #00c700 !important; "
+          >Darelife</a
+        >
+      </td>
+      <td class="dark">30</td>
+      <td class="dark right">1327</td>
+    </tr>
+    <tr>
+      <td class="left">44&nbsp;(32027)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <a
+          href="/profile/TheNameMeansBlue"
+          title="Pupil TheNameMeansBlue"
+          class="rated-user user-green"
+          style="null; color: #00c700 !important; "
+          >TheNameMeansBlue</a
+        >
+      </td>
+      <td>48</td>
+      <td class="right">1319</td>
+    </tr>
+    <tr>
+      <td class="dark left">45&nbsp;(32304)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <a
+          href="/profile/Hawkstar"
+          title="Pupil Hawkstar"
+          class="rated-user user-green"
+          style="null; color: #00c700 !important; "
+          >Hawkstar</a
+        >
+      </td>
+      <td class="dark">21</td>
+      <td class="dark right">1316</td>
+    </tr>
+    <tr>
+      <td class="left">46&nbsp;(32386)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/madhul27"
+          title="Pupil madhul27"
+          class="rated-user user-green"
+          style="null; color: #00c700 !important; "
+          >madhul27</a
+        >
+      </td>
+      <td>23</td>
+      <td class="right">1315</td>
+    </tr>
+    <tr>
+      <td class="dark left">47&nbsp;(32472)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/Shanzz"
+          title="Pupil Shanzz"
+          class="rated-user user-green"
+          style="null; color: #00c700 !important; "
+          >Shanzz</a
+        >
+      </td>
+      <td class="dark">17</td>
+      <td class="dark right">1314</td>
+    </tr>
+    <tr>
+      <td class="left">48&nbsp;(33153)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/pratthebrat"
+          title="Pupil pratthebrat"
+          class="rated-user user-green"
+          style="null; color: #00c700 !important; "
+          >pratthebrat</a
+        >
+      </td>
+      <td>55</td>
+      <td class="right">1307</td>
+    </tr>
+    <tr>
+      <td class="dark left">49&nbsp;(33814)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/ASH9374"
+          title="Pupil ASH9374"
+          class="rated-user user-green"
+          style="null; color: #00c700 !important; "
+          >ASH9374</a
+        >
+      </td>
+      <td class="dark">30</td>
+      <td class="dark right">1300</td>
+    </tr>
+    <tr>
+      <td class="left">50&nbsp;(34856)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/subhammldlgh"
+          title="Pupil subhammldlgh"
+          class="rated-user user-green"
+          style="null; color: #00c700 !important; "
+          >subhammldlgh</a
+        >
+      </td>
+      <td>73</td>
+      <td class="right">1289</td>
+    </tr>
+    <tr>
+      <td class="dark left">51&nbsp;(35762)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/arin_nigam"
+          title="Pupil arin_nigam"
+          class="rated-user user-green"
+          style="null; color: #00c700 !important; "
+          >arin_nigam</a
+        >
+      </td>
+      <td class="dark">28</td>
+      <td class="dark right">1280</td>
+    </tr>
+    <tr>
+      <td class="left">52&nbsp;(36769)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/jainam7"
+          title="Pupil jainam7"
+          class="rated-user user-green"
+          style="null; color: #00c700 !important; "
+          >jainam7</a
+        >
+      </td>
+      <td>40</td>
+      <td class="right">1271</td>
+    </tr>
+    <tr>
+      <td class="dark left">53&nbsp;(37744)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/arjit_12"
+          title="Pupil arjit_12"
+          class="rated-user user-green"
+          style="null; color: #00c700 !important; "
+          >arjit_12</a
+        >
+      </td>
+      <td class="dark">51</td>
+      <td class="dark right">1262</td>
+    </tr>
+    <tr>
+      <td class="left">54&nbsp;(37967)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/hvb11"
+          title="Pupil hvb11"
+          class="rated-user user-green"
+          style="null; color: #00c700 !important; "
+          >hvb11</a
+        >
+      </td>
+      <td>26</td>
+      <td class="right">1260</td>
+    </tr>
+    <tr>
+      <td class="dark left">55&nbsp;(39378)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <a
+          href="/profile/Swayx113"
+          title="Pupil Swayx113"
+          class="rated-user user-green"
+          style="null; color: #00c700 !important; "
+          >Swayx113</a
+        >
+      </td>
+      <td class="dark">11</td>
+      <td class="dark right">1247</td>
+    </tr>
+    <tr>
+      <td class="left">56&nbsp;(39742)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/Yashagarwal3004"
+          title="Pupil Yashagarwal3004"
+          class="rated-user user-green"
+          style="null; color: #00c700 !important; "
+          >Yashagarwal3004</a
+        >
+      </td>
+      <td>45</td>
+      <td class="right">1244</td>
+    </tr>
+    <tr>
+      <td class="dark left">57&nbsp;(40948)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/manav_jmr"
+          title="Pupil manav_jmr"
+          class="rated-user user-green"
+          style="null; color: #00c700 !important; "
+          >manav_jmr</a
+        >
+      </td>
+      <td class="dark">17</td>
+      <td class="dark right">1234</td>
+    </tr>
+    <tr>
+      <td class="left">58&nbsp;(41062)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <a
+          href="/profile/wheerps.singh"
+          title="Pupil wheerps.singh"
+          class="rated-user user-green"
+          style="null; color: #00c700 !important; "
+          >wheerps.singh</a
+        >
+      </td>
+      <td>6</td>
+      <td class="right">1233</td>
+    </tr>
+    <tr>
+      <td class="dark left">59&nbsp;(41792)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/nilayrajderkar"
+          title="Pupil nilayrajderkar"
+          class="rated-user user-green"
+          style="null; color: #00c700 !important; "
+          >nilayrajderkar</a
+        >
+      </td>
+      <td class="dark">65</td>
+      <td class="dark right">1227</td>
+    </tr>
+    <tr>
+      <td class="left">60&nbsp;(42040)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/Oesome"
+          title="Pupil Oesome"
+          class="rated-user user-green"
+          style="null; color: #00c700 !important; "
+          >Oesome</a
+        >
+      </td>
+      <td>18</td>
+      <td class="right">1225</td>
+    </tr>
+    <tr>
+      <td class="dark left">60&nbsp;(42040)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/grindingManiacally"
+          title="Pupil grindingManiacally"
+          class="rated-user user-green"
+          style="null; color: #00c700 !important; "
+          >grindingManiacally</a
+        >
+      </td>
+      <td class="dark">25</td>
+      <td class="dark right">1225</td>
+    </tr>
+    <tr>
+      <td class="left">62&nbsp;(42292)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <a
+          href="/profile/riaaax"
+          title="Pupil riaaax"
+          class="rated-user user-green"
+          style="null; color: #00c700 !important; "
+          >riaaax</a
+        >
+      </td>
+      <td>25</td>
+      <td class="right">1223</td>
+    </tr>
+    <tr>
+      <td class="dark left">62&nbsp;(42292)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <a
+          href="/profile/Adyboy"
+          title="Pupil Adyboy"
+          class="rated-user user-green"
+          style="null; color: #00c700 !important; "
+          >Adyboy</a
+        >
+      </td>
+      <td class="dark">5</td>
+      <td class="dark right">1223</td>
+    </tr>
+    <tr>
+      <td class="left">64&nbsp;(43299)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <a
+          href="/profile/vedantshete"
+          title="Pupil vedantshete"
+          class="rated-user user-green"
+          style="null; color: #00c700 !important; "
+          >vedantshete</a
+        >
+      </td>
+      <td>17</td>
+      <td class="right">1215</td>
+    </tr>
+    <tr>
+      <td class="dark left">65&nbsp;(43696)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/garam_icecream"
+          title="Pupil garam_icecream"
+          class="rated-user user-green"
+          style="null; color: #00c700 !important; "
+          >garam_icecream</a
+        >
+      </td>
+      <td class="dark">41</td>
+      <td class="dark right">1212</td>
+    </tr>
+    <tr>
+      <td class="left">66&nbsp;(43968)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <a
+          href="/profile/yess364"
+          title="Pupil yess364"
+          class="rated-user user-green"
+          style="null; color: #00c700 !important; "
+          >yess364</a
+        >
+      </td>
+      <td>10</td>
+      <td class="right">1210</td>
+    </tr>
+    <tr>
+      <td class="dark left">67&nbsp;(46148)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/Viyom10"
+          title="Newbie Viyom10"
+          class="rated-user user-gray"
+          >Viyom10</a
+        >
+      </td>
+      <td class="dark">15</td>
+      <td class="dark right">1193</td>
+    </tr>
+    <tr>
+      <td class="left">68&nbsp;(46368)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/acsde"
+          title="Newbie acsde"
+          class="rated-user user-gray"
+          >acsde</a
+        >
+      </td>
+      <td>24</td>
+      <td class="right">1191</td>
+    </tr>
+    <tr>
+      <td class="dark left">69&nbsp;(47865)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/Nick410"
+          title="Newbie Nick410"
+          class="rated-user user-gray"
+          >Nick410</a
+        >
+      </td>
+      <td class="dark">59</td>
+      <td class="dark right">1178</td>
+    </tr>
+    <tr>
+      <td class="left">70&nbsp;(47988)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/amishksinghal"
+          title="Newbie amishksinghal"
+          class="rated-user user-gray"
+          >amishksinghal</a
+        >
+      </td>
+      <td>13</td>
+      <td class="right">1177</td>
+    </tr>
+    <tr>
+      <td class="dark left">71&nbsp;(48237)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/ItsRajRahul"
+          title="Newbie ItsRajRahul"
+          class="rated-user user-gray"
+          >ItsRajRahul</a
+        >
+      </td>
+      <td class="dark">8</td>
+      <td class="dark right">1175</td>
+    </tr>
+    <tr>
+      <td class="left">72&nbsp;(48494)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <a
+          href="/profile/nayan.gogari"
+          title="Newbie nayan.gogari"
+          class="rated-user user-gray"
+          >nayan.gogari</a
+        >
+      </td>
+      <td>15</td>
+      <td class="right">1173</td>
+    </tr>
+    <tr>
+      <td class="dark left">73&nbsp;(50030)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <a
+          href="/profile/ADITYA0603"
+          title="Newbie ADITYA0603"
+          class="rated-user user-gray"
+          >ADITYA0603</a
+        >
+      </td>
+      <td class="dark">19</td>
+      <td class="dark right">1160</td>
+    </tr>
+    <tr>
+      <td class="left">74&nbsp;(50527)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/ketav"
+          title="Newbie ketav"
+          class="rated-user user-gray"
+          >ketav</a
+        >
+      </td>
+      <td>16</td>
+      <td class="right">1156</td>
+    </tr>
+    <tr>
+      <td class="dark left">75&nbsp;(50991)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/Mitra100"
+          title="Newbie Mitra100"
+          class="rated-user user-gray"
+          >Mitra100</a
+        >
+      </td>
+      <td class="dark">14</td>
+      <td class="dark right">1152</td>
+    </tr>
+    <tr>
+      <td class="left">76&nbsp;(52048)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/ayushpareek452"
+          title="Newbie ayushpareek452"
+          class="rated-user user-gray"
+          >ayushpareek452</a
+        >
+      </td>
+      <td>48</td>
+      <td class="right">1143</td>
+    </tr>
+    <tr>
+      <td class="dark left">77&nbsp;(52288)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/CodingRunsInsideMe"
+          title="Newbie CodingRunsInsideMe"
+          class="rated-user user-gray"
+          >CodingRunsInsideMe</a
+        >
+      </td>
+      <td class="dark">11</td>
+      <td class="dark right">1141</td>
+    </tr>
+    <tr>
+      <td class="left">77&nbsp;(52288)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <a
+          href="/profile/cppkagawd"
+          title="Newbie cppkagawd"
+          class="rated-user user-gray"
+          >cppkagawd</a
+        >
+      </td>
+      <td>27</td>
+      <td class="right">1141</td>
+    </tr>
+    <tr>
+      <td class="dark left">79&nbsp;(53297)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/abhik13"
+          title="Newbie abhik13"
+          class="rated-user user-gray"
+          >abhik13</a
+        >
+      </td>
+      <td class="dark">27</td>
+      <td class="dark right">1133</td>
+    </tr>
+    <tr>
+      <td class="left">80&nbsp;(53419)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/devarsh.dk"
+          title="Newbie devarsh.dk"
+          class="rated-user user-gray"
+          >devarsh.dk</a
+        >
+      </td>
+      <td>22</td>
+      <td class="right">1132</td>
+    </tr>
+    <tr>
+      <td class="dark left">81&nbsp;(53703)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/arushbansal_"
+          title="Newbie arushbansal_"
+          class="rated-user user-gray"
+          >arushbansal_</a
+        >
+      </td>
+      <td class="dark">4</td>
+      <td class="dark right">1130</td>
+    </tr>
+    <tr>
+      <td class="left">82&nbsp;(53835)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/yuvraj_2910"
+          title="Newbie yuvraj_2910"
+          class="rated-user user-gray"
+          >yuvraj_2910</a
+        >
+      </td>
+      <td>42</td>
+      <td class="right">1129</td>
+    </tr>
+    <tr>
+      <td class="dark left">83&nbsp;(54341)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <a
+          href="/profile/niralii24"
+          title="Newbie niralii24"
+          class="rated-user user-gray"
+          >niralii24</a
+        >
+      </td>
+      <td class="dark">17</td>
+      <td class="dark right">1125</td>
+    </tr>
+    <tr>
+      <td class="left">84&nbsp;(54750)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <a
+          href="/profile/khushi_mishra"
+          title="Newbie khushi_mishra"
+          class="rated-user user-gray"
+          >khushi_mishra</a
+        >
+      </td>
+      <td>26</td>
+      <td class="right">1122</td>
+    </tr>
+    <tr>
+      <td class="dark left">85&nbsp;(54857)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/kartik_garg"
+          title="Newbie kartik_garg"
+          class="rated-user user-gray"
+          >kartik_garg</a
+        >
+      </td>
+      <td class="dark">33</td>
+      <td class="dark right">1121</td>
+    </tr>
+    <tr>
+      <td class="left">86&nbsp;(55094)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/sashakt1290"
+          title="Newbie sashakt1290"
+          class="rated-user user-gray"
+          >sashakt1290</a
+        >
+      </td>
+      <td>40</td>
+      <td class="right">1119</td>
+    </tr>
+    <tr>
+      <td class="dark left">87&nbsp;(55205)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/ishanyawhocares"
+          title="Newbie ishanyawhocares"
+          class="rated-user user-gray"
+          >ishanyawhocares</a
+        >
+      </td>
+      <td class="dark">17</td>
+      <td class="dark right">1118</td>
+    </tr>
+    <tr>
+      <td class="left">88&nbsp;(55450)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <a
+          href="/profile/Innit_Bruv"
+          title="Newbie Innit_Bruv"
+          class="rated-user user-gray"
+          >Innit_Bruv</a
+        >
+      </td>
+      <td>40</td>
+      <td class="right">1116</td>
+    </tr>
+    <tr>
+      <td class="dark left">89&nbsp;(55587)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/Ishan-Mehta"
+          title="Newbie Ishan-Mehta"
+          class="rated-user user-gray"
+          >Ishan-Mehta</a
+        >
+      </td>
+      <td class="dark">25</td>
+      <td class="dark right">1115</td>
+    </tr>
+    <tr>
+      <td class="left">90&nbsp;(55716)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/martialgod"
+          title="Newbie martialgod"
+          class="rated-user user-gray"
+          >martialgod</a
+        >
+      </td>
+      <td>10</td>
+      <td class="right">1114</td>
+    </tr>
+    <tr>
+      <td class="dark left">91&nbsp;(55842)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/Arul60"
+          title="Newbie Arul60"
+          class="rated-user user-gray"
+          >Arul60</a
+        >
+      </td>
+      <td class="dark">6</td>
+      <td class="dark right">1113</td>
+    </tr>
+    <tr>
+      <td class="left">92&nbsp;(56514)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/cpxv"
+          title="Newbie cpxv"
+          class="rated-user user-gray"
+          >cpxv</a
+        >
+      </td>
+      <td>25</td>
+      <td class="right">1108</td>
+    </tr>
+    <tr>
+      <td class="dark left">93&nbsp;(56794)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <a
+          href="/profile/ssk1001"
+          title="Newbie ssk1001"
+          class="rated-user user-gray"
+          >ssk1001</a
+        >
+      </td>
+      <td class="dark">12</td>
+      <td class="dark right">1106</td>
+    </tr>
+    <tr>
+      <td class="left">94&nbsp;(57171)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/amey9"
+          title="Newbie amey9"
+          class="rated-user user-gray"
+          >amey9</a
+        >
+      </td>
+      <td>11</td>
+      <td class="right">1103</td>
+    </tr>
+    <tr>
+      <td class="dark left">94&nbsp;(57171)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/hrishav77"
+          title="Newbie hrishav77"
+          class="rated-user user-gray"
+          >hrishav77</a
+        >
+      </td>
+      <td class="dark">23</td>
+      <td class="dark right">1103</td>
+    </tr>
+    <tr>
+      <td class="left">96&nbsp;(58104)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/CodingNinja2609"
+          title="Newbie CodingNinja2609"
+          class="rated-user user-gray"
+          >CodingNinja2609</a
+        >
+      </td>
+      <td>20</td>
+      <td class="right">1096</td>
+    </tr>
+    <tr>
+      <td class="dark left">97&nbsp;(58247)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/nan888"
+          title="Newbie nan888"
+          class="rated-user user-gray"
+          >nan888</a
+        >
+      </td>
+      <td class="dark">23</td>
+      <td class="dark right">1095</td>
+    </tr>
+    <tr>
+      <td class="left">98&nbsp;(58506)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <a
+          href="/profile/advay.matapurkar"
+          title="Newbie advay.matapurkar"
+          class="rated-user user-gray"
+          >advay.matapurkar</a
+        >
+      </td>
+      <td>12</td>
+      <td class="right">1093</td>
+    </tr>
+    <tr>
+      <td class="dark left">99&nbsp;(59515)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/isoke"
+          title="Newbie isoke"
+          class="rated-user user-gray"
+          >isoke</a
+        >
+      </td>
+      <td class="dark">3</td>
+      <td class="dark right">1086</td>
+    </tr>
+    <tr>
+      <td class="left">100&nbsp;(59677)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/dalviubaid02"
+          title="Newbie dalviubaid02"
+          class="rated-user user-gray"
+          >dalviubaid02</a
+        >
+      </td>
+      <td>25</td>
+      <td class="right">1085</td>
+    </tr>
+    <tr>
+      <td class="dark left">101&nbsp;(60707)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/meet_2480"
+          title="Newbie meet_2480"
+          class="rated-user user-gray"
+          >meet_2480</a
+        >
+      </td>
+      <td class="dark">11</td>
+      <td class="dark right">1078</td>
+    </tr>
+    <tr>
+      <td class="left">102&nbsp;(61029)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/Atharva2505"
+          title="Newbie Atharva2505"
+          class="rated-user user-gray"
+          >Atharva2505</a
+        >
+      </td>
+      <td>6</td>
+      <td class="right">1076</td>
+    </tr>
+    <tr>
+      <td class="dark left">103&nbsp;(62470)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <a
+          href="/profile/dark_om3ga"
+          title="Newbie dark_om3ga"
+          class="rated-user user-gray"
+          >dark_om3ga</a
+        >
+      </td>
+      <td class="dark">7</td>
+      <td class="dark right">1066</td>
+    </tr>
+    <tr>
+      <td class="left">104&nbsp;(63212)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/notsoham"
+          title="Newbie notsoham"
+          class="rated-user user-gray"
+          >notsoham</a
+        >
+      </td>
+      <td>10</td>
+      <td class="right">1061</td>
+    </tr>
+    <tr>
+      <td class="dark left">105&nbsp;(63823)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/SilverBag"
+          title="Newbie SilverBag"
+          class="rated-user user-gray"
+          >SilverBag</a
+        >
+      </td>
+      <td class="dark">13</td>
+      <td class="dark right">1057</td>
+    </tr>
+    <tr>
+      <td class="left">105&nbsp;(63823)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/maaz.i7"
+          title="Newbie maaz.i7"
+          class="rated-user user-gray"
+          >maaz.i7</a
+        >
+      </td>
+      <td>29</td>
+      <td class="right">1057</td>
+    </tr>
+    <tr>
+      <td class="dark left">107&nbsp;(65023)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <a
+          href="/profile/Dhruv_Mishra"
+          title="Newbie Dhruv_Mishra"
+          class="rated-user user-gray"
+          >Dhruv_Mishra</a
+        >
+      </td>
+      <td class="dark">13</td>
+      <td class="dark right">1049</td>
+    </tr>
+    <tr>
+      <td class="left">108&nbsp;(65634)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/vilakshangupta2002"
+          title="Newbie vilakshangupta2002"
+          class="rated-user user-gray"
+          >vilakshangupta2002</a
+        >
+      </td>
+      <td>38</td>
+      <td class="right">1045</td>
+    </tr>
+    <tr>
+      <td class="dark left">109&nbsp;(66102)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/Sankabapur"
+          title="Newbie Sankabapur"
+          class="rated-user user-gray"
+          >Sankabapur</a
+        >
+      </td>
+      <td class="dark">22</td>
+      <td class="dark right">1042</td>
+    </tr>
+    <tr>
+      <td class="left">110&nbsp;(66556)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/sameerdattav"
+          title="Newbie sameerdattav"
+          class="rated-user user-gray"
+          >sameerdattav</a
+        >
+      </td>
+      <td>9</td>
+      <td class="right">1039</td>
+    </tr>
+    <tr>
+      <td class="dark left">111&nbsp;(66719)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/Aenk"
+          title="Newbie Aenk"
+          class="rated-user user-gray"
+          >Aenk</a
+        >
+      </td>
+      <td class="dark">31</td>
+      <td class="dark right">1038</td>
+    </tr>
+    <tr>
+      <td class="left">112&nbsp;(68537)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/crystal-blaze13"
+          title="Newbie crystal-blaze13"
+          class="rated-user user-gray"
+          >crystal-blaze13</a
+        >
+      </td>
+      <td>8</td>
+      <td class="right">1026</td>
+    </tr>
+    <tr>
+      <td class="dark left">113&nbsp;(69282)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/apmene2935"
+          title="Newbie apmene2935"
+          class="rated-user user-gray"
+          >apmene2935</a
+        >
+      </td>
+      <td class="dark">48</td>
+      <td class="dark right">1021</td>
+    </tr>
+    <tr>
+      <td class="left">114&nbsp;(70654)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <a
+          href="/profile/anaykale28"
+          title="Newbie anaykale28"
+          class="rated-user user-gray"
+          >anaykale28</a
+        >
+      </td>
+      <td>5</td>
+      <td class="right">1012</td>
+    </tr>
+    <tr>
+      <td class="dark left">115&nbsp;(72076)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/misteralwayz22"
+          title="Newbie misteralwayz22"
+          class="rated-user user-gray"
+          >misteralwayz22</a
+        >
+      </td>
+      <td class="dark">8</td>
+      <td class="dark right">1003</td>
+    </tr>
+    <tr>
+      <td class="left">116&nbsp;(74567)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/ItzManan"
+          title="Newbie ItzManan"
+          class="rated-user user-gray"
+          >ItzManan</a
+        >
+      </td>
+      <td>14</td>
+      <td class="right">988</td>
+    </tr>
+    <tr>
+      <td class="dark left">117&nbsp;(75556)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/Sarthak297"
+          title="Newbie Sarthak297"
+          class="rated-user user-gray"
+          >Sarthak297</a
+        >
+      </td>
+      <td class="dark">5</td>
+      <td class="dark right">982</td>
+    </tr>
+    <tr>
+      <td class="left">118&nbsp;(76891)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/Django1810"
+          title="Newbie Django1810"
+          class="rated-user user-gray"
+          >Django1810</a
+        >
+      </td>
+      <td>11</td>
+      <td class="right">974</td>
+    </tr>
+    <tr>
+      <td class="dark left">119&nbsp;(77553)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/_ShahVraj"
+          title="Newbie _ShahVraj"
+          class="rated-user user-gray"
+          >_ShahVraj</a
+        >
+      </td>
+      <td class="dark">8</td>
+      <td class="dark right">970</td>
+    </tr>
+    <tr>
+      <td class="left">119&nbsp;(77553)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <a
+          href="/profile/TanyaK06"
+          title="Newbie TanyaK06"
+          class="rated-user user-gray"
+          >TanyaK06</a
+        >
+      </td>
+      <td>12</td>
+      <td class="right">970</td>
+    </tr>
+    <tr>
+      <td class="dark left">121&nbsp;(77867)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/lakshyavijay"
+          title="Newbie lakshyavijay"
+          class="rated-user user-gray"
+          >lakshyavijay</a
+        >
+      </td>
+      <td class="dark">9</td>
+      <td class="dark right">968</td>
+    </tr>
+    <tr>
+      <td class="left">122&nbsp;(78374)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/infa"
+          title="Newbie infa"
+          class="rated-user user-gray"
+          >infa</a
+        >
+      </td>
+      <td>7</td>
+      <td class="right">965</td>
+    </tr>
+    <tr>
+      <td class="dark left">123&nbsp;(78705)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/bruzokanav123"
+          title="Newbie bruzokanav123"
+          class="rated-user user-gray"
+          >bruzokanav123</a
+        >
+      </td>
+      <td class="dark">9</td>
+      <td class="dark right">963</td>
+    </tr>
+    <tr>
+      <td class="left">124&nbsp;(79193)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/darthlazius13"
+          title="Newbie darthlazius13"
+          class="rated-user user-gray"
+          >darthlazius13</a
+        >
+      </td>
+      <td>5</td>
+      <td class="right">960</td>
+    </tr>
+    <tr>
+      <td class="dark left">125&nbsp;(81974)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/illusion05"
+          title="Newbie illusion05"
+          class="rated-user user-gray"
+          >illusion05</a
+        >
+      </td>
+      <td class="dark">4</td>
+      <td class="dark right">944</td>
+    </tr>
+    <tr>
+      <td class="left">126&nbsp;(83024)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <a
+          href="/profile/Mahiman"
+          title="Newbie Mahiman"
+          class="rated-user user-gray"
+          >Mahiman</a
+        >
+      </td>
+      <td>4</td>
+      <td class="right">938</td>
+    </tr>
+    <tr>
+      <td class="dark left">127&nbsp;(83213)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <a
+          href="/profile/krishhshahh"
+          title="Newbie krishhshahh"
+          class="rated-user user-gray"
+          >krishhshahh</a
+        >
+      </td>
+      <td class="dark">15</td>
+      <td class="dark right">937</td>
+    </tr>
+    <tr>
+      <td class="left">128&nbsp;(84287)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/srn08"
+          title="Newbie srn08"
+          class="rated-user user-gray"
+          >srn08</a
+        >
+      </td>
+      <td>4</td>
+      <td class="right">931</td>
+    </tr>
+    <tr>
+      <td class="dark left">128&nbsp;(84287)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/akash_tah"
+          title="Newbie akash_tah"
+          class="rated-user user-gray"
+          >akash_tah</a
+        >
+      </td>
+      <td class="dark">5</td>
+      <td class="dark right">931</td>
+    </tr>
+    <tr>
+      <td class="left">130&nbsp;(84461)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <a
+          href="/profile/AbhavGarg"
+          title="Newbie AbhavGarg"
+          class="rated-user user-gray"
+          >AbhavGarg</a
+        >
+      </td>
+      <td>9</td>
+      <td class="right">930</td>
+    </tr>
+    <tr>
+      <td class="dark left">131&nbsp;(87413)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/vasu.03"
+          title="Newbie vasu.03"
+          class="rated-user user-gray"
+          >vasu.03</a
+        >
+      </td>
+      <td class="dark">11</td>
+      <td class="dark right">913</td>
+    </tr>
+    <tr>
+      <td class="left">132&nbsp;(87594)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <a
+          href="/profile/Penguins.cool"
+          title="Newbie Penguins.cool"
+          class="rated-user user-gray"
+          >Penguins.cool</a
+        >
+      </td>
+      <td>7</td>
+      <td class="right">912</td>
+    </tr>
+    <tr>
+      <td class="dark left">133&nbsp;(87990)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/hrishantbheda"
+          title="Newbie hrishantbheda"
+          class="rated-user user-gray"
+          >hrishantbheda</a
+        >
+      </td>
+      <td class="dark">8</td>
+      <td class="dark right">910</td>
+    </tr>
+    <tr>
+      <td class="left">134&nbsp;(88535)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/dhruv129"
+          title="Newbie dhruv129"
+          class="rated-user user-gray"
+          >dhruv129</a
+        >
+      </td>
+      <td>10</td>
+      <td class="right">907</td>
+    </tr>
+    <tr>
+      <td class="dark left">135&nbsp;(88716)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/luscious"
+          title="Newbie luscious"
+          class="rated-user user-gray"
+          >luscious</a
+        >
+      </td>
+      <td class="dark">4</td>
+      <td class="dark right">906</td>
+    </tr>
+    <tr>
+      <td class="left">136&nbsp;(93257)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <a
+          href="/profile/siddhanth492"
+          title="Newbie siddhanth492"
+          class="rated-user user-gray"
+          >siddhanth492</a
+        >
+      </td>
+      <td>29</td>
+      <td class="right">881</td>
+    </tr>
+    <tr>
+      <td class="dark left">137&nbsp;(93449)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/not_a_coder_irl"
+          title="Newbie not_a_coder_irl"
+          class="rated-user user-gray"
+          >not_a_coder_irl</a
+        >
+      </td>
+      <td class="dark">5</td>
+      <td class="dark right">880</td>
+    </tr>
+    <tr>
+      <td class="left">138&nbsp;(94199)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/ryuk1104"
+          title="Newbie ryuk1104"
+          class="rated-user user-gray"
+          >ryuk1104</a
+        >
+      </td>
+      <td>10</td>
+      <td class="right">876</td>
+    </tr>
+    <tr>
+      <td class="dark left">139&nbsp;(94741)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <a
+          href="/profile/Hvshah-2005"
+          title="Newbie Hvshah-2005"
+          class="rated-user user-gray"
+          >Hvshah-2005</a
+        >
+      </td>
+      <td class="dark">9</td>
+      <td class="dark right">873</td>
+    </tr>
+    <tr>
+      <td class="left">140&nbsp;(95656)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <a
+          href="/profile/agrawal_anshika"
+          title="Newbie agrawal_anshika"
+          class="rated-user user-gray"
+          >agrawal_anshika</a
+        >
+      </td>
+      <td>12</td>
+      <td class="right">868</td>
+    </tr>
+    <tr>
+      <td class="dark left">141&nbsp;(96371)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/shauryatri1"
+          title="Newbie shauryatri1"
+          class="rated-user user-gray"
+          >shauryatri1</a
+        >
+      </td>
+      <td class="dark">6</td>
+      <td class="dark right">864</td>
+    </tr>
+    <tr>
+      <td class="left">142&nbsp;(98650)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/TheGlutton"
+          title="Newbie TheGlutton"
+          class="rated-user user-gray"
+          >TheGlutton</a
+        >
+      </td>
+      <td>10</td>
+      <td class="right">852</td>
+    </tr>
+    <tr>
+      <td class="dark left">143&nbsp;(98825)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/savya_2105"
+          title="Newbie savya_2105"
+          class="rated-user user-gray"
+          >savya_2105</a
+        >
+      </td>
+      <td class="dark">6</td>
+      <td class="dark right">851</td>
+    </tr>
+    <tr>
+      <td class="left">144&nbsp;(100952)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/harish_22"
+          title="Newbie harish_22"
+          class="rated-user user-gray"
+          >harish_22</a
+        >
+      </td>
+      <td>15</td>
+      <td class="right">840</td>
+    </tr>
+    <tr>
+      <td class="dark left">145&nbsp;(103478)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/MongooseCatmouse"
+          title="Newbie MongooseCatmouse"
+          class="rated-user user-gray"
+          >MongooseCatmouse</a
+        >
+      </td>
+      <td class="dark">12</td>
+      <td class="dark right">827</td>
+    </tr>
+    <tr>
+      <td class="left">146&nbsp;(105909)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/OverclockedPanda"
+          title="Newbie OverclockedPanda"
+          class="rated-user user-gray"
+          >OverclockedPanda</a
+        >
+      </td>
+      <td>4</td>
+      <td class="right">814</td>
+    </tr>
+    <tr>
+      <td class="dark left">147&nbsp;(106264)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/prakharp"
+          title="Newbie prakharp"
+          class="rated-user user-gray"
+          >prakharp</a
+        >
+      </td>
+      <td class="dark">3</td>
+      <td class="dark right">812</td>
+    </tr>
+    <tr>
+      <td class="left">148&nbsp;(107195)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/aalhadsawane"
+          title="Newbie aalhadsawane"
+          class="rated-user user-gray"
+          >aalhadsawane</a
+        >
+      </td>
+      <td>3</td>
+      <td class="right">807</td>
+    </tr>
+    <tr>
+      <td class="dark left">149&nbsp;(108161)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <a
+          href="/profile/whosatvikagwl"
+          title="Newbie whosatvikagwl"
+          class="rated-user user-gray"
+          >whosatvikagwl</a
+        >
+      </td>
+      <td class="dark">4</td>
+      <td class="dark right">802</td>
+    </tr>
+    <tr>
+      <td class="left">150&nbsp;(108553)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <a
+          href="/profile/danysthename"
+          title="Newbie danysthename"
+          class="rated-user user-gray"
+          >danysthename</a
+        >
+      </td>
+      <td>3</td>
+      <td class="right">800</td>
+    </tr>
+    <tr>
+      <td class="dark left">151&nbsp;(109539)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/cipher_13"
+          title="Newbie cipher_13"
+          class="rated-user user-gray"
+          >cipher_13</a
+        >
+      </td>
+      <td class="dark">27</td>
+      <td class="dark right">795</td>
+    </tr>
+    <tr>
+      <td class="left">152&nbsp;(110655)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <a
+          href="/profile/nihirasgc"
+          title="Newbie nihirasgc"
+          class="rated-user user-gray"
+          >nihirasgc</a
+        >
+      </td>
+      <td>8</td>
+      <td class="right">789</td>
+    </tr>
+    <tr>
+      <td class="dark left">153&nbsp;(113302)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/f20230484"
+          title="Newbie f20230484"
+          class="rated-user user-gray"
+          >f20230484</a
+        >
+      </td>
+      <td class="dark">13</td>
+      <td class="dark right">774</td>
+    </tr>
+    <tr>
+      <td class="left">154&nbsp;(116202)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/anoushkadixit19"
+          title="Newbie anoushkadixit19"
+          class="rated-user user-gray"
+          >anoushkadixit19</a
+        >
+      </td>
+      <td>17</td>
+      <td class="right">757</td>
+    </tr>
+    <tr>
+      <td class="dark left">155&nbsp;(116884)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <a
+          href="/profile/frozentactition"
+          title="Newbie frozentactition"
+          class="rated-user user-gray"
+          >frozentactition</a
+        >
+      </td>
+      <td class="dark">6</td>
+      <td class="dark right">753</td>
+    </tr>
+    <tr>
+      <td class="left">156&nbsp;(118014)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/loki_30"
+          title="Newbie loki_30"
+          class="rated-user user-gray"
+          >loki_30</a
+        >
+      </td>
+      <td>9</td>
+      <td class="right">746</td>
+    </tr>
+    <tr>
+      <td class="dark left">157&nbsp;(118886)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/freezingexplorer"
+          title="Newbie freezingexplorer"
+          class="rated-user user-gray"
+          >freezingexplorer</a
+        >
+      </td>
+      <td class="dark">10</td>
+      <td class="dark right">741</td>
+    </tr>
+    <tr>
+      <td class="left">158&nbsp;(120132)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/AdityaNagarsekar"
+          title="Newbie AdityaNagarsekar"
+          class="rated-user user-gray"
+          >AdityaNagarsekar</a
+        >
+      </td>
+      <td>3</td>
+      <td class="right">733</td>
+    </tr>
+    <tr>
+      <td class="dark left">159&nbsp;(120268)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <a
+          href="/profile/jaisonkumar"
+          title="Newbie jaisonkumar"
+          class="rated-user user-gray"
+          >jaisonkumar</a
+        >
+      </td>
+      <td class="dark">8</td>
+      <td class="dark right">732</td>
+    </tr>
+    <tr>
+      <td class="left">160&nbsp;(122894)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <a
+          href="/profile/Saish31"
+          title="Newbie Saish31"
+          class="rated-user user-gray"
+          >Saish31</a
+        >
+      </td>
+      <td>27</td>
+      <td class="right">711</td>
+    </tr>
+    <tr>
+      <td class="dark left">161&nbsp;(123015)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/vjblues"
+          title="Newbie vjblues"
+          class="rated-user user-gray"
+          >vjblues</a
+        >
+      </td>
+      <td class="dark">11</td>
+      <td class="dark right">710</td>
+    </tr>
+    <tr>
+      <td class="left">162&nbsp;(126549)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/unbasic"
+          title="Newbie unbasic"
+          class="rated-user user-gray"
+          >unbasic</a
+        >
+      </td>
+      <td>2</td>
+      <td class="right">672</td>
+    </tr>
+    <tr>
+      <td class="dark left">163&nbsp;(126729)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/aniket.sonawane1734"
+          title="Newbie aniket.sonawane1734"
+          class="rated-user user-gray"
+          >aniket.sonawane1734</a
+        >
+      </td>
+      <td class="dark">2</td>
+      <td class="dark right">670</td>
+    </tr>
+    <tr>
+      <td class="left">164&nbsp;(128194)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/shaurya_tri1"
+          title="Newbie shaurya_tri1"
+          class="rated-user user-gray"
+          >shaurya_tri1</a
+        >
+      </td>
+      <td>2</td>
+      <td class="right">654</td>
+    </tr>
+    <tr>
+      <td class="dark left">165&nbsp;(133909)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/ultimus2935"
+          title="Newbie ultimus2935"
+          class="rated-user user-gray"
+          >ultimus2935</a
+        >
+      </td>
+      <td class="dark">2</td>
+      <td class="dark right">603</td>
+    </tr>
+    <tr>
+      <td class="left">166&nbsp;(139950)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/stitipatra"
+          title="Newbie stitipatra"
+          class="rated-user user-gray"
+          >stitipatra</a
+        >
+      </td>
+      <td>13</td>
+      <td class="right">518</td>
+    </tr>
+    <tr>
+      <td class="dark left">167&nbsp;(144183)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <a
+          href="/profile/ImFatal"
+          title="Newbie ImFatal"
+          class="rated-user user-gray"
+          >ImFatal</a
+        >
+      </td>
+      <td class="dark">1</td>
+      <td class="dark right">417</td>
+    </tr>
+    <tr>
+      <td class="left">168&nbsp;(158765)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/anshul.goel"
+          title="Newbie anshul.goel"
+          class="rated-user user-gray"
+          >anshul.goel</a
+        >
+      </td>
+      <td>1</td>
+      <td class="right">355</td>
+    </tr>
+    <tr>
+      <td class="dark left">169&nbsp;(162601)</td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <a
+          href="/profile/Ayush526"
+          title="Newbie Ayush526"
+          class="rated-user user-gray"
+          >Ayush526</a
+        >
+      </td>
+      <td class="dark">1</td>
+      <td class="dark right">350</td>
+    </tr>
+    <tr>
+      <td class="left">170&nbsp;(164057)</td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/singhania_8723_"
+          title="Newbie singhania_8723_"
+          class="rated-user user-gray"
+          >singhania_8723_</a
+        >
+      </td>
+      <td>1</td>
+      <td class="right">345</td>
+    </tr>
+    <tr>
+      <td class="dark left">
+        <span title="outdated">-</span>
+      </td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/Larryop"
+          title="Master Larryop"
+          class="rated-user user-orange"
+          >Larryop</a
+        >
+      </td>
+      <td class="dark">34</td>
+      <td class="dark right">2152</td>
+    </tr>
+    <tr>
+      <td class="left">
+        <span title="outdated">-</span>
+      </td>
+      <td style="text-align: left; padding-left: 1em">
+        <a
+          href="/profile/mars4"
+          title="Master mars4"
+          class="rated-user user-orange"
+          >mars4</a
+        >
+      </td>
+      <td>171</td>
+      <td class="right">2149</td>
+    </tr>
+    <tr>
+      <td class="dark left">
+        <span title="outdated">-</span>
+      </td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/manavj7"
+          title="Master manavj7"
+          class="rated-user user-orange"
+          >manavj7</a
+        >
+      </td>
+      <td class="dark">23</td>
+      <td class="dark right">2128</td>
+    </tr>
+    <tr>
+      <td class="left">
+        <span title="outdated">-</span>
+      </td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/sinus_070"
+          title="Candidate Master sinus_070"
+          class="rated-user user-violet"
+          >sinus_070</a
+        >
+      </td>
+      <td>237</td>
+      <td class="right">2099</td>
+    </tr>
+    <tr>
+      <td class="dark left">
+        <span title="outdated">-</span>
+      </td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/rushabh7"
+          title="Candidate Master rushabh7"
+          class="rated-user user-violet"
+          >rushabh7</a
+        >
+      </td>
+      <td class="dark">85</td>
+      <td class="dark right">2014</td>
+    </tr>
+    <tr>
+      <td class="left">
+        <span title="outdated">-</span>
+      </td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/emiya_007"
+          title="Candidate Master emiya_007"
+          class="rated-user user-violet"
+          >emiya_007</a
+        >
+      </td>
+      <td>96</td>
+      <td class="right">1975</td>
+    </tr>
+    <tr>
+      <td class="dark left">
+        <span title="outdated">-</span>
+      </td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/PSYC0DE"
+          title="Candidate Master PSYC0DE"
+          class="rated-user user-violet"
+          >PSYC0DE</a
+        >
+      </td>
+      <td class="dark">90</td>
+      <td class="dark right">1962</td>
+    </tr>
+    <tr>
+      <td class="left">
+        <span title="outdated">-</span>
+      </td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/limit.breaker"
+          title="Candidate Master limit.breaker"
+          class="rated-user user-violet"
+          >limit.breaker</a
+        >
+      </td>
+      <td>12</td>
+      <td class="right">1929</td>
+    </tr>
+    <tr>
+      <td class="dark left">
+        <span title="outdated">-</span>
+      </td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/burn"
+          title="Expert burn"
+          class="rated-user user-blue"
+          >burn</a
+        >
+      </td>
+      <td class="dark">12</td>
+      <td class="dark right">1885</td>
+    </tr>
+    <tr>
+      <td class="left">
+        <span title="outdated">-</span>
+      </td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/arsh99"
+          title="Expert arsh99"
+          class="rated-user user-blue"
+          >arsh99</a
+        >
+      </td>
+      <td>56</td>
+      <td class="right">1844</td>
+    </tr>
+    <tr>
+      <td class="dark left">
+        <span title="outdated">-</span>
+      </td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/mohitk15"
+          title="Expert mohitk15"
+          class="rated-user user-blue"
+          >mohitk15</a
+        >
+      </td>
+      <td class="dark">39</td>
+      <td class="dark right">1811</td>
+    </tr>
+    <tr>
+      <td class="left">
+        <span title="outdated">-</span>
+      </td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/BroHit"
+          title="Expert BroHit"
+          class="rated-user user-blue"
+          >BroHit</a
+        >
+      </td>
+      <td>51</td>
+      <td class="right">1800</td>
+    </tr>
+    <tr>
+      <td class="dark left">
+        <span title="outdated">-</span>
+      </td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/vishisht_2"
+          title="Expert vishisht_2"
+          class="rated-user user-blue"
+          >vishisht_2</a
+        >
+      </td>
+      <td class="dark">121</td>
+      <td class="dark right">1799</td>
+    </tr>
+    <tr>
+      <td class="left">
+        <span title="outdated">-</span>
+      </td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/npcompete94"
+          title="Expert npcompete94"
+          class="rated-user user-blue"
+          >npcompete94</a
+        >
+      </td>
+      <td>6</td>
+      <td class="right">1784</td>
+    </tr>
+    <tr>
+      <td class="dark left">
+        <span title="outdated">-</span>
+      </td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/rananjay23"
+          title="Expert rananjay23"
+          class="rated-user user-blue"
+          >rananjay23</a
+        >
+      </td>
+      <td class="dark">150</td>
+      <td class="dark right">1774</td>
+    </tr>
+    <tr>
+      <td class="left">
+        <span title="outdated">-</span>
+      </td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/kratsynot"
+          title="Expert kratsynot"
+          class="rated-user user-blue"
+          >kratsynot</a
+        >
+      </td>
+      <td>9</td>
+      <td class="right">1771</td>
+    </tr>
+    <tr>
+      <td class="dark left">
+        <span title="outdated">-</span>
+      </td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/CODENT47"
+          title="Expert CODENT47"
+          class="rated-user user-blue"
+          >CODENT47</a
+        >
+      </td>
+      <td class="dark">26</td>
+      <td class="dark right">1769</td>
+    </tr>
+    <tr>
+      <td class="left">
+        <span title="outdated">-</span>
+      </td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/ArunGirisan17"
+          title="Expert ArunGirisan17"
+          class="rated-user user-blue"
+          >ArunGirisan17</a
+        >
+      </td>
+      <td>45</td>
+      <td class="right">1767</td>
+    </tr>
+    <tr>
+      <td class="dark left">
+        <span title="outdated">-</span>
+      </td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/chokinaku"
+          title="Expert chokinaku"
+          class="rated-user user-blue"
+          >chokinaku</a
+        >
+      </td>
+      <td class="dark">18</td>
+      <td class="dark right">1759</td>
+    </tr>
+    <tr>
+      <td class="left">
+        <span title="outdated">-</span>
+      </td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/mhgishere"
+          title="Expert mhgishere"
+          class="rated-user user-blue"
+          >mhgishere</a
+        >
+      </td>
+      <td>142</td>
+      <td class="right">1745</td>
+    </tr>
+    <tr>
+      <td class="dark left">
+        <span title="outdated">-</span>
+      </td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/laksh_9090"
+          title="Expert laksh_9090"
+          class="rated-user user-blue"
+          >laksh_9090</a
+        >
+      </td>
+      <td class="dark">62</td>
+      <td class="dark right">1739</td>
+    </tr>
+    <tr>
+      <td class="left">
+        <span title="outdated">-</span>
+      </td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/madhur817"
+          title="Expert madhur817"
+          class="rated-user user-blue"
+          >madhur817</a
+        >
+      </td>
+      <td>38</td>
+      <td class="right">1731</td>
+    </tr>
+    <tr>
+      <td class="dark left">
+        <span title="outdated">-</span>
+      </td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/infyy"
+          title="Expert infyy"
+          class="rated-user user-blue"
+          >infyy</a
+        >
+      </td>
+      <td class="dark">58</td>
+      <td class="dark right">1729</td>
+    </tr>
+    <tr>
+      <td class="left">
+        <span title="outdated">-</span>
+      </td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/SJ26"
+          title="Expert SJ26"
+          class="rated-user user-blue"
+          >SJ26</a
+        >
+      </td>
+      <td>32</td>
+      <td class="right">1717</td>
+    </tr>
+    <tr>
+      <td class="dark left">
+        <span title="outdated">-</span>
+      </td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/codecook09"
+          title="Expert codecook09"
+          class="rated-user user-blue"
+          >codecook09</a
+        >
+      </td>
+      <td class="dark">20</td>
+      <td class="dark right">1707</td>
+    </tr>
+    <tr>
+      <td class="left">
+        <span title="outdated">-</span>
+      </td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/parv2809"
+          title="Expert parv2809"
+          class="rated-user user-blue"
+          >parv2809</a
+        >
+      </td>
+      <td>30</td>
+      <td class="right">1706</td>
+    </tr>
+    <tr>
+      <td class="dark left">
+        <span title="outdated">-</span>
+      </td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/lohit_97"
+          title="Expert lohit_97"
+          class="rated-user user-blue"
+          >lohit_97</a
+        >
+      </td>
+      <td class="dark">126</td>
+      <td class="dark right">1699</td>
+    </tr>
+    <tr>
+      <td class="left">
+        <span title="outdated">-</span>
+      </td>
+      <td style="text-align: left; padding-left: 1em">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/aryan.gupta"
+          title="Expert aryan.gupta"
+          class="rated-user user-blue"
+          >aryan.gupta</a
+        >
+      </td>
+      <td>102</td>
+      <td class="right">1695</td>
+    </tr>
+    <tr>
+      <td class="dark left">
+        <span title="outdated">-</span>
+      </td>
+      <td style="text-align: left; padding-left: 1em" class="dark">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/fitz_chivalry"
+          title="Expert fitz_chivalry"
+          class="rated-user user-blue"
+          >fitz_chivalry</a
+        >
+      </td>
+      <td class="dark">31</td>
+      <td class="dark right">1693</td>
+    </tr>
+    <tr>
+      <td class="bottom left">
+        <span title="outdated">-</span>
+      </td>
+      <td style="text-align: left; padding-left: 1em" class="bottom">
+        <img
+          class="standings-flag"
+          src="//codeforces.com/codeforces.org/s/80590/images/flags-16/in.png"
+          alt="India"
+          title="India"
+        /><a
+          href="/profile/sagar_badiyani"
+          title="Expert sagar_badiyani"
+          class="rated-user user-blue"
+          >sagar_badiyani</a
+        >
+      </td>
+      <td class="bottom">56</td>
+      <td class="bottom right">1693</td>
+    </tr>
+  </tbody>
+</table>
