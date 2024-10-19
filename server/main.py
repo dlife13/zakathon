@@ -79,7 +79,7 @@ def getData(methodName, handle, handles):
         )
 
         # Response
-        data = json.loads(response.text)
+        data = json.loads(response.text)["result"]
 
         # with open("./output/json/algoX.json", "w") as file:
         #     json.dump(data, file, indent=2)
@@ -290,7 +290,8 @@ for i in database:
     if "codeforces.com" in i["handle"]:
         i["handle"] = i["handle"][31:]
         print(i["handle"])
-
+    if "2024A1PS0254G" == i["bitsId"]:
+        database.pop(index)
     index += 1
 
 for i in range(len(database)):
@@ -305,7 +306,7 @@ for i in range(len(database)):
 with open("database.json", "w") as f:
     json.dump(database, f, indent=2)
 
-time.sleep(10)
+# time.sleep(10)
 with open("database.json", "r") as f:
     database = json.load(f)
 
@@ -410,6 +411,11 @@ def users():
     )
 
 
+text = []
+for i in database:
+    text.append(f"{i['handle']}")
+with open("text.json", "w") as f:
+    json.dump(text, f, indent=2)
 # @app.route("/api/user/<handle>", methods=["POST"])
 # def user(handle):
 #     for i in database:
@@ -451,6 +457,48 @@ def add_user():
     with open("database.json", "w") as f:
         json.dump(database, f, indent=2)
     return jsonify(database)
+
+
+@app.route("/api/user", methods=["GET"])
+def user():
+    # check if handle is in the query
+    if (
+        "handle" not in request.args
+        or request.args.get("handle") == ""
+        or request.args.get("handle") is None
+    ):
+        return jsonify({"error": "Handle not found"})
+    handle = request.args.get("handle")
+    # for i in database:
+    #     if i["handle"] == handle:
+    #         return jsonify(i)
+    # return jsonify({"error": "User not found"})
+    b = getData("user.rating", handle, "")
+    if len(b) == 0:
+        return jsonify({"error": "User not found"})
+    print(b)
+    return jsonify(b)
+
+
+# @app.route("/api/contest/", methods=["GET"])
+# def contestStandings():
+#     id = request.args.get("id")
+#     url = f"https://codeforces.com/api/contest.standings?contestId={id}&showUnofficial=false"
+#     response = requests.get(url)
+#     a = response.json()["result"]["rows"]
+#     data = []
+
+
+@app.route("/api/users/ratingchange", methods=["GET"])
+def ratings():
+    top7 = []
+    for i in database:
+        if "currentRating" in i:
+            top7.append(i)
+
+    top7 = sorted(top7, key=lambda x: x["currentRating"], reverse=True)
+    top7 = top7[0:7]
+    return jsonify(top7)
 
 
 if __name__ == "__main__":
