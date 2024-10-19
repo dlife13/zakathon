@@ -8,7 +8,7 @@ export default function UserCard({ ...user }) {
     if (rating < 1600) return { name: 'Specialist', color: 'text-cyan-500' }
     if (rating < 1900) return { name: 'Expert', color: 'text-blue-700' }
     if (rating < 2100)
-      return { name: 'Candidate Master', color: 'text-purple-500' }
+      return { name: 'Candidate Master', color: 'text-purple-700' }
     if (rating < 2300) return { name: 'Master', color: 'text-orange-500' }
     if (rating < 2400)
       return { name: 'International Master', color: 'text-orange-500' }
@@ -32,6 +32,7 @@ export default function UserCard({ ...user }) {
             {getRank(user.currentRating).name}
           </span>
         </p>
+        <p>Student ID: {user.bitsId}</p>
         <div className='flex justify-center space-x-6'>
           <p>Rating: {user.currentRating}</p>
           <p>Peak Rating: {user.peakRating}</p>

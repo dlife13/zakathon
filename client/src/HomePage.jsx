@@ -1,4 +1,4 @@
-import { Search, TrendingUp, Trophy, Users } from 'lucide-react'
+import { TrendingUp, Trophy, Users } from 'lucide-react'
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import {
@@ -10,6 +10,7 @@ import {
   XAxis,
   YAxis,
 } from 'recharts'
+import codeforcesSvg from './assets/codeforces.svg'
 import { Avatar, AvatarFallback, AvatarImage } from './components/ui/avatar'
 import { Button } from './components/ui/button'
 import {
@@ -43,31 +44,6 @@ const chartData = [
   { name: 'Jun', rating: 1500 },
 ]
 
-// const users = [
-//   {
-//     bitsId: '2022A7PS1127G',
-//     handle: 'unbased',
-//     name: 'Anwesh Das',
-//     currentRating: 1609,
-//     peakRating: 1636,
-//     pfp: 'https://userpic.codeforces.org/3072648/title/b28840495b178d3c.jpg',
-//     rank: 'expert',
-//     peakRank: 'expert',
-//     branch: ['CSE'],
-//   },
-//   {
-//     bitsId: '2021A7PS3055G',
-//     handle: 'niranjanrajeev25',
-//     name: 'Niranjan Rajeev',
-//     currentRating: 1652,
-//     peakRating: 1686,
-//     pfp: 'https://userpic.codeforces.org/no-title.jpg',
-//     rank: 'expert',
-//     peakRank: 'expert',
-//     branch: ['CSE'],
-//   },
-// ]
-
 export default function HomePage({ users }) {
   const [newName, setNewName] = useState('')
   const [searchQuery, setSearchQuery] = useState('')
@@ -76,6 +52,19 @@ export default function HomePage({ users }) {
   const handleSubmit = () => {}
 
   const handleSearch = () => {}
+
+  const getColor = rating => {
+    if (rating < 1200) return 'text-gray-500'
+    if (rating < 1400) return 'text-green-500'
+    if (rating < 1600) return 'text-cyan-500'
+    if (rating < 1900) return 'text-blue-700'
+    if (rating < 2100) return 'text-purple-700'
+    if (rating < 2300) return 'text-orange-500'
+    if (rating < 2400) return 'text-orange-500'
+    if (rating < 2600) return 'text-red-500'
+    if (rating < 3000) return 'text-red-500'
+    return 'text-red-600'
+  }
 
   const sortedUsers = users.sort((a, b) => b.currentRating - a.currentRating)
   const bestRatedPlayer = users.reduce((prev, current) => {
@@ -87,18 +76,19 @@ export default function HomePage({ users }) {
     <div className='flex flex-col min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800'>
       <div className='container flex-grow p-4 mx-auto'>
         <nav className='flex items-center justify-between p-4 mb-8 bg-white rounded-lg shadow-md dark:bg-gray-800'>
+          <img src={codeforcesSvg} alt='Codeforces' className='w-8 h-8' />
           <h1 className='text-3xl font-bold text-transparent bg-black bg-clip-text'>
             Codeforces Dashboard
           </h1>
           <div className='flex gap-4'>
             <Dialog>
               <DialogTrigger asChild>
-                <Button
+                {/* <Button
                   variant='outline'
                   className='transition-colors hover:bg-blue-50 dark:hover:bg-gray-700'
                 >
                   Add New Coder
-                </Button>
+                </Button> */}
               </DialogTrigger>
               <DialogContent>
                 <DialogHeader>
@@ -125,7 +115,7 @@ export default function HomePage({ users }) {
           </div>
         </nav>
 
-        <div className='grid grid-cols-1 gap-6 mb-8 md:grid-cols-3'>
+        <div className='grid grid-cols-1 gap-6 mb-8 md:grid-cols-2'>
           <Card className='transition-shadow hover:shadow-lg'>
             <CardHeader className='flex flex-row items-center justify-between pb-2 space-y-0'>
               <CardTitle className='text-sm font-medium'>Total Users</CardTitle>
@@ -171,31 +161,6 @@ export default function HomePage({ users }) {
                   </p>
                 </div>
               </div>
-            </CardContent>
-          </Card>
-          <Card className='transition-shadow hover:shadow-lg'>
-            <CardHeader className='flex flex-row items-center justify-between pb-2 space-y-0'>
-              <CardTitle className='text-sm font-medium'>Search</CardTitle>
-              <Search className='w-4 h-4 text-muted-foreground' />
-            </CardHeader>
-            <CardContent>
-              <form onSubmit={handleSearch} className='flex gap-2'>
-                <Input
-                  type='text'
-                  placeholder='Search users...'
-                  value={searchQuery}
-                  onChange={e => setSearchQuery(e.target.value)}
-                  className='flex-grow'
-                />
-                <Button
-                  type='submit'
-                  size='icon'
-                  className='transition-colors hover:bg-blue-600'
-                >
-                  <Search className='w-4 h-4' />
-                  <span className='sr-only'>Search</span>
-                </Button>
-              </form>
             </CardContent>
           </Card>
         </div>
@@ -266,7 +231,7 @@ export default function HomePage({ users }) {
               </CardHeader>
               <CardContent>
                 <ul className='space-y-4'>
-                  {sortedUsers.slice(0,7).map(user => (
+                  {sortedUsers.slice(0, 7).map(user => (
                     <li
                       key={user.bitsId}
                       className='flex items-center justify-between p-2 transition-colors rounded-md hover:bg-gray-50 dark:hover:bg-gray-800'
@@ -283,12 +248,12 @@ export default function HomePage({ users }) {
                         </Avatar>
                         <div>
                           <p className='font-semibold'>{user.name}</p>
-                          <p className='text-sm text-muted-foreground'>
+                          <p className='text-sm text-gray-500 text-muted-foreground'>
                             {user.handle}
                           </p>
                         </div>
                       </div>
-                      <span className='font-semibold text-blue-600 dark:text-blue-400'>
+                      <span className={getColor(user.currentRating)}>
                         {user.currentRating}
                       </span>
                     </li>
