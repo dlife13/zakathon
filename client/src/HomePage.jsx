@@ -43,52 +43,7 @@ const chartData = [
   { name: 'Jun', rating: 1500 },
 ]
 
-const topPerformers = [
-  {
-    name: 'Alice Johnson',
-    rating: 2400,
-    id: 'alice_j',
-    avatar: '/placeholder.svg?height=32&width=32',
-  },
-  {
-    name: 'Bob Smith',
-    rating: 2350,
-    id: 'bob_s',
-    avatar: '/placeholder.svg?height=32&width=32',
-  },
-  {
-    name: 'Charlie Brown',
-    rating: 2300,
-    id: 'charlie_b',
-    avatar: '/placeholder.svg?height=32&width=32',
-  },
-  {
-    name: 'David Lee',
-    rating: 2250,
-    id: 'david_l',
-    avatar: '/placeholder.svg?height=32&width=32',
-  },
-  {
-    name: 'Eve Taylor',
-    rating: 2200,
-    id: 'eve_t',
-    avatar: '/placeholder.svg?height=32&width=32',
-  },
-  {
-    name: 'Frank Wilson',
-    rating: 2150,
-    id: 'frank_w',
-    avatar: '/placeholder.svg?height=32&width=32',
-  },
-  {
-    name: 'Grace Davis',
-    rating: 2100,
-    id: 'grace_d',
-    avatar: '/placeholder.svg?height=32&width=32',
-  },
-]
-
-export default function Component() {
+export default function HomePage({ users }) {
   const [newName, setNewName] = useState('')
   const [searchQuery, setSearchQuery] = useState('')
   const navigate = useNavigate()
@@ -97,7 +52,8 @@ export default function Component() {
 
   const handleSearch = () => {}
 
-  const bestRatedPlayer = topPerformers[0]
+  const bestRatedPlayer = users[0]
+  console.log(users);
 
   return (
     <div className='flex flex-col min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800'>
@@ -148,7 +104,7 @@ export default function Component() {
               <Users className='h-4 w-4 text-muted-foreground' />
             </CardHeader>
             <CardContent>
-              <div className='text-2xl font-bold'>{topPerformers.length}</div>
+              <div className='text-2xl font-bold'>{users.length}</div>
               <p className='text-xs text-muted-foreground'>
                 Active participants
               </p>
@@ -165,7 +121,7 @@ export default function Component() {
               <div className='flex items-center space-x-4'>
                 <Avatar>
                   <AvatarImage
-                    src={bestRatedPlayer.avatar}
+                    src={bestRatedPlayer.pfp}
                     alt={bestRatedPlayer.name}
                   />
                   <AvatarFallback>
@@ -180,10 +136,10 @@ export default function Component() {
                     {bestRatedPlayer.name}
                   </p>
                   <p className='text-sm text-muted-foreground'>
-                    {bestRatedPlayer.id}
+                    {bestRatedPlayer.handle}
                   </p>
                   <p className='text-sm font-medium'>
-                    Rating: {bestRatedPlayer.rating}
+                    Rating: {bestRatedPlayer.currentRating}
                   </p>
                 </div>
               </div>
@@ -282,33 +238,30 @@ export default function Component() {
               </CardHeader>
               <CardContent>
                 <ul className='space-y-4'>
-                  {topPerformers.map((performer, index) => (
+                  {users.map(user => (
                     <li
-                      key={index}
+                      key={user.bitsId}
                       className='flex items-center justify-between p-2 hover:bg-gray-50 dark:hover:bg-gray-800 rounded-md transition-colors'
                     >
                       <div className='flex items-center space-x-4'>
                         <Avatar>
-                          <AvatarImage
-                            src={performer.avatar}
-                            alt={performer.name}
-                          />
+                          <AvatarImage src={user.pfp} alt={user.name} />
                           <AvatarFallback>
-                            {performer.name
+                            {user.name
                               .split(' ')
                               .map(n => n[0])
                               .join('')}
                           </AvatarFallback>
                         </Avatar>
                         <div>
-                          <p className='font-semibold'>{performer.name}</p>
+                          <p className='font-semibold'>{user.name}</p>
                           <p className='text-sm text-muted-foreground'>
-                            {performer.id}
+                            {user.handle}
                           </p>
                         </div>
                       </div>
                       <span className='font-semibold text-blue-600 dark:text-blue-400'>
-                        {performer.rating}
+                        {user.currentRating}
                       </span>
                     </li>
                   ))}
