@@ -2476,6 +2476,19 @@
     ]
   },
   {
+    "bitsId": "2023A7PS0460G",
+    "handle": "notsoham",
+    "name": "Soham Kalburgi",
+    "currentRating": 1061,
+    "peakRating": 1061,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "newbie",
+    "peakRank": "newbie",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
     "bitsId": "2022B4A70588G",
     "handle": "Chaotic_carni",
     "name": "Parth Jayanandan",
@@ -3822,19 +3835,6 @@
     "peakRank": "expert",
     "branch": [
       "ECE"
-    ]
-  },
-  {
-    "bitsId": "2024A1PS0254G",
-    "handle": "aryan.gupta",
-    "name": "Aryan Gupta",
-    "currentRating": 1695,
-    "peakRating": 1803,
-    "pfp": "https://userpic.codeforces.org/1302155/title/d037ce2d2f7c3352.jpg",
-    "rank": "expert",
-    "peakRank": "expert",
-    "branch": [
-      "CHEMICAL"
     ]
   }
 ]
