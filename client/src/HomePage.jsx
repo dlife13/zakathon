@@ -43,6 +43,31 @@ const chartData = [
   { name: 'Jun', rating: 1500 },
 ]
 
+// const users = [
+//   {
+//     bitsId: '2022A7PS1127G',
+//     handle: 'unbased',
+//     name: 'Anwesh Das',
+//     currentRating: 1609,
+//     peakRating: 1636,
+//     pfp: 'https://userpic.codeforces.org/3072648/title/b28840495b178d3c.jpg',
+//     rank: 'expert',
+//     peakRank: 'expert',
+//     branch: ['CSE'],
+//   },
+//   {
+//     bitsId: '2021A7PS3055G',
+//     handle: 'niranjanrajeev25',
+//     name: 'Niranjan Rajeev',
+//     currentRating: 1652,
+//     peakRating: 1686,
+//     pfp: 'https://userpic.codeforces.org/no-title.jpg',
+//     rank: 'expert',
+//     peakRank: 'expert',
+//     branch: ['CSE'],
+//   },
+// ]
+
 export default function HomePage({ users }) {
   const [newName, setNewName] = useState('')
   const [searchQuery, setSearchQuery] = useState('')
@@ -52,14 +77,16 @@ export default function HomePage({ users }) {
 
   const handleSearch = () => {}
 
-  const bestRatedPlayer = users[0]
-  console.log(users);
+  const bestRatedPlayer = users.reduce((prev, current) => {
+    return prev.currentRating > current.currentRating ? prev : current
+  })
+  console.log(users)
 
   return (
     <div className='flex flex-col min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800'>
-      <div className='container mx-auto p-4 flex-grow'>
-        <nav className='flex justify-between items-center mb-8 bg-white dark:bg-gray-800 p-4 rounded-lg shadow-md'>
-          <h1 className='text-3xl font-bold bg-black bg-clip-text text-transparent'>
+      <div className='container flex-grow p-4 mx-auto'>
+        <nav className='flex items-center justify-between p-4 mb-8 bg-white rounded-lg shadow-md dark:bg-gray-800'>
+          <h1 className='text-3xl font-bold text-transparent bg-black bg-clip-text'>
             Codeforces Dashboard
           </h1>
           <div className='flex gap-4'>
@@ -67,7 +94,7 @@ export default function HomePage({ users }) {
               <DialogTrigger asChild>
                 <Button
                   variant='outline'
-                  className='hover:bg-blue-50 dark:hover:bg-gray-700 transition-colors'
+                  className='transition-colors hover:bg-blue-50 dark:hover:bg-gray-700'
                 >
                   Add New Coder
                 </Button>
@@ -89,7 +116,7 @@ export default function HomePage({ users }) {
             </Dialog>
             <Button
               variant='outline'
-              className='hover:bg-blue-50 dark:hover:bg-gray-700 transition-colors'
+              className='transition-colors hover:bg-blue-50 dark:hover:bg-gray-700'
               onClick={() => navigate('/all')}
             >
               View All
@@ -97,11 +124,11 @@ export default function HomePage({ users }) {
           </div>
         </nav>
 
-        <div className='grid grid-cols-1 md:grid-cols-3 gap-6 mb-8'>
-          <Card className='hover:shadow-lg transition-shadow'>
-            <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
+        <div className='grid grid-cols-1 gap-6 mb-8 md:grid-cols-3'>
+          <Card className='transition-shadow hover:shadow-lg'>
+            <CardHeader className='flex flex-row items-center justify-between pb-2 space-y-0'>
               <CardTitle className='text-sm font-medium'>Total Users</CardTitle>
-              <Users className='h-4 w-4 text-muted-foreground' />
+              <Users className='w-4 h-4 text-muted-foreground' />
             </CardHeader>
             <CardContent>
               <div className='text-2xl font-bold'>{users.length}</div>
@@ -110,12 +137,12 @@ export default function HomePage({ users }) {
               </p>
             </CardContent>
           </Card>
-          <Card className='hover:shadow-lg transition-shadow'>
-            <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
+          <Card className='transition-shadow hover:shadow-lg'>
+            <CardHeader className='flex flex-row items-center justify-between pb-2 space-y-0'>
               <CardTitle className='text-sm font-medium'>
                 Best Rated Player
               </CardTitle>
-              <Trophy className='h-4 w-4 text-muted-foreground' />
+              <Trophy className='w-4 h-4 text-muted-foreground' />
             </CardHeader>
             <CardContent>
               <div className='flex items-center space-x-4'>
@@ -145,10 +172,10 @@ export default function HomePage({ users }) {
               </div>
             </CardContent>
           </Card>
-          <Card className='hover:shadow-lg transition-shadow'>
-            <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
+          <Card className='transition-shadow hover:shadow-lg'>
+            <CardHeader className='flex flex-row items-center justify-between pb-2 space-y-0'>
               <CardTitle className='text-sm font-medium'>Search</CardTitle>
-              <Search className='h-4 w-4 text-muted-foreground' />
+              <Search className='w-4 h-4 text-muted-foreground' />
             </CardHeader>
             <CardContent>
               <form onSubmit={handleSearch} className='flex gap-2'>
@@ -162,9 +189,9 @@ export default function HomePage({ users }) {
                 <Button
                   type='submit'
                   size='icon'
-                  className='hover:bg-blue-600 transition-colors'
+                  className='transition-colors hover:bg-blue-600'
                 >
-                  <Search className='h-4 w-4' />
+                  <Search className='w-4 h-4' />
                   <span className='sr-only'>Search</span>
                 </Button>
               </form>
@@ -191,7 +218,7 @@ export default function HomePage({ users }) {
             <Card>
               <CardHeader>
                 <CardTitle className='flex items-center'>
-                  <TrendingUp className='mr-2 h-4 w-4' />
+                  <TrendingUp className='w-4 h-4 mr-2' />
                   Rating Progress
                 </CardTitle>
                 <CardDescription>
@@ -231,7 +258,7 @@ export default function HomePage({ users }) {
             <Card>
               <CardHeader>
                 <CardTitle className='flex items-center'>
-                  <Trophy className='mr-2 h-4 w-4' />
+                  <Trophy className='w-4 h-4 mr-2' />
                   Top Performers
                 </CardTitle>
                 <CardDescription>Top 7 rated coders</CardDescription>
@@ -241,7 +268,7 @@ export default function HomePage({ users }) {
                   {users.map(user => (
                     <li
                       key={user.bitsId}
-                      className='flex items-center justify-between p-2 hover:bg-gray-50 dark:hover:bg-gray-800 rounded-md transition-colors'
+                      className='flex items-center justify-between p-2 transition-colors rounded-md hover:bg-gray-50 dark:hover:bg-gray-800'
                     >
                       <div className='flex items-center space-x-4'>
                         <Avatar>
@@ -271,8 +298,8 @@ export default function HomePage({ users }) {
           </TabsContent>
         </Tabs>
       </div>
-      <footer className='bg-white dark:bg-gray-800 py-4 mt-8 shadow-md'>
-        <div className='container mx-auto text-center text-sm text-muted-foreground'>
+      <footer className='py-4 mt-8 bg-white shadow-md dark:bg-gray-800'>
+        <div className='container mx-auto text-sm text-center text-muted-foreground'>
           © {new Date().getFullYear()} Codeforces Dashboard. All rights
           reserved.
         </div>
