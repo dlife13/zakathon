@@ -1,5 +1,5 @@
 import { ArrowUpDown, Search } from 'lucide-react'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Button } from './components/ui/button'
 import { Input } from './components/ui/input'
 import { Label } from './components/ui/label'
@@ -10,7 +10,6 @@ import {
   SelectTrigger,
   SelectValue,
 } from './components/ui/select'
-import { Slider } from './components/ui/slider'
 import UserCard from './components/UserCard'
 
 const users = [
@@ -52,10 +51,10 @@ export default function Component() {
     filterUsers(event.target.value, ratingRange, selectedYear, selectedBranch)
   }
 
-  const handleRatingChange = value => {
-    setRatingRange(value)
-    filterUsers(searchTerm, value, selectedYear, selectedBranch)
-  }
+  // const handleRatingChange = value => {
+  //   setRatingRange(value)
+  //   filterUsers(searchTerm, value, selectedYear, selectedBranch)
+  // }
 
   const handleYearChange = value => {
     setSelectedYear(value)
@@ -98,6 +97,55 @@ export default function Component() {
     filterUsers(searchTerm, ratingRange, selectedYear, selectedBranch)
   }
 
+  const [minRating, setMinRating] = useState(0)
+  const [maxRating, setMaxRating] = useState(3500)
+  const [error, setError] = useState(null)
+
+  const getRank = rating => {
+    if (rating < 1200) return { name: 'Newbie', color: 'text-gray-500' }
+    if (rating < 1400) return { name: 'Pupil', color: 'text-green-500' }
+    if (rating < 1600) return { name: 'Specialist', color: 'text-cyan-500' }
+    if (rating < 1900) return { name: 'Expert', color: 'text-blue-500' }
+    if (rating < 2100)
+      return { name: 'Candidate Master', color: 'text-purple-500' }
+    if (rating < 2300) return { name: 'Master', color: 'text-orange-500' }
+    if (rating < 2400)
+      return { name: 'International Master', color: 'text-orange-500' }
+    if (rating < 2600) return { name: 'Grandmaster', color: 'text-red-500' }
+    if (rating < 3000)
+      return { name: 'International Grandmaster', color: 'text-red-500' }
+    return { name: 'Legendary Grandmaster', color: 'text-red-600' }
+  }
+
+  const handleMinChange = e => {
+    const value = parseInt(e.target.value)
+    if (isNaN(value)) {
+      setMinRating(0)
+    } else {
+      setMinRating(Math.max(0, Math.min(value, 4000)))
+    }
+  }
+
+  const handleMaxChange = e => {
+    const value = parseInt(e.target.value)
+    if (isNaN(value)) {
+      setMaxRating(4000)
+    } else {
+      setMaxRating(Math.max(0, Math.min(value, 4000)))
+    }
+  }
+
+  useEffect(() => {
+    if (minRating > maxRating) {
+      setError('Minimum rating cannot be greater than maximum rating')
+    } else {
+      setError(null)
+    }
+  }, [minRating, maxRating])
+
+  const minRank = getRank(minRating)
+  const maxRank = getRank(maxRating)
+
   return (
     <div className='container mx-auto p-4'>
       <h1 className='text-2xl font-bold mb-4'>Codeforces Users</h1>
@@ -116,18 +164,29 @@ export default function Component() {
           </div>
         </div>
         <div>
-          <Label>Rating Range</Label>
-          <Slider
-            min={0}
-            max={3500}
-            step={100}
-            value={ratingRange}
-            onValueChange={handleRatingChange}
-            className='mt-2'
-          />
-          <div className='flex justify-between text-sm text-muted-foreground mt-1'>
-            <span>{ratingRange[0]}</span>
-            <span>{ratingRange[1]}</span>
+          <div className='grid grid-cols-2 gap-2'>
+            <div>
+              <Label htmlFor='min-rating'>Min Rating</Label>
+              <Input
+                id='min-rating'
+                type='number'
+                min={0}
+                max={4000}
+                value={minRating}
+                onChange={handleMinChange}
+              />
+            </div>
+            <div>
+              <Label htmlFor='max-rating'>Max Rating</Label>
+              <Input
+                id='max-rating'
+                type='number'
+                min={0}
+                max={4000}
+                value={maxRating}
+                onChange={handleMaxChange}
+              />
+            </div>
           </div>
         </div>
         <div>
