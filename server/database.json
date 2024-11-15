@@ -3257,7 +3257,7 @@
     "name": "Priyansh rawat",
     "currentRating": 356,
     "peakRating": 356,
-    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "pfp": "https://userpic.codeforces.org/4077921/title/100a8bbc5b4f2c43.jpg",
     "rank": "newbie",
     "peakRank": "newbie",
     "branch": [
@@ -3833,6 +3833,19 @@
     "pfp": "https://userpic.codeforces.org/no-title.jpg",
     "rank": "expert",
     "peakRank": "expert",
+    "branch": [
+      "CSE"
+    ]
+  },
+  {
+    "bitsId": "2021A7PS2067G",
+    "handle": "Radon23",
+    "name": "Jatin Dahiya",
+    "currentRating": 1468,
+    "peakRating": 1558,
+    "pfp": "https://userpic.codeforces.org/no-title.jpg",
+    "rank": "specialist",
+    "peakRank": "specialist",
     "branch": [
       "CSE"
     ]
