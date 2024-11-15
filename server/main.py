@@ -279,8 +279,9 @@ for i in b:
             )
 
 # manuallyAdded = [
-#     ["Vishesh Goyal", "2021A7PS2628G", "vishesh011"],
-#     ["Onkar Somani", "2021A7PS2567G", "onkar_somani"],
+#     # ["Vishesh Goyal", "2021A7PS2628G", "vishesh011"],
+#     # ["Onkar Somani", "2021A7PS2567G", "onkar_somani"],
+#     ["Jatin Dahiya", "2021A7PS2067G", "Radon23"]
 # ]
 # for i in manuallyAdded:
 #     database.append(
