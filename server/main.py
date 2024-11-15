@@ -158,7 +158,6 @@ def getData(methodName, handle, handles):
 with open("data2.json", "r") as f:
     idName = json.load(f)
 
-
 # database = []
 # with open("bgcl.csv", "r") as f:
 #     reader = csv.DictReader(f)
@@ -279,6 +278,18 @@ for i in b:
                 }
             )
 
+# manuallyAdded = [
+#     ["Vishesh Goyal", "2021A7PS2628G", "vishesh011"],
+#     ["Onkar Somani", "2021A7PS2567G", "onkar_somani"],
+# ]
+# for i in manuallyAdded:
+#     database.append(
+#         {
+#             "bitsId": i[1],
+#             "handle": i[2],
+#             "name": i[0],
+#         }
+#     )
 
 index = 0
 for i in database:
